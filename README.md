@@ -202,7 +202,7 @@
 
 [Self-Hosting](https://www.reddit.com/r/selfhosted/) is the practice of locally hosting(on premises & private web servers) and managing software applications by a person or organization instead of monthly subscriptions from [Software as a service (SaaS) providers](https://azure.microsoft.com/en-us/overview/what-is-saas/).
 
-Most self-hosted software can be installed using [Docker](https://en.wikipedia.org/wiki/Docker_\(software\)), a packaging system which allows software to bundle their configuration and dependencies and isolate them from your operating system.  Software using docker can be installed using the command line or via graphical interfaces such as [Portainer](https://github.com/portainer/portainer) ⭐ 38,691 | 🐛 765 | 🌐 TypeScript | 📅 2026-10-20.  Software is installed with Docker by downloading an image file containing the application, then creating a copy that sets up its own dependencies and configuration within what is called a container.  Without containers you would often need to install different versions of the same programming languages or tools to satisfy the dependencies for the software you want to use which can get complicated.
+Most self-hosted software can be installed using [Docker](https://en.wikipedia.org/wiki/Docker_\(software\)), a packaging system which allows software to bundle their configuration and dependencies and isolate them from your operating system.  Software using docker can be installed using the command line or via graphical interfaces such as [Portainer](https://github.com/portainer/portainer) ⭐ 38,697 | 🐛 765 | 🌐 TypeScript | 📅 2026-10-21.  Software is installed with Docker by downloading an image file containing the application, then creating a copy that sets up its own dependencies and configuration within what is called a container.  Without containers you would often need to install different versions of the same programming languages or tools to satisfy the dependencies for the software you want to use which can get complicated.
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/152699308-36691800-8078-4af3-9d5c-711da4e9b26e.png">
@@ -229,7 +229,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 * [LinuxServer.io Container Images](https://fleet.linuxserver.io/)
 * [Quay Container Images](https://quay.io/search)
 
-[Docker Compose](https://github.com/docker/compose) ⭐ 38,409 | 🐛 99 | 🌐 Go | 📅 2026-10-20 is a tool that was developed to help define and share multi-container applications. With Compose, we can create a YAML file to define the services and with a single command, can spin everything up or tear it all down.
+[Docker Compose](https://github.com/docker/compose) ⭐ 38,422 | 🐛 97 | 🌐 Go | 📅 2026-10-21 is a tool that was developed to help define and share multi-container applications. With Compose, we can create a YAML file to define the services and with a single command, can spin everything up or tear it all down.
 
 [Docker Include](https://docs.docker.com/compose/compose-file/14-include/) is a Compose application can declare dependency on another Compose application. This is useful if you want to reuse other Compose files. Also, if you need to factor out parts of your application model into separate Compose files so they can be managed separately or shared with others.
 
@@ -243,11 +243,11 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Podman](https://podman.io/) is a daemonless, open source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using Open Containers Initiative (OCI) Containers and Container Images. Podman provides a command line interface (CLI) familiar to anyone who has used the Docker Container Engine.
 
-[Lima](https://github.com/lima-vm/lima) ⭐ 22,130 | 🐛 511 | 🌐 Go | 📅 2026-10-20 is a tool that launches Linux virtual machines with automatic file sharing and port forwarding (similar to WSL2), and [containerd](https://containerd.io/). It's a great free and open-source alternative for [Docker Desktop](https://www.docker.com/products/docker-desktop).
+[Lima](https://github.com/lima-vm/lima) ⭐ 22,134 | 🐛 510 | 🌐 Go | 📅 2026-10-21 is a tool that launches Linux virtual machines with automatic file sharing and port forwarding (similar to WSL2), and [containerd](https://containerd.io/). It's a great free and open-source alternative for [Docker Desktop](https://www.docker.com/products/docker-desktop).
 
-[Colima](https://github.com/abiosoft/colima) ⭐ 31,295 | 🐛 404 | 🌐 Go | 📅 2026-10-13 is a container runtimes on macOS (and Linux) with minimal setup.
+[Colima](https://github.com/abiosoft/colima) ⭐ 31,313 | 🐛 404 | 🌐 Go | 📅 2026-10-13 is a container runtimes on macOS (and Linux) with minimal setup.
 
-[Portainer Community Edition](https://github.com/portainer/portainer) ⭐ 38,691 | 🐛 765 | 🌐 TypeScript | 📅 2026-10-20 is a lightweight service delivery platform for containerized applications that can be used to manage Docker, Swarm, Kubernetes and ACI environments. It is designed to be as simple to deploy as it is to use.
+[Portainer Community Edition](https://github.com/portainer/portainer) ⭐ 38,697 | 🐛 765 | 🌐 TypeScript | 📅 2026-10-21 is a lightweight service delivery platform for containerized applications that can be used to manage Docker, Swarm, Kubernetes and ACI environments. It is designed to be as simple to deploy as it is to use.
 
 [Yacht](https://github.com/SelfhostedPro/Yacht) ⭐ 60 | 🐛 21 | 📅 2026-08-27 is a container management UI with a focus on templates and 1-click deployments.
 
@@ -265,13 +265,13 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Red Hat Quay](https://quay.io/) is a project that Builds, Stores, and Distributes your Applications and Containers.
 
-[ctop](https://ctop.sh/) is a tool that provides a concise and condensed overview of real-time metrics for multiple containers as well as a [single container view](https://github.com/bcicen/ctop/blob/master/_docs/single.md) ⭐ 17,845 | 🐛 120 | 🌐 Go | 📅 2024-07-08 for inspecting a specific container. It comes with built-in support for Docker and runC; connectors for other container and cluster systems are planned for future releases.
+[ctop](https://ctop.sh/) is a tool that provides a concise and condensed overview of real-time metrics for multiple containers as well as a [single container view](https://github.com/bcicen/ctop/blob/master/_docs/single.md) ⭐ 17,846 | 🐛 120 | 🌐 Go | 📅 2024-07-08 for inspecting a specific container. It comes with built-in support for Docker and runC; connectors for other container and cluster systems are planned for future releases.
 
-[runc](https://github.com/opencontainers/runc) ⭐ 13,497 | 🐛 204 | 🌐 Go | 📅 2026-10-20 is a CLI tool for spawning and running containers on Linux according to the OCI specification.
+[runc](https://github.com/opencontainers/runc) ⭐ 13,498 | 🐛 203 | 🌐 Go | 📅 2026-10-21 is a CLI tool for spawning and running containers on Linux according to the OCI specification.
 
 [container-images](https://github.com/opencontainers/container-images) ⭐ 18 | 🐛 0 | 🌐 Dockerfile | 📅 2023-03-22 is a collection of container images used in CI across various opencontainers projects.
 
-[Clair](https://github.com/quay/clair) ⭐ 11,078 | 🐛 61 | 🌐 Go | 📅 2026-10-14 is an open source project for the static analysis of vulnerabilities in application containers (currently including [OCI](https://github.com/opencontainers/image-spec/blob/master/spec.md) ⭐ 4,500 | 🐛 77 | 🌐 Go | 📅 2026-09-17 and [Docker](https://github.com/docker/docker/blob/master/image/spec/v1.2.md) ⭐ 72,209 | 🐛 3,938 | 🌐 Go | 📅 2026-10-20).
+[Clair](https://github.com/quay/clair) ⭐ 11,080 | 🐛 61 | 🌐 Go | 📅 2026-10-14 is an open source project for the static analysis of vulnerabilities in application containers (currently including [OCI](https://github.com/opencontainers/image-spec/blob/master/spec.md) ⭐ 4,501 | 🐛 77 | 🌐 Go | 📅 2026-09-17 and [Docker](https://github.com/docker/docker/blob/master/image/spec/v1.2.md) ⭐ 72,194 | 🐛 3,937 | 🌐 Go | 📅 2026-10-21).
 
 [Shipwright](https://github.com/SelfhostedPro/Shipwright) ⚠️ Archived is a WebUI to generate templates for Yacht, Portainer, Docker-Compose, and Unraid.
 
@@ -315,25 +315,25 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Proxmox VE(Virtual Environment)](https://www.proxmox.com/en/proxmox-ve) is an open-source platform for enterprise virtualization. It has a built-in web interface that you can use to easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
 
-[Terraform provider plugin for Proxmox](https://github.com/Telmate/terraform-provider-proxmox) ⭐ 2,959 | 🐛 131 | 🌐 Go | 📅 2026-10-13 is a  Terraform provider for the [Proxmox virtualization platform](https://pve.proxmox.com/pve-docs/) and exposes Terraform resources to provision QEMU VMs and LXC Containers.
+[Terraform provider plugin for Proxmox](https://github.com/Telmate/terraform-provider-proxmox) ⭐ 2,959 | 🐛 131 | 🌐 Go | 📅 2026-10-21 is a  Terraform provider for the [Proxmox virtualization platform](https://pve.proxmox.com/pve-docs/) and exposes Terraform resources to provision QEMU VMs and LXC Containers.
 
-[OTF](https://github.com/leg100/otf) ⭐ 705 | 🐛 32 | 🌐 Go | 📅 2026-07-16 is an open source alternative to Terraform Enterprise. Includes SSO, team management, agents, and as many applies as you can throw hardware at.
+[OTF](https://github.com/leg100/otf) ⭐ 706 | 🐛 32 | 🌐 Go | 📅 2026-07-16 is an open source alternative to Terraform Enterprise. Includes SSO, team management, agents, and as many applies as you can throw hardware at.
 
-[Semaphore UI](https://github.com/ansible-semaphore/semaphore) ⭐ 14,282 | 🐛 1,048 | 🌐 Go | 📅 2026-10-20 is a modern UI for Ansible. It lets you easily run Ansible playbooks, get notifications about fails, control access to deployment system.
+[Semaphore UI](https://github.com/ansible-semaphore/semaphore) ⭐ 14,285 | 🐛 1,043 | 🌐 Go | 📅 2026-10-21 is a modern UI for Ansible. It lets you easily run Ansible playbooks, get notifications about fails, control access to deployment system.
 
 [APITable](https://apitable.com/) is an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives.
 
-[Chisel Kubernetes Operator](https://github.com/FyraLabs/chisel-operator/) ⭐ 150 | 🐛 15 | 🌐 Rust | 📅 2026-09-27 is a Kubernetes operator for Chisel. It allows you to use Chisel as a LoadBalancer provider for your Kubernetes cluster, similar to [inlets-operator](https://github.com/inlets/inlets-operator) ⭐ 1,439 | 🐛 8 | 🌐 Go | 📅 2026-08-18.
+[Chisel Kubernetes Operator](https://github.com/FyraLabs/chisel-operator/) ⭐ 151 | 🐛 15 | 🌐 Rust | 📅 2026-09-27 is a Kubernetes operator for Chisel. It allows you to use Chisel as a LoadBalancer provider for your Kubernetes cluster, similar to [inlets-operator](https://github.com/inlets/inlets-operator) ⭐ 1,439 | 🐛 8 | 🌐 Go | 📅 2026-08-18.
 
 [Docker-pgautoupgrade](https://github.com/pgautoupgrade/docker-pgautoupgrade) ⭐ 1,191 | 🐛 28 | 🌐 Shell | 📅 2026-10-16 is a PostgreSQL Docker container that automatically upgrades your database. It's whole purpose in life is to automatically detect the version of PostgreSQL used in the existing PostgreSQL data directory, and automatically upgrade it (if needed) to the required version of PostgreSQL.
 
 [IT-Tools](https://it-tools.tech/) is a collection of handy online tools for developers, with great UX.
 
-[Lazygit](https://github.com/jesseduffield/lazygit) ⭐ 83,321 | 🐛 1,046 | 🌐 Go | 📅 2026-10-17 is a simple terminal UI for git commands, written in Go with the [gocui](https://github.com/jroimartin/gocui) ⭐ 10,613 | 🐛 61 | 🌐 Go | 📅 2025-05-01 library.
+[Lazygit](https://github.com/jesseduffield/lazygit) ⭐ 83,335 | 🐛 1,049 | 🌐 Go | 📅 2026-10-21 is a simple terminal UI for git commands, written in Go with the [gocui](https://github.com/jroimartin/gocui) ⭐ 10,612 | 🐛 61 | 🌐 Go | 📅 2025-05-01 library.
 
-[LazyDocker](https://github.com/jesseduffield/lazydocker) ⭐ 53,169 | 🐛 308 | 🌐 Go | 📅 2026-04-19 is a  simple terminal UI for both docker and docker-compose, written in Go with the [gocui](https://github.com/jroimartin/gocui) ⭐ 10,613 | 🐛 61 | 🌐 Go | 📅 2025-05-01 library.
+[LazyDocker](https://github.com/jesseduffield/lazydocker) ⭐ 53,178 | 🐛 309 | 🌐 Go | 📅 2026-04-19 is a  simple terminal UI for both docker and docker-compose, written in Go with the [gocui](https://github.com/jroimartin/gocui) ⭐ 10,612 | 🐛 61 | 🌐 Go | 📅 2025-05-01 library.
 
-[Code-Server](https://github.com/coder/code-server) ⭐ 79,656 | 🐛 155 | 🌐 TypeScript | 📅 2026-10-14 is Visual Studio Code running on a remote server, accessible through the browser.
+[Code-Server](https://github.com/coder/code-server) ⭐ 79,663 | 🐛 156 | 🌐 TypeScript | 📅 2026-10-20 is Visual Studio Code running on a remote server, accessible through the browser.
 
 [Turbopilot](https://github.com/ravenscroftj/turbopilot) ⚠️ Archived is an open source large-language-model based code completion engine that runs locally on your CPU.
 
@@ -347,7 +347,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Gitea](https://gittea.dev/) is a community managed painless self-hosted Git service.
 
-[Act](https://github.com/nektos/act) ⭐ 72,386 | 🐛 398 | 🌐 Go | 📅 2026-08-09 is a a tool to run your GitHub Actions locally.
+[Act](https://github.com/nektos/act) ⭐ 72,408 | 🐛 398 | 🌐 Go | 📅 2026-08-09 is a a tool to run your GitHub Actions locally.
 
 [Act runner](https://gitea.com/gitea/act_runner) is a runner for Gitea based on [act](https://gitea.com/gitea/act).
 
@@ -415,19 +415,19 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [k3s-ansible](https://github.com/techno-tim/k3s-ansible) ⭐ 3,022 | 🐛 1 | 🌐 Jinja | 📅 2026-10-18 is the easiest way to bootstrap a self-hosted High Availability Kubernetes cluster. A fully automated HA k3s etcd install with [kube-vip](https://kube-vip.chipzoller.dev/), [MetalLB](https://metallb.universe.tf/installation/), and more.
 
-[Soft Serve](https://github.com/charmbracelet/soft-serve) ⭐ 7,267 | 🐛 87 | 🌐 Go | 📅 2026-10-05 is a tasty, self-hostable Git server for the command line.
+[Soft Serve](https://github.com/charmbracelet/soft-serve) ⭐ 7,269 | 🐛 87 | 🌐 Go | 📅 2026-10-05 is a tasty, self-hostable Git server for the command line.
 
 [Coolify](https://coolify.io/) is an open-source & self-hostable Heroku/Netlify alternative.
 
 [Corosync Cluster Engine](https://corosync.github.io/corosync/) is a Group Communication System with additional features for implementing high availability within applications.
 
-[Glow](https://github.com/charmbracelet/glow) ⭐ 27,745 | 🐛 257 | 🌐 Go | 📅 2026-10-05 is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.  It's used to discover markdown files, read documentation directly on the command line and stash markdown files to your own private collection, so you can read them anywhere.
+[Glow](https://github.com/charmbracelet/glow) ⭐ 27,755 | 🐛 258 | 🌐 Go | 📅 2026-10-05 is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.  It's used to discover markdown files, read documentation directly on the command line and stash markdown files to your own private collection, so you can read them anywhere.
 
-[Deep Lake](https://github.com/activeloopai/deeplake) ⭐ 9,255 | 🐛 131 | 🌐 C++ | 📅 2026-05-21 is a data lake for deep learning applications. Our open-source dataset format is optimized for rapid streaming and querying of data while training models at scale, and it includes a simple API for creating, storing, and collaborating on AI datasets of any size. It can be deployed locally or in the cloud, and it enables you to store all of your data in one place, ranging from simple annotations to large videos.
+[Deep Lake](https://github.com/activeloopai/deeplake) ⭐ 9,258 | 🐛 132 | 🌐 C++ | 📅 2026-05-21 is a data lake for deep learning applications. Our open-source dataset format is optimized for rapid streaming and querying of data while training models at scale, and it includes a simple API for creating, storing, and collaborating on AI datasets of any size. It can be deployed locally or in the cloud, and it enables you to store all of your data in one place, ranging from simple annotations to large videos.
 
 [Node-Red](https://nodered.org/) is a low-code programming for event-driven applications.
 
-[krunvm](https://github.com/containers/krunvm) ⭐ 1,774 | 🐛 29 | 🌐 Rust | 📅 2026-09-15 is a CLI-based utility for creating microVMs from OCI images, using [libkrun](https://github.com/containers/libkrun) ⭐ 2,802 | 🐛 120 | 🌐 Rust | 📅 2026-10-20 and [buildah](https://github.com/containers/buildah) ⭐ 9,136 | 🐛 275 | 🌐 Go | 📅 2026-10-20.
+[krunvm](https://github.com/containers/krunvm) ⭐ 1,774 | 🐛 29 | 🌐 Rust | 📅 2026-09-15 is a CLI-based utility for creating microVMs from OCI images, using [libkrun](https://github.com/containers/libkrun) ⭐ 2,803 | 🐛 120 | 🌐 Rust | 📅 2026-10-20 and [buildah](https://github.com/containers/buildah) ⭐ 9,138 | 🐛 264 | 🌐 Go | 📅 2026-10-21.
 
 [Zeal](https://zealdocs.org/) is an offline documentation browser for software developers inspired by [Dash](https://kapeli.com/dash).
 
@@ -475,7 +475,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 * [Open LLM Leaderboard by Hugging Face](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 * [Holistic Evaluation of Language Models (HELM)](https://crfm.stanford.edu/helm/latest/?groups=1)
 
-[llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 131,817 | 🐛 2,560 | 🌐 C++ | 📅 2026-10-20 is a Port of Facebook's LLaMA model in C/C++.
+[llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 131,913 | 🐛 2,559 | 🌐 C++ | 📅 2026-10-21 is a Port of Facebook's LLaMA model in C/C++.
 
 [ollama](https://ollama.ai/) is a tool to get up and running with Llama 2 and other large language models locally.
 
@@ -489,31 +489,31 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 [Llama2 webui](https://github.com/liltom-eth/llama2-webui) ⭐ 1,933 | 🐛 26 | 🌐 Jupyter Notebook | 📅 2024-03-22 is a tool to run any Llama 2 locally with gradio UI on GPU or CPU from anywhere (Linux/Windows/Mac). Use `llama2-wrapper` as your local llama2 backend for Generative Agents/Apps.
 
-[Llama2.c](https://github.com/karpathy/llama2.c) ⭐ 20,196 | 🐛 191 | 🌐 C | 📅 2024-08-06 is a tool to Train the Llama 2 LLM architecture in PyTorch then inference it with one simple 700-line C file ([run.c](https://github.com/karpathy/llama2.c/blob/master/run.c) ⭐ 20,196 | 🐛 191 | 🌐 C | 📅 2024-08-06).
+[Llama2.c](https://github.com/karpathy/llama2.c) ⭐ 20,199 | 🐛 191 | 🌐 C | 📅 2024-08-06 is a tool to Train the Llama 2 LLM architecture in PyTorch then inference it with one simple 700-line C file ([run.c](https://github.com/karpathy/llama2.c/blob/master/run.c) ⭐ 20,199 | 🐛 191 | 🌐 C | 📅 2024-08-06).
 
-[Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp) ⭐ 10,104 | 🐛 133 | 🌐 C | 📅 2023-04-19 is a fast ChatGPT-like model locally on your device. It combines the [LLaMA foundation model](https://github.com/facebookresearch/llama) ⭐ 59,635 | 🐛 537 | 🌐 Python | 📅 2025-01-26 with an [open reproduction](https://github.com/tloen/alpaca-lora) ⭐ 18,887 | 🐛 364 | 🌐 Jupyter Notebook | 📅 2024-07-29 of [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) ⭐ 30,231 | 🐛 186 | 🌐 Python | 📅 2024-07-17 a fine-tuning of the base model to obey instructions (akin to the [RLHF](https://huggingface.co/blog/rlhf) used to train ChatGPT) and a set of modifications to [llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 131,817 | 🐛 2,560 | 🌐 C++ | 📅 2026-10-20 to add a chat interface.
+[Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp) ⭐ 10,104 | 🐛 133 | 🌐 C | 📅 2023-04-19 is a fast ChatGPT-like model locally on your device. It combines the [LLaMA foundation model](https://github.com/facebookresearch/llama) ⭐ 59,632 | 🐛 537 | 🌐 Python | 📅 2025-01-26 with an [open reproduction](https://github.com/tloen/alpaca-lora) ⭐ 18,886 | 🐛 364 | 🌐 Jupyter Notebook | 📅 2024-07-29 of [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) ⭐ 30,230 | 🐛 186 | 🌐 Python | 📅 2024-07-17 a fine-tuning of the base model to obey instructions (akin to the [RLHF](https://huggingface.co/blog/rlhf) used to train ChatGPT) and a set of modifications to [llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 131,913 | 🐛 2,559 | 🌐 C++ | 📅 2026-10-21 to add a chat interface.
 
-[GPT4All](https://github.com/nomic-ai/gpt4all) ⭐ 77,353 | 🐛 775 | 🌐 C++ | 📅 2025-05-27 is an ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue based on [LLaMa](https://github.com/facebookresearch/llama) ⭐ 59,635 | 🐛 537 | 🌐 Python | 📅 2025-01-26.
+[GPT4All](https://github.com/nomic-ai/gpt4all) ⭐ 77,350 | 🐛 775 | 🌐 C++ | 📅 2025-05-27 is an ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue based on [LLaMa](https://github.com/facebookresearch/llama) ⭐ 59,632 | 🐛 537 | 🌐 Python | 📅 2025-01-26.
 
 [MiniGPT-4](https://minigpt-4.github.io/) is an enhancing Vision-language Understanding with Advanced Large Language Models
 
-[LoLLMS WebUI](https://github.com/ParisNeo/lollms-webui) ⭐ 4,793 | 🐛 174 | 🌐 Python | 📅 2026-10-15 is a the hub for LLM (Large Language Model) models. It aims to provide a user-friendly interface to access and utilize various LLM models for a wide range of tasks. Whether you need help with writing, coding, organizing data, generating images, or seeking answers to your questions.
+[LoLLMS WebUI](https://github.com/ParisNeo/lollms-webui) ⭐ 4,792 | 🐛 176 | 🌐 Python | 📅 2026-10-21 is a the hub for LLM (Large Language Model) models. It aims to provide a user-friendly interface to access and utilize various LLM models for a wide range of tasks. Whether you need help with writing, coding, organizing data, generating images, or seeking answers to your questions.
 
 [LM Studio](https://lmstudio.ai/) is a tool to Discover, download, and run local LLMs.
 
 [Ava PLS](https://lmstudio.ai/) small, all-in-one desktop app to run LLMs locally.
 
-[Gradio Web UI](https://github.com/oobabooga/text-generation-webui) ⭐ 47,739 | 🐛 865 | 🌐 Python | 📅 2026-08-17 is a tool for Large Language Models. Supports transformers, GPTQ, llama.cpp (ggml/gguf), Llama models.
+[Gradio Web UI](https://github.com/oobabooga/text-generation-webui) ⭐ 47,735 | 🐛 865 | 🌐 Python | 📅 2026-08-17 is a tool for Large Language Models. Supports transformers, GPTQ, llama.cpp (ggml/gguf), Llama models.
 
-[OpenPlayground](https://github.com/nat/openplayground) ⭐ 6,345 | 🐛 104 | 🌐 TypeScript | 📅 2026-02-06 is a playfround for running ChatGPT-like models locally on your device.
+[OpenPlayground](https://github.com/nat/openplayground) ⭐ 6,344 | 🐛 104 | 🌐 TypeScript | 📅 2026-02-06 is a playfround for running ChatGPT-like models locally on your device.
 
 [Vicuna](https://vicuna.lmsys.org/) is an open source chatbot trained by fine tuning LLaMA. It apparently achieves more than 90% quality of chatgpt and costs $300 to train.
 
 [Yeagar ai](https://github.com/yeagerai/yeagerai-agent) ⭐ 592 | 🐛 7 | 🌐 Python | 📅 2026-06-05 is a Langchain Agent creator designed to help you build, prototype, and deploy AI-powered agents with ease.
 
-[KoboldCpp](https://github.com/LostRuins/koboldcpp) ⭐ 12,039 | 🐛 529 | 🌐 C++ | 📅 2026-10-20 is an easy-to-use AI text-generation software for GGML models. It's a single self contained distributable from Concedo, that builds off llama.cpp, and adds a versatile Kobold API endpoint, additional format support, backward compatibility, as well as a fancy UI with persistent stories, editing tools, save formats, memory, world info, author's note, characters, and scenarios.
+[KoboldCpp](https://github.com/LostRuins/koboldcpp) ⭐ 12,042 | 🐛 528 | 🌐 C++ | 📅 2026-10-21 is an easy-to-use AI text-generation software for GGML models. It's a single self contained distributable from Concedo, that builds off llama.cpp, and adds a versatile Kobold API endpoint, additional format support, backward compatibility, as well as a fancy UI with persistent stories, editing tools, save formats, memory, world info, author's note, characters, and scenarios.
 
-[Minima](https://github.com/dmayboroda/minima) ⭐ 1,054 | 🐛 16 | 🌐 Python | 📅 2026-01-22 is a configurable conversational RAG system that runs LLM locally and on-premises using containers.
+[Minima](https://github.com/dmayboroda/minima) ⭐ 1,055 | 🐛 16 | 🌐 Python | 📅 2026-01-22 is a configurable conversational RAG system that runs LLM locally and on-premises using containers.
 
 ### ChatGPT
 
@@ -521,7 +521,7 @@ Most self-hosted software can be installed using [Docker](https://en.wikipedia.o
 
 **Chatbot UI for ChatGPT**
 
-[Chatbot UI by mckaywrigley](https://github.com/mckaywrigley/chatbot-ui) ⭐ 33,325 | 🐛 244 | 🌐 TypeScript | 📅 2024-08-03 is an advanced chatbot kit for OpenAI's chat models built on top of Chatbot UI Lite using Next.js, TypeScript, and Tailwind CSS. This version of ChatBot UI supports both GPT-3.5 and GPT-4 models. Conversations are stored locally within your browser. You can export and import conversations to safeguard against data loss. See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
+[Chatbot UI by mckaywrigley](https://github.com/mckaywrigley/chatbot-ui) ⭐ 33,327 | 🐛 244 | 🌐 TypeScript | 📅 2024-08-03 is an advanced chatbot kit for OpenAI's chat models built on top of Chatbot UI Lite using Next.js, TypeScript, and Tailwind CSS. This version of ChatBot UI supports both GPT-3.5 and GPT-4 models. Conversations are stored locally within your browser. You can export and import conversations to safeguard against data loss. See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
 
 [Chatbot UI Lite by mckaywrigley](https://github.com/mckaywrigley/chatbot-ui-lite) ⭐ 972 | 🐛 3 | 🌐 TypeScript | 📅 2023-04-24 is a simple chatbot starter kit for OpenAI's chat model using Next.js, TypeScript, and Tailwind CSS. See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
 
@@ -576,11 +576,11 @@ npm run dev
 
 **Launching Demo Locally**
 
-Try out the demo [demo.py](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/demo.py) ⭐ 25,584 | 🐛 375 | 🌐 Python | 📅 2024-09-02 on your local machine by running
+Try out the demo [demo.py](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/demo.py) ⭐ 25,579 | 🐛 375 | 🌐 Python | 📅 2024-09-02 on your local machine by running
 
 `python demo.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0`
 
-Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. Besides, the default beam search width is 1. Under this setting, the **demo cost about 23G GPU memory**. If you have a more powerful GPU with larger GPU memory, you can run the model in 16 bit by setting low\_resource to False in the config file [minigpt4\_eval.yaml](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/eval_configs/minigpt4_eval.yaml) ⭐ 25,584 | 🐛 375 | 🌐 Python | 📅 2024-09-02 and use a larger beam search width.
+Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. Besides, the default beam search width is 1. Under this setting, the **demo cost about 23G GPU memory**. If you have a more powerful GPU with larger GPU memory, you can run the model in 16 bit by setting low\_resource to False in the config file [minigpt4\_eval.yaml](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/eval_configs/minigpt4_eval.yaml) ⭐ 25,579 | 🐛 375 | 🌐 Python | 📅 2024-09-02 and use a larger beam search width.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/233298431-db46ccd6-c0c8-48db-9d9f-c142776de51f.png">
@@ -588,25 +588,25 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
   MiniGPT-4 Demo
 </p>
 
-[GPT4All](https://github.com/nomic-ai/gpt4all) ⭐ 77,353 | 🐛 775 | 🌐 C++ | 📅 2025-05-27 is an ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue based on [LLaMa](https://github.com/facebookresearch/llama) ⭐ 59,635 | 🐛 537 | 🌐 Python | 📅 2025-01-26.
+[GPT4All](https://github.com/nomic-ai/gpt4all) ⭐ 77,350 | 🐛 775 | 🌐 C++ | 📅 2025-05-27 is an ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue based on [LLaMa](https://github.com/facebookresearch/llama) ⭐ 59,632 | 🐛 537 | 🌐 Python | 📅 2025-01-26.
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/232368422-447387b2-5d7b-4aec-872d-7b711a313b4f.gif">
 </p>
 
-[GPT4All UI](https://github.com/nomic-ai/gpt4all-ui) ⭐ 4,793 | 🐛 174 | 🌐 Python | 📅 2026-10-15 is a Flask web application that provides a chat UI for interacting with the GPT4All chatbot.
+[GPT4All UI](https://github.com/nomic-ai/gpt4all-ui) ⭐ 4,792 | 🐛 176 | 🌐 Python | 📅 2026-10-21 is a Flask web application that provides a chat UI for interacting with the GPT4All chatbot.
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/232368426-2b555ca6-e620-4d18-bfb8-fa71e4eed64e.png">
 </p>
 
-[Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp) ⭐ 10,104 | 🐛 133 | 🌐 C | 📅 2023-04-19 is a fast ChatGPT-like model locally on your device. It combines the [LLaMA foundation model](https://github.com/facebookresearch/llama) ⭐ 59,635 | 🐛 537 | 🌐 Python | 📅 2025-01-26 with an [open reproduction](https://github.com/tloen/alpaca-lora) ⭐ 18,887 | 🐛 364 | 🌐 Jupyter Notebook | 📅 2024-07-29 of [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) ⭐ 30,231 | 🐛 186 | 🌐 Python | 📅 2024-07-17 a fine-tuning of the base model to obey instructions (akin to the [RLHF](https://huggingface.co/blog/rlhf) used to train ChatGPT) and a set of modifications to [llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 131,817 | 🐛 2,560 | 🌐 C++ | 📅 2026-10-20 to add a chat interface.
+[Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp) ⭐ 10,104 | 🐛 133 | 🌐 C | 📅 2023-04-19 is a fast ChatGPT-like model locally on your device. It combines the [LLaMA foundation model](https://github.com/facebookresearch/llama) ⭐ 59,632 | 🐛 537 | 🌐 Python | 📅 2025-01-26 with an [open reproduction](https://github.com/tloen/alpaca-lora) ⭐ 18,886 | 🐛 364 | 🌐 Jupyter Notebook | 📅 2024-07-29 of [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) ⭐ 30,230 | 🐛 186 | 🌐 Python | 📅 2024-07-17 a fine-tuning of the base model to obey instructions (akin to the [RLHF](https://huggingface.co/blog/rlhf) used to train ChatGPT) and a set of modifications to [llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 131,913 | 🐛 2,559 | 🌐 C++ | 📅 2026-10-21 to add a chat interface.
 
-[llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 131,817 | 🐛 2,560 | 🌐 C++ | 📅 2026-10-20 is a Port of Facebook's LLaMA model in C/C++.
+[llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 131,913 | 🐛 2,559 | 🌐 C++ | 📅 2026-10-21 is a Port of Facebook's LLaMA model in C/C++.
 
 [Serge](https://github.com/serge-chat/serge) ⚠️ Archived is a web interface for chatting with Alpaca through llama.cpp. Fully self-hosted & dockerized, with an easy to use API.
 
-[OpenPlayground](https://github.com/nat/openplayground) ⭐ 6,345 | 🐛 104 | 🌐 TypeScript | 📅 2026-02-06 is a playfround for running ChatGPT-like models locally on your device.
+[OpenPlayground](https://github.com/nat/openplayground) ⭐ 6,344 | 🐛 104 | 🌐 TypeScript | 📅 2026-02-06 is a playfround for running ChatGPT-like models locally on your device.
 
 [Vicuna](https://vicuna.lmsys.org/) is an open source chatbot trained by fine tuning LLaMA. It apparently achieves more than 90% quality of chatgpt and costs $300 to train.
 
@@ -636,7 +636,7 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [Baserow](https://baserow.io/) - Open source online database tool and Airtable alternative. Create your own database without technical experience.
 
-[betanin](https://github.com/sentriz/betanin) ⭐ 459 | 🐛 13 | 🌐 Python | 📅 2026-07-25 - Music organization man-in-the-middle of your torrent client and music player. Based on beets.io, similar to Sonarr and Radarr.
+[betanin](https://github.com/sentriz/betanin) ⭐ 460 | 🐛 13 | 🌐 Python | 📅 2026-07-25 - Music organization man-in-the-middle of your torrent client and music player. Based on beets.io, similar to Sonarr and Radarr.
 
 [ChiefOnboarding](https://chiefonboarding.com) - Employee onboarding platform that allows you to provision user accounts and create sequences with todo items, resources, text/email/Slack messages, and more! Available as a web portal and Slack bot.
 
@@ -656,7 +656,7 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [HRConvert2](https://github.com/zelon88/HRConvert2) ⭐ 1,382 | 🐛 2 | 🌐 PHP | 📅 2026-09-22 - Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability.
 
-[Huginn](https://github.com/huginn/huginn) ⭐ 50,083 | 🐛 703 | 🌐 Ruby | 📅 2026-10-18 - Allows you to build agents that monitor and act on your behalf.
+[Huginn](https://github.com/huginn/huginn) ⭐ 50,085 | 🐛 703 | 🌐 Ruby | 📅 2026-10-18 - Allows you to build agents that monitor and act on your behalf.
 
 [Kibitzr](https://kibitzr.github.io) - Lightweight personal web assistant with powerful integrations.
 
@@ -666,23 +666,23 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [Lidarr](https://lidarr.audio/) - Lidarr is a music collection manager for Usenet and BitTorrent users.
 
-[Matchering](https://github.com/sergree/matchering) ⭐ 2,664 | 🐛 34 | 🌐 Python | 📅 2026-10-07 - A containerized web app for automated music mastering. An open-source alternative to LANDR, eMastered, and MajorDecibel.
+[Matchering](https://github.com/sergree/matchering) ⭐ 2,668 | 🐛 34 | 🌐 Python | 📅 2026-10-07 - A containerized web app for automated music mastering. An open-source alternative to LANDR, eMastered, and MajorDecibel.
 
-[Medusa](https://pymedusa.com/) - Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. ([Source Code](https://github.com/pymedusa/Medusa) ⭐ 1,988 | 🐛 458 | 🌐 Python | 📅 2026-10-18) `GPL-3.0` `Python`
+[Medusa](https://pymedusa.com/) - Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. ([Source Code](https://github.com/pymedusa/Medusa) ⭐ 1,989 | 🐛 458 | 🌐 Python | 📅 2026-10-18) `GPL-3.0` `Python`
 
-[MeTube](https://github.com/alexta69/metube) ⭐ 15,044 | 🐛 9 | 🌐 Python | 📅 2026-10-19 - Web GUI for youtube-dl, with playlist support. Allows downloading videos from dozens of websites. `AGPL-3.0` `Python/Nodejs/Docker`
+[MeTube](https://github.com/alexta69/metube) ⭐ 15,057 | 🐛 8 | 🌐 Python | 📅 2026-10-20 - Web GUI for youtube-dl, with playlist support. Allows downloading videos from dozens of websites. `AGPL-3.0` `Python/Nodejs/Docker`
 
-[Nautobot](https://github.com/nautobot/nautobot) ⭐ 1,628 | 🐛 1,043 | 🌐 Python | 📅 2026-10-20 is a Network Source of Truth and Network Automation Platform built as a web application atop the Django Python framework with a PostgreSQL or MySQL database.
+[Nautobot](https://github.com/nautobot/nautobot) ⭐ 1,628 | 🐛 1,053 | 🌐 Python | 📅 2026-10-21 is a Network Source of Truth and Network Automation Platform built as a web application atop the Django Python framework with a PostgreSQL or MySQL database.
 
-[nefarious](https://github.com/lardbit/nefarious) ⭐ 1,299 | 🐛 25 | 🌐 Python | 📅 2026-10-18 - Web application that automates downloading Movies and TV Shows.
+[nefarious](https://github.com/lardbit/nefarious) ⭐ 1,300 | 🐛 26 | 🌐 Python | 📅 2026-10-20 - Web application that automates downloading Movies and TV Shows.
 
 [NocoDB](https://www.nocodb.com/) - No-code platform that turns any database into a smart spreadsheet. It can be considered as an Airtable or Smartsheet alternative.
 
-[OliveTin](https://github.com/OliveTin/OliveTin) ⭐ 3,835 | 🐛 30 | 🌐 Go | 📅 2026-10-18 - OliveTin is a web interface for running Linux shell commands.
+[OliveTin](https://github.com/OliveTin/OliveTin) ⭐ 3,837 | 🐛 30 | 🌐 Go | 📅 2026-10-18 - OliveTin is a web interface for running Linux shell commands.
 
 [Patrowl](https://github.com/Patrowl/PatrowlManager) ⭐ 639 | 🐛 257 | 🌐 HTML | 📅 2026-03-10 - Open Source, Smart and Scalable Security Operations Orchestration Platform.
 
-[Podgrab](https://github.com/akhilrex/podgrab) ⭐ 1,991 | 🐛 148 | 🌐 JavaScript | 📅 2026-07-16 - Lightweight podcast manager and automatic podcast episode downloader. It will monitor podcasts for your and download them automatically whenever a new episode goes live.
+[Podgrab](https://github.com/akhilrex/podgrab) ⭐ 1,992 | 🐛 148 | 🌐 JavaScript | 📅 2026-07-16 - Lightweight podcast manager and automatic podcast episode downloader. It will monitor podcasts for your and download them automatically whenever a new episode goes live.
 
 [pyLoad](https://pyload.net/) - Lightweight, customizable and remotely manageable downloader for 1-click-hosting sites like rapidshare.com or uploaded.to.
 
@@ -708,7 +708,7 @@ Here, the demo loads Vicuna as 8 bit by default to save some GPU memory usage. B
 
 [CFEngine](https://cfengine.com/) - is a Lightweight agent system where the configuration state is specified via a declarative language.
 
-[mgmt](https://github.com/purpleidea/mgmt) ⭐ 4,333 | 🐛 84 | 🌐 Go | 📅 2026-10-20 - is a next generation config management written in Go.
+[mgmt](https://github.com/purpleidea/mgmt) ⭐ 4,333 | 🐛 85 | 🌐 Go | 📅 2026-10-21 - is a next generation config management written in Go.
 
 [Pallet](https://palletops.com/) - is a Infrastructure definition, configuration and management via a Clojure DSL.
 
@@ -817,7 +817,7 @@ Nexcloud login screen
 Nexcloud Hub
 </p>
 
-[Nextcloud AIO (All In One)](https://github.com/nextcloud/all-in-one) ⭐ 10,618 | 🐛 111 | 🌐 PHP | 📅 2026-10-20 is a tool that provides easy deployment and maintenance with most features included in this one Nextcloud instance.
+[Nextcloud AIO (All In One)](https://github.com/nextcloud/all-in-one) ⭐ 10,623 | 🐛 115 | 🌐 PHP | 📅 2026-10-21 is a tool that provides easy deployment and maintenance with most features included in this one Nextcloud instance.
 
 [Nextcloud Desktop Client](https://nextcloud.com/install/#install-clients) is a tool to synchronize files from Nextcloud Server with your computer.
 
@@ -864,7 +864,7 @@ Nexcloud Hub
 
 [DigitalOcean Client libraries](https://developers.digitalocean.com/libraries/) is a collection of libraries lets you use the DigitalOcean API in a variety of programming languages.
 
-[DigitalOcean CLI](https://github.com/digitalocean/doctl) ⭐ 3,455 | 🐛 180 | 🌐 Go | 📅 2026-10-20 is a service that manages your DigitalOcean infrastructure through your terminal with our open source Command Line Interface (CLI).
+[DigitalOcean CLI](https://github.com/digitalocean/doctl) ⭐ 3,455 | 🐛 181 | 🌐 Go | 📅 2026-10-21 is a service that manages your DigitalOcean infrastructure through your terminal with our open source Command Line Interface (CLI).
 
 [Terraform provider](https://www.terraform.io/docs/providers/do/index.html) is a service that allows the user treat their DigitalOcean infrastructure like code with [Terraform](https://www.terraform.io/).
 
@@ -1062,13 +1062,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [PostgreSQL](https://www.postgresql.org/) is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
 
-[PostgREST](https://github.com/PostgREST/postgrest) ⭐ 27,726 | 🐛 411 | 🌐 Haskell | 📅 2026-10-20 is a tool that serves a fully RESTful API from any existing PostgreSQL database. It provides a cleaner, more standards-compliant, faster API than you are likely to write from scratch.
+[PostgREST](https://github.com/PostgREST/postgrest) ⭐ 27,727 | 🐛 410 | 🌐 Haskell | 📅 2026-10-21 is a tool that serves a fully RESTful API from any existing PostgreSQL database. It provides a cleaner, more standards-compliant, faster API than you are likely to write from scratch.
 
 [NocoDB](https://www.nocodb.com/) is an open source #NoCode platform that turns any database into a smart spreadsheet. It turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.
 
 [DBeaver](https://dbeaver.io/) is a free multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases. Supports all popular databases: MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc.
 
-[OmniDB](https://github.com/OmniDB/OmniDB) ⭐ 3,283 | 🐛 330 | 🌐 JavaScript | 📅 2023-02-01 is a web-based tool for database management.
+[OmniDB](https://github.com/OmniDB/OmniDB) ⭐ 3,282 | 🐛 330 | 🌐 JavaScript | 📅 2023-02-01 is a web-based tool for database management.
 
 [Navicat](https://www.navicat.com/) is a series of graphical database management and development software produced by CyberTech Ltd. for MySQL, MariaDB, MongoDB, Oracle, SQLite, PostgreSQL and Microsoft SQL Server.
 
@@ -1092,11 +1092,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [SQLite Database Browser](https://sqlitebrowser.org/) is an open source SQL tool that allows users to create, design and edits SQLite database files. It lets users show a log of all the SQL commands that have been issued by them and by the application itself.
 
-[TimescaleDB](https://github.com/timescale/timescaledb) ⭐ 23,726 | 🐛 431 | 🌐 C | 📅 2026-10-20 is an open-source database designed to make SQL scalable for time-series data. It is engineered up from PostgreSQL and packaged as a PostgreSQL extension, providing automatic partitioning across time and space (partitioning key), as well as full SQL support.
+[TimescaleDB](https://github.com/timescale/timescaledb) ⭐ 23,733 | 🐛 432 | 🌐 C | 📅 2026-10-21 is an open-source database designed to make SQL scalable for time-series data. It is engineered up from PostgreSQL and packaged as a PostgreSQL extension, providing automatic partitioning across time and space (partitioning key), as well as full SQL support.
 
 [InfluxDB](https://www.influxdata.com/) is an open source time series platform.  This includes APIs for storing and querying data, processing it in the background for [ETL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl) or monitoring and alerting purposes, user dashboards, Internet of Things sensor data, and visualizing and exploring the data and more. It also has support for processing data from [Graphite](http://graphiteapp.org/).
 
-[Atlas](https://github.com/Netflix/atlas) ⭐ 3,576 | 🐛 9 | 🌐 Scala | 📅 2026-10-15 is an in-memory dimensional [time series database](https://en.wikipedia.org/wiki/Time_series_database).
+[Atlas](https://github.com/Netflix/atlas) ⭐ 3,576 | 🐛 11 | 🌐 Scala | 📅 2026-10-15 is an in-memory dimensional [time series database](https://en.wikipedia.org/wiki/Time_series_database).
 
 [dbWatch](https://www.dbwatch.com/) is a complete database monitoring/management solution for SQL Server, Oracle, PostgreSQL, Sybase, MySQL and Azure. Designed for proactive management and automation of routine maintenance in large scale on-premise, hybrid/cloud database environments.
 
@@ -1104,13 +1104,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Knex](https://github.com/knex/knex) ⭐ 20,337 | 🐛 762 | 🌐 JavaScript | 📅 2026-06-26 is a query builder for PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 and Oracle, designed to be flexible, portable, and fun to use.
 
-[rqlite](https://github.com/rqlite/rqlite) ⭐ 17,807 | 🐛 66 | 🌐 Go | 📅 2026-10-20 is an easy-to-use, lightweight, distributed relational database, which uses [SQLite](https://www.sqlite.org/) as its storage engine.
+[rqlite](https://github.com/rqlite/rqlite) ⭐ 17,808 | 🐛 66 | 🌐 Go | 📅 2026-10-21 is an easy-to-use, lightweight, distributed relational database, which uses [SQLite](https://www.sqlite.org/) as its storage engine.
 
-[osquery](https://github.com/osquery/osquery) ⭐ 23,655 | 🐛 589 | 🌐 C++ | 📅 2026-10-15 is a SQL powered operating system instrumentation, monitoring, and analytics framework.
+[osquery](https://github.com/osquery/osquery) ⭐ 23,655 | 🐛 587 | 🌐 C++ | 📅 2026-10-20 is a SQL powered operating system instrumentation, monitoring, and analytics framework.
 
-[SQLModel](https://github.com/tiangolo/sqlmodel) ⭐ 18,430 | 🐛 53 | 🌐 Python | 📅 2026-10-15 is a library for interacting with SQL databases from Python code, with Python objects. It is designed to be intuitive, easy to use, highly compatible, and robust.
+[SQLModel](https://github.com/tiangolo/sqlmodel) ⭐ 18,445 | 🐛 53 | 🌐 Python | 📅 2026-10-15 is a library for interacting with SQL databases from Python code, with Python objects. It is designed to be intuitive, easy to use, highly compatible, and robust.
 
-[Citus](https://github.com/citusdata/citus) ⭐ 12,820 | 🐛 478 | 🌐 C | 📅 2026-10-20 is a [PostgreSQL extension](https://www.citusdata.com/blog/2017/10/25/what-it-means-to-be-a-postgresql-extension/) that transforms Postgres into a distributed database—so you can achieve high performance at any scale.
+[Citus](https://github.com/citusdata/citus) ⭐ 12,821 | 🐛 461 | 🌐 C | 📅 2026-10-21 is a [PostgreSQL extension](https://www.citusdata.com/blog/2017/10/25/what-it-means-to-be-a-postgresql-extension/) that transforms Postgres into a distributed database—so you can achieve high performance at any scale.
 
 [DbVisualizer](https://dbvis.com/) is a SQL management tool that allows users to manage a wide range of databases such as Oracle, Sybase, SQL Server, MySQL, H3, and SQLite.
 
@@ -1147,7 +1147,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 **[NoSQL](https://www.ibm.com/cloud/blog/sql-vs-nosql)** is a database that is interchangeably referred to as "nonrelational, or "non-SQL" to highlight that the database can handle huge volumes of rapidly changing, unstructured data in different ways than a relational (SQL-based) database with rows and tables.
 
-[Scylla](https://github.com/scylladb/scylla) ⭐ 15,795 | 🐛 3,576 | 🌐 C++ | 📅 2026-10-20 is the real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB.
+[Scylla](https://github.com/scylladb/scylla) ⭐ 15,794 | 🐛 3,490 | 🌐 C++ | 📅 2026-10-21 is the real-time big data database that is API-compatible with Apache Cassandra and Amazon DynamoDB.
 
 [Apache Cassandra™](https://cassandra.apache.org/) is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance. Cassandra provides linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data.
 
@@ -1165,7 +1165,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [NoSQLBooster](https://www.nosqlbooster.com/) is a cross-platform IDE for [MongoDB v2.6-5.0](https://www.mongodb.com/download-center/community/releases), which provides a build-in MongoDB script debugger, SQL query, server monitoring tools, chaining fluent query, query code generator, task scheduling, ES2020 support, and advanced IntelliSense experience.
 
-[ClickHouse®](https://github.com/ClickHouse/ClickHouse) ⭐ 50,498 | 🐛 8,503 | 🌐 C++ | 📅 2026-10-20 is an open-source column-oriented database management system that allows generating analytical data reports in real-time.
+[ClickHouse®](https://github.com/ClickHouse/ClickHouse) ⭐ 50,520 | 🐛 8,504 | 🌐 C++ | 📅 2026-10-21 is an open-source column-oriented database management system that allows generating analytical data reports in real-time.
 
 [Neo4j](https://neo4j.com/) is a graph database management system that provides an array of tools, libraries, and frameworks to make development faster and easier.
 
@@ -1173,7 +1173,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to the Top](#table-of-contents)
 
-[FreeRDP](https://github.com/FreeRDP/FreeRDP) ⭐ 13,860 | 🐛 182 | 🌐 C | 📅 2026-10-20 is a free remote desktop protocol library and clients.
+[FreeRDP](https://github.com/FreeRDP/FreeRDP) ⭐ 13,866 | 🐛 184 | 🌐 C | 📅 2026-10-21 is a free remote desktop protocol library and clients.
 
 [Rustdesk](https://rustdesk.com/) is an open source virtual/remote desktop infrastructure for everyone. Display and control your PC (Windows, macOS, and Linux) and Android devices.
 
@@ -1187,7 +1187,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Remotely](https://github.com/immense/Remotely) ⭐ 5,085 | 🐛 248 | 🌐 C# | 📅 2024-12-17 is a  remote control and remote scripting solution, built with .NET 6, Blazor, SignalR Core, and WebRTC.
 
-[P2P Remote Desktop](https://github.com/miroslavpejic85/p2p) ⭐ 4,085 | 🐛 16 | 🌐 C# | 📅 2024-06-11 is a portable, no configuration or installation needed remote desktop tool.
+[P2P Remote Desktop](https://github.com/miroslavpejic85/p2p) ⭐ 4,087 | 🐛 16 | 🌐 C# | 📅 2024-06-11 is a portable, no configuration or installation needed remote desktop tool.
 
 [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide) is a tunneling daemon that proxies traffic from the Cloudflare network to your origins. This daemon sits between Cloudflare network and your origin (a webserver). This attracts client requests and sends them to you via this daemon, without requiring you to poke holes on your firewall and your origin(webserver) can remain as closed as possible.
 
@@ -1197,7 +1197,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Tailscale](https://github.com/tailscale) is a WireGuard-based app that makes secure, private networks easy for teams of any scale. It works like an overlay network between the computers of your networks using all kinds of NAT traversal sorcery.
 
-[Headscale](https://github.com/juanfont/headscale) ⭐ 44,830 | 🐛 139 | 🌐 Go | 📅 2026-10-20 is an open source, self-hosted implementation of the Tailscale coordination server.
+[Headscale](https://github.com/juanfont/headscale) ⭐ 44,848 | 🐛 138 | 🌐 Go | 📅 2026-10-21 is an open source, self-hosted implementation of the Tailscale coordination server.
 
 [MeshCentral](https://meshcentral.com/) is a full computer management web site. It can run your own web server to remotely manage and control computers on a local network or anywhere on the internet. Once you get the server started, create device group and download and install an agent on each computer you want to manage.
 
@@ -1209,7 +1209,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Krfb Desktop Sharing](https://apps.kde.org/krfb/) is a server application that allows you to share your current session with a user on another machine, who can use a VNC client to view or even control the desktop.
 
-[wayvnc](https://github.com/any1/wayvnc) ⭐ 1,847 | 🐛 52 | 🌐 C | 📅 2026-10-18 is a VNC server for wlroots-based Wayland compositors (no\_entry Gnome, KDE and Weston are not supported). It attaches to a running Wayland session, creates virtual input devices, and exposes a single display via the RFB protocol.
+[wayvnc](https://github.com/any1/wayvnc) ⭐ 1,848 | 🐛 52 | 🌐 C | 📅 2026-10-18 is a VNC server for wlroots-based Wayland compositors (no\_entry Gnome, KDE and Weston are not supported). It attaches to a running Wayland session, creates virtual input devices, and exposes a single display via the RFB protocol.
 
 [Waypipe](https://gitlab.freedesktop.org/mstoeckl/waypipe/) is a proxy for Wayland clients. It forwards Wayland messages and serializes changes to shared memory buffers over a single socket.
 
@@ -1261,13 +1261,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [QEMU](https://www.qemu.org) is a fast processor emulator using a portable dynamic translator. QEMU emulates a full system, including a processor and various peripherals. It can be used to launch a different Operating System without rebooting the PC or to debug system code.
 
-[Quickemu](https://github.com/wimpysworld/quickemu) ⭐ 16,558 | 🐛 78 | 🌐 Shell | 📅 2026-10-14 is a program that quickly create and run optimised Windows, macOS and Linux desktop virtual machines.
+[Quickemu](https://github.com/wimpysworld/quickemu) ⭐ 16,561 | 🐛 79 | 🌐 Shell | 📅 2026-10-14 is a program that quickly create and run optimised Windows, macOS and Linux desktop virtual machines.
 
 [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/) enables running virtualized computer systems on top of a physical host. These virtualized systems can be used and managed just as if they were physical computer systems, however they exist in virtualized and isolated environment. Special software called a hypervisor manages access between the virtual systems and the physical hardware resources. Virtualization enables quick deployment of computer systems, a way to quickly restore systems to a previously known good state, and the ability to migrate systems between physical hosts.
 
-[Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor) ⭐ 6,404 | 🐛 240 | 🌐 Rust | 📅 2026-10-20 is an open source Virtual Machine Monitor (VMM) that runs on top of [KVM](https://www.kernel.org/doc/Documentation/virtual/kvm/api.txt). The project focuses on exclusively running modern, cloud workloads, on top of a limited set of hardware architectures and platforms. Cloud workloads refers to those that are usually run by customers inside a cloud provider. Cloud Hypervisor is implemented in [Rust](https://www.rust-lang.org/) and is based on the [rust-vmm](https://github.com/rust-vmm) crates.
+[Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor) ⭐ 6,408 | 🐛 239 | 🌐 Rust | 📅 2026-10-21 is an open source Virtual Machine Monitor (VMM) that runs on top of [KVM](https://www.kernel.org/doc/Documentation/virtual/kvm/api.txt). The project focuses on exclusively running modern, cloud workloads, on top of a limited set of hardware architectures and platforms. Cloud workloads refers to those that are usually run by customers inside a cloud provider. Cloud Hypervisor is implemented in [Rust](https://www.rust-lang.org/) and is based on the [rust-vmm](https://github.com/rust-vmm) crates.
 
-[VirtManager](https://github.com/virt-manager/virt-manager) ⭐ 3,288 | 🐛 170 | 🌐 Python | 📅 2026-09-04 is a graphical tool for managing virtual machines via libvirt. Most usage is with QEMU/KVM virtual machines, but Xen and libvirt LXC containers are well supported. Common operations for any libvirt driver should work.
+[VirtManager](https://github.com/virt-manager/virt-manager) ⭐ 3,289 | 🐛 173 | 🌐 Python | 📅 2026-09-04 is a graphical tool for managing virtual machines via libvirt. Most usage is with QEMU/KVM virtual machines, but Xen and libvirt LXC containers are well supported. Common operations for any libvirt driver should work.
 
 [oVirt](https://www.ovirt.org) is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible. Founded by Red Hat as a community project on which Red Hat Enterprise Virtualization is based allowing for centralized management of virtual machines, compute, storage and networking resources, from an easy-to-use web-based front-end with platform independent access.
 
@@ -1293,7 +1293,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Cilicon](https://github.com/traderepublic/Cilicon) ⭐ 1,194 | 🐛 10 | 🌐 Swift | 📅 2026-09-14 is a macOS App that leverages Apple's Virtualization Framework to create, provision and run ephemeral virtual machines with minimal setup or maintenance effort. You should be able to get up and running with your self-hosted CI in less than an hour.
 
-[Xen](https://github.com/xen-project/xen) ⭐ 857 | 🐛 4 | 🌐 C | 📅 2026-10-16 is focused on advancing virtualization in a number of different commercial and open source applications, including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security applications, embedded and hardware appliances, and automotive/aviation.
+[Xen](https://github.com/xen-project/xen) ⭐ 858 | 🐛 4 | 🌐 C | 📅 2026-10-16 is focused on advancing virtualization in a number of different commercial and open source applications, including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security applications, embedded and hardware appliances, and automotive/aviation.
 
 [Ganeti](https://github.com/ganeti/ganeti) ⭐ 588 | 🐛 329 | 🌐 Python | 📅 2026-10-19 is a virtual machine cluster management tool built on top of existing virtualization technologies such as Xen or KVM and other open source software. Once installed, the tool assumes management of the virtual instances (Xen DomU).
 
@@ -1307,9 +1307,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Bitwarden](https://bitwarden.com/host/) is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.
 
-[Bitwarden Server](https://github.com/bitwarden/server) ⭐ 20,425 | 🐛 281 | 🌐 C# | 📅 2026-10-20 is a project contains the APIs, database, and other core infrastructure items needed for the "backend" of all bitwarden client applications. Checkout [Bitwarden's self-hosted release repository](https://github.com/bitwarden/self-host) ⭐ 764 | 🐛 23 | 🌐 Shell | 📅 2026-10-16.
+[Bitwarden Server](https://github.com/bitwarden/server) ⭐ 20,435 | 🐛 282 | 🌐 C# | 📅 2026-10-21 is a project contains the APIs, database, and other core infrastructure items needed for the "backend" of all bitwarden client applications. Checkout [Bitwarden's self-hosted release repository](https://github.com/bitwarden/self-host) ⭐ 765 | 🐛 23 | 🌐 Shell | 📅 2026-10-16.
 
-[Vaultwarden](https://github.com/dani-garcia/vaultwarden) ⭐ 69,342 | 🐛 103 | 🌐 Rust | 📅 2026-10-16 is an unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs.
+[Vaultwarden](https://github.com/dani-garcia/vaultwarden) ⭐ 69,400 | 🐛 104 | 🌐 Rust | 📅 2026-10-16 is an unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs.
 
 [Passbolt](https://www.passbolt.com/) is an open-source/self-hosted password manager for teams. It allows you to securely share and store credentials. For instance, the wifi password of your office, the administrator password of a router or your organization's social media account passwords, all of them can be secured using passbolt.
 
@@ -1450,15 +1450,15 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [MQTT](https://mqtt.org/) is an [OASIS standard](https://www.oasis-open.org/standards/) messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth.
 
-[Mongoose](https://github.com/cesanta/mongoose) ⭐ 13,105 | 🐛 2 | 🌐 C | 📅 2026-10-20 is a networking library for C/C++. It implements event-driven non-blocking APIs for TCP, UDP, HTTP, WebSocket, MQTT. It is designed for connecting devices and bringing them online.
+[Mongoose](https://github.com/cesanta/mongoose) ⭐ 13,105 | 🐛 2 | 🌐 C | 📅 2026-10-21 is a networking library for C/C++. It implements event-driven non-blocking APIs for TCP, UDP, HTTP, WebSocket, MQTT. It is designed for connecting devices and bringing them online.
 
-[Nautobot](https://github.com/nautobot/nautobot) ⭐ 1,628 | 🐛 1,043 | 🌐 Python | 📅 2026-10-20 is a Network Source of Truth and Network Automation Platform built as a web application atop the Django Python framework with a PostgreSQL or MySQL database.
+[Nautobot](https://github.com/nautobot/nautobot) ⭐ 1,628 | 🐛 1,053 | 🌐 Python | 📅 2026-10-21 is a Network Source of Truth and Network Automation Platform built as a web application atop the Django Python framework with a PostgreSQL or MySQL database.
 
-[Eclipse Mosquitto](https://github.com/eclipse/mosquitto) ⭐ 11,286 | 🐛 906 | 🌐 C | 📅 2026-10-15 is an open source implementation of a server for version 5.0, 3.1.1, and 3.1 of the [MQTT](https://mqtt.org/) protocol.
+[Eclipse Mosquitto](https://github.com/eclipse/mosquitto) ⭐ 11,288 | 🐛 907 | 🌐 C | 📅 2026-10-15 is an open source implementation of a server for version 5.0, 3.1.1, and 3.1 of the [MQTT](https://mqtt.org/) protocol.
 
 [Ejabberd](https://ejabberd.im/) is an open-source, robust, scalable and extensible realtime platform built using [Erlang/OTP](https://www.erlang.org/), that includes [XMPP](https://xmpp.org/) Server, [MQTT](https://mqtt.org/) Broker and [SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) Service.
 
-[Nebula](https://github.com/slackhq/nebula) ⭐ 18,452 | 🐛 122 | 🌐 Go | 📅 2026-10-19 is a scalable overlay networking tool with a focus on performance, simplicity and security. It lets you seamlessly connect computers anywhere in the world. Nebula is portable, and runs on Linux, OSX, Windows, iOS, and Android. It can be used to connect a small number of computers, but is also able to connect tens of thousands of computers.
+[Nebula](https://github.com/slackhq/nebula) ⭐ 18,456 | 🐛 122 | 🌐 Go | 📅 2026-10-21 is a scalable overlay networking tool with a focus on performance, simplicity and security. It lets you seamlessly connect computers anywhere in the world. Nebula is portable, and runs on Linux, OSX, Windows, iOS, and Android. It can be used to connect a small number of computers, but is also able to connect tens of thousands of computers.
 
 [LibreSpeed](https://librespeed.org/) is a network speed test tool that can be run on your LAN or hosted in the cloud.
 
@@ -1480,29 +1480,29 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Nginx proxy manager (NPM)](https://nginxproxymanager.com/) is a reverse proxy management system running on Docker. It's easy to set up and does not require users to know how to work with Nginx servers or SSL certificates.
 
-[Netdata](https://github.com/netdata/netdata) ⭐ 81,060 | 🐛 447 | 🌐 Go | 📅 2026-10-20 is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
+[Netdata](https://github.com/netdata/netdata) ⭐ 81,077 | 🐛 455 | 🌐 Go | 📅 2026-10-21 is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
 
 [Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
 
 [OWASP Amass](https://owasp.org/www-project-amass/) is a tool that performs network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques.
 
-[Smap](https://github.com/s0md3v/Smap) ⭐ 3,309 | 🐛 1 | 🌐 Go | 📅 2026-08-15 is a port scanner built with shodan.io's free API. It takes same command line arguments as Nmap and produces the same output which makes it a drop-in replacament for Nmap.
+[Smap](https://github.com/s0md3v/Smap) ⭐ 3,311 | 🐛 1 | 🌐 Go | 📅 2026-08-15 is a port scanner built with shodan.io's free API. It takes same command line arguments as Nmap and produces the same output which makes it a drop-in replacament for Nmap.
 
 [ORY Oathkeeper](https://github.com/ory/oathkeeper) ⭐ 3,607 | 🐛 107 | 🌐 Go | 📅 2026-07-27 is an Identity & Access Proxy (IAP) and Access Control Decision API that authorizes HTTP requests based on sets of Access Rules.
 
-[Ory Kratos](https://github.com/ory/kratos) ⭐ 13,922 | 🐛 234 | 🌐 Go | 📅 2026-07-29 is a developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud. The Kratos identity server (similiar to Auth0, Okta, Firebase) with Ory-hardened authentication, MFA, FIDO2, TOTP, WebAuthn, profile management, identity schemas, social sign in, registration, account recovery, passwordless.
+[Ory Kratos](https://github.com/ory/kratos) ⭐ 13,927 | 🐛 234 | 🌐 Go | 📅 2026-07-29 is a developer-friendly, security-hardened and battle-test Identity, User Management and Authentication system for the Cloud. The Kratos identity server (similiar to Auth0, Okta, Firebase) with Ory-hardened authentication, MFA, FIDO2, TOTP, WebAuthn, profile management, identity schemas, social sign in, registration, account recovery, passwordless.
 
-[Ory Hydra](https://github.com/ory/hydra) ⭐ 17,620 | 🐛 94 | 🌐 Go | 📅 2026-07-29 is a hardened, OpenID Certified OAuth 2.0 Server and OpenID Connect Provider optimized for low-latency, high throughput, and low resource consumption. Ory Hydra is not an identity provider (user sign up, user login, password reset flow), but connects to your existing identity provider through a [login and consent app](https://www.ory.sh/docs/hydra/oauth2#authenticating-users-and-requesting-consent).
+[Ory Hydra](https://github.com/ory/hydra) ⭐ 17,621 | 🐛 94 | 🌐 Go | 📅 2026-07-29 is a hardened, OpenID Certified OAuth 2.0 Server and OpenID Connect Provider optimized for low-latency, high throughput, and low resource consumption. Ory Hydra is not an identity provider (user sign up, user login, password reset flow), but connects to your existing identity provider through a [login and consent app](https://www.ory.sh/docs/hydra/oauth2#authenticating-users-and-requesting-consent).
 
 [Ory Keto](https://github.com/ory/keto) ⭐ 5,411 | 🐛 76 | 🌐 Go | 📅 2026-09-04 is an Open Source (Go) implementation of [Zanzibar: Google's Consistent, Global Authorization System](https://research.google/pubs/pub48190/). It ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models.
 
-[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) ⭐ 37,557 | 🐛 1,256 | 🌐 TypeScript | 📅 2026-10-20 is a DNS relay station with ad/tracker/other blocking, IP address redirections, and DNS-over-HTTPS.
+[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) ⭐ 37,578 | 🐛 1,254 | 🌐 TypeScript | 📅 2026-10-20 is a DNS relay station with ad/tracker/other blocking, IP address redirections, and DNS-over-HTTPS.
 
 [NetBird](https://netbird.io/) is an open-source VPN management platform built on top of WireGuard® making it easy to create secure private networks for your organization or home.
 
-[Supabase](https://github.com/supabase/supabase) ⭐ 112,211 | 🐛 1,174 | 🌐 TypeScript | 📅 2026-10-20 is an open source Firebase alternative. It is building the features of Firebase using enterprise-grade open source tools.
+[Supabase](https://github.com/supabase/supabase) ⭐ 112,700 | 🐛 1,176 | 🌐 TypeScript | 📅 2026-10-21 is an open source Firebase alternative. It is building the features of Firebase using enterprise-grade open source tools.
 
-[Plik](https://github.com/root-gg/plik) ⭐ 1,823 | 🐛 34 | 🌐 Go | 📅 2026-10-19 is a scalable & friendly temporary file upload system (Wetransfer like) in golang.
+[Plik](https://github.com/root-gg/plik) ⭐ 1,823 | 🐛 36 | 🌐 Go | 📅 2026-10-21 is a scalable & friendly temporary file upload system (Wetransfer like) in golang.
 
 [Restify](https://github.com/restify/node-restify) ⭐ 10,688 | 🐛 133 | 🌐 JavaScript | 📅 2026-09-04 is a framework, utilizing [connect](https://github.com/senchalabs/connect) ⭐ 9,872 | 🐛 14 | 🌐 JavaScript | 📅 2024-09-27 style middleware for building REST APIs.
 
@@ -1514,9 +1514,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Trust-DNS](https://github.com/bluejekyll/trust-dns) ⭐ 10 | 🐛 0 | 📅 2024-08-04 is a Rust based DNS client, server, and Resolver, built to be safe and secure from the ground up.
 
-[Hugo](https://github.com/gohugoio/hugo) ⭐ 90,176 | 🐛 212 | 🌐 Go | 📅 2026-10-20 is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
+[Hugo](https://github.com/gohugoio/hugo) ⭐ 90,191 | 🐛 209 | 🌐 Go | 📅 2026-10-21 is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
 
-[sshuttle](https://github.com/sshuttle/sshuttle) ⭐ 13,619 | 🐛 204 | 🌐 Python | 📅 2026-10-19 is a transparent proxy server that works as a poor man's VPN that forwards connection over ssh. It works with Linux and MacOS and supports DNS tunneling.
+[sshuttle](https://github.com/sshuttle/sshuttle) ⭐ 13,621 | 🐛 205 | 🌐 Python | 📅 2026-10-19 is a transparent proxy server that works as a poor man's VPN that forwards connection over ssh. It works with Linux and MacOS and supports DNS tunneling.
 
 [NetHopper](https://www.nethopper.io/) is a Multi-Cloud Application Network as a Service. The easiest way to visualize, connect, secure, protect, and monitor microservices across any cluster, site, cloud, or network.
 
@@ -1524,13 +1524,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Kimchi](https://github.com/kimchi-project/kimchi) ⭐ 3,196 | 🐛 335 | 🌐 JavaScript | 📅 2023-01-04 is an HTML5 based management tool for KVM. It is designed to make it as easy as possible to get started with KVM and create your first guest.
 
-[ION](https://github.com/pion/ion) ⭐ 28 | 🐛 13 | 🌐 Go | 📅 2026-10-20 is a distributed real-time communication system, the goal is to chat anydevice, anytime, anywhere.
+[ION](https://github.com/pion/ion) ⭐ 28 | 🐛 13 | 🌐 Go | 📅 2026-10-21 is a distributed real-time communication system, the goal is to chat anydevice, anytime, anywhere.
 
-[FreeRDP](https://github.com/FreeRDP/FreeRDP) ⭐ 13,860 | 🐛 182 | 🌐 C | 📅 2026-10-20 is a free remote desktop protocol library and clients.
+[FreeRDP](https://github.com/FreeRDP/FreeRDP) ⭐ 13,866 | 🐛 184 | 🌐 C | 📅 2026-10-21 is a free remote desktop protocol library and clients.
 
-[Pimox](https://github.com/pimox/pimox7) ⭐ 1,997 | 🐛 107 | 🌐 Shell | 📅 2024-01-08 is a port of Proxmox to the Raspberry Pi allowing you to build a Proxmox cluster of Rapberry Pi's or even a hybrid cluster of Pis and x86 hardware.
+[Pimox](https://github.com/pimox/pimox7) ⭐ 1,998 | 🐛 107 | 🌐 Shell | 📅 2024-01-08 is a port of Proxmox to the Raspberry Pi allowing you to build a Proxmox cluster of Rapberry Pi's or even a hybrid cluster of Pis and x86 hardware.
 
-[PiKVM](https://github.com/pikvm/pikvm) ⭐ 10,401 | 🐛 85 | 📅 2026-10-17 is a very simple and fully functional Raspberry Pi-based KVM over IP.
+[PiKVM](https://github.com/pikvm/pikvm) ⭐ 10,406 | 🐛 85 | 📅 2026-10-17 is a very simple and fully functional Raspberry Pi-based KVM over IP.
 
 [Firezone](https://firezone.dev/) is a self-hosted WireGuard®-based VPN server and Linux firewall.
 
@@ -1542,7 +1542,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to The Top](#table-of-contents)
 
-[Consul](http://www.consul.io/)  is a tool for service discovery, monitoring and configuration. [Install Consul on Self-Hosted Kubernetes Clusters](https://github.com/hashicorp/consul/blob/main/website/content/docs/k8s/platforms/self-hosted-kubernetes.mdx) ⭐ 30,088 | 🐛 1,420 | 🌐 Go | 📅 2026-10-20.
+[Consul](http://www.consul.io/)  is a tool for service discovery, monitoring and configuration. [Install Consul on Self-Hosted Kubernetes Clusters](https://github.com/hashicorp/consul/blob/main/website/content/docs/k8s/platforms/self-hosted-kubernetes.mdx) ⭐ 30,089 | 🐛 1,421 | 🌐 Go | 📅 2026-10-21.
 
 [Linkerd](https://linkerd.io/) is an ultralight, security-first service mesh for Kubernetes. Linkerd adds critical security, observability, and reliability features to your Kubernetes stack with no code change required.
 
@@ -1570,7 +1570,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Blackbox](https://github.com/StackExchange/blackbox) ⚠️ Archived - Safely store secrets in Git/Mercurial. Provides tooling to automatically encrypt secrets like passwords.
 
-[CrowdSec](https://github.com/crowdsecurity/crowdsec) ⭐ 15,230 | 🐛 296 | 🌐 Go | 📅 2026-10-20 - Locally scans log files and optionnaly requests, detecting and blocking malicious behaviors. AppSec capabilities to enable virtual-patching and turn your install into a WAF. Share attacks signals and benefit from real time blocklist of the most agressive IPs attacking CrowdSec's network.
+[CrowdSec](https://github.com/crowdsecurity/crowdsec) ⭐ 15,241 | 🐛 294 | 🌐 Go | 📅 2026-10-21 - Locally scans log files and optionnaly requests, detecting and blocking malicious behaviors. AppSec capabilities to enable virtual-patching and turn your install into a WAF. Share attacks signals and benefit from real time blocklist of the most agressive IPs attacking CrowdSec's network.
 
 [Denyhosts](http://denyhosts.sourceforge.net/) - Thwart SSH dictionary based attacks and brute force attacks.
 
@@ -1599,19 +1599,19 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to The Top](#table-of-contents)
 
-[NETworkManager](https://github.com/BornToBeRoot/NETworkManager) ⭐ 8,831 | 🐛 35 | 🌐 C# | 📅 2026-10-19 - A powerful tool for managing networks and troubleshoot network problems. It contains features like a WiFi analyzer, IP scanner, port scanner, ping monitor, traceroute, DNS lookup or a LLDP/CDP capture.
+[NETworkManager](https://github.com/BornToBeRoot/NETworkManager) ⭐ 8,832 | 🐛 34 | 🌐 C# | 📅 2026-10-21 - A powerful tool for managing networks and troubleshoot network problems. It contains features like a WiFi analyzer, IP scanner, port scanner, ping monitor, traceroute, DNS lookup or a LLDP/CDP capture.
 
 [Wireshark](https://www.wireshark.org/) - The world's foremost network protocol analyzer.
 
 [Selfspy](https://github.com/selfspy/selfspy) ⭐ 2,500 | 🐛 73 | 🌐 Python | 📅 2019-03-06 is a daemon for Unix/X11, MacOS (thanks to @ljos) and Windows (thanks to @Foxboron), that continuously monitors and stores what you are doing on your computer. This way, you can get all sorts of nifty statistics and reminders on what you have been up to.
 
-[Cilium](https://github.com/cilium/cilium) ⭐ 25,690 | 🐛 1,105 | 🌐 Go | 📅 2026-10-20 - A networking, observability, and security solution with an eBPF-based dataplane. It provides a simple flat Layer 3 network with the ability to span multiple clusters in either a native routing or overlay mode.
+[Cilium](https://github.com/cilium/cilium) ⭐ 25,698 | 🐛 1,095 | 🌐 Go | 📅 2026-10-21 - A networking, observability, and security solution with an eBPF-based dataplane. It provides a simple flat Layer 3 network with the ability to span multiple clusters in either a native routing or overlay mode.
 
-[Netshoot](https://github.com/nicolaka/netshoot) ⭐ 11,041 | 🐛 44 | 🌐 Shell | 📅 2026-09-22 - A  Docker + Kubernetes network trouble-shooting swiss-army container.
+[Netshoot](https://github.com/nicolaka/netshoot) ⭐ 11,044 | 🐛 44 | 🌐 Shell | 📅 2026-09-22 - A  Docker + Kubernetes network trouble-shooting swiss-army container.
 
 [Kubevious](https://kubevious.io/) - A suite of app-centric assurance, validation, and introspection products for Kubernetes. It helps running modern Kubernetes applications without disasters and costly outages by continuously validating application manifests, cluster state, and configuration.
 
-[HOMER](https://github.com/sipcapture/homer) ⭐ 2,022 | 🐛 2 | 🌐 Go | 📅 2026-10-20 - A robust, carrier-grade, scalable Packet and Event capture system and VoiP/RTC Monitoring Application based on the HEP/EEP protocol and ready to process & store insane amounts of signaling, rtc events, logs and statistics with instant search, end-to-end analysis and drill-down capabilities.
+[HOMER](https://github.com/sipcapture/homer) ⭐ 2,022 | 🐛 3 | 🌐 Go | 📅 2026-10-21 - A robust, carrier-grade, scalable Packet and Event capture system and VoiP/RTC Monitoring Application based on the HEP/EEP protocol and ready to process & store insane amounts of signaling, rtc events, logs and statistics with instant search, end-to-end analysis and drill-down capabilities.
 
 [mitmproxy](https://mitmproxy.org/) - A Python tool used for intercepting, viewing and modifying network traffic. Invaluable in troubleshooting certain problems.
 
@@ -1629,7 +1629,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [VictoriaMetrics](https://victoriametrics.com/) is a fast and scalable open source time series database and monitoring solution which exists in a Single and in a cluster version. It is compatible with Prometheus pull model and supports a [wide variety of ingestion protocols](https://docs.victoriametrics.com/#prominent-features): Influx, Graphite, Prometheus remote\_write, Prometheus exposion format, OpenTSDB put message, JSON line format, Arbitrary CSV data, native binary formant, DataDog agent or DogStatsD; as way as many ways to query data via PromQL or [MetricsQL](https://docs.victoriametrics.com/MetricsQL.html) from Grafana or own [VMUI](https://docs.victoriametrics.com/Single-server-VictoriaMetrics.html#vmui).
 
-[Kestra](https://github.com/kestra-io/kestra) ⭐ 29,918 | 🐛 960 | 🌐 Java | 📅 2026-10-20 is an infinitely scalable orchestration and scheduling platform, creating, running, scheduling, and monitoring millions of complex pipelines.
+[Kestra](https://github.com/kestra-io/kestra) ⭐ 29,922 | 🐛 918 | 🌐 Java | 📅 2026-10-21 is an infinitely scalable orchestration and scheduling platform, creating, running, scheduling, and monitoring millions of complex pipelines.
 
 [InfluxDB](https://www.influxdata.com) is an open source time series database, purpose-built by InfluxData for monitoring metrics and events, provides real-time visibility into stacks, sensors, and systems. Use InfluxDB to capture, analyze, and store millions of points per second, meet demanding SLA's, and chart a path to automation.
 
@@ -1649,7 +1649,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Upptime](https://upptime.js.org) is the open-source uptime monitor and status page, powered entirely by GitHub Actions, Issues, and Pages.
 
-[HertzBeat](https://github.com/dromara/hertzbeat) ⭐ 7,433 | 🐛 255 | 🌐 Java | 📅 2026-10-20 is an open-source, real-time monitoring system with custom-monitor and agentless. It supports web service, database, os, middleware and more.
+[HertzBeat](https://github.com/dromara/hertzbeat) ⭐ 7,432 | 🐛 255 | 🌐 Java | 📅 2026-10-21 is an open-source, real-time monitoring system with custom-monitor and agentless. It supports web service, database, os, middleware and more.
 
 [Tautulli](https://tautulli.com/) is a python based web application for monitoring, analytics and notifications for [Plex Media Server](https://plex.tv/).
 
@@ -1669,11 +1669,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Ngxtop](https://github.com/lebinh/ngxtop) ⭐ 6,523 | 🐛 62 | 🌐 Python | 📅 2026-03-02 is a real-time metrics for nginx server (and others).
 
-[Blocky](https://github.com/0xERR0R/blocky) ⭐ 7,045 | 🐛 61 | 🌐 Go | 📅 2026-10-19 is a fast and lightweight DNS proxy as ad-blocker for local network with many features
+[Blocky](https://github.com/0xERR0R/blocky) ⭐ 7,048 | 🐛 62 | 🌐 Go | 📅 2026-10-19 is a fast and lightweight DNS proxy as ad-blocker for local network with many features
 
 [Dashy](https://dashy.to/) is a self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more.
 
-[Netdata](https://github.com/netdata/netdata) ⭐ 81,060 | 🐛 447 | 🌐 Go | 📅 2026-10-20 is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
+[Netdata](https://github.com/netdata/netdata) ⭐ 81,077 | 🐛 455 | 🌐 Go | 📅 2026-10-21 is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
 
 [Restic](https://restic.net/) is a modern backup program that can back up your files: from Linux, BSD, Mac and Windows. To many different storage types, including self-hosted and online services. easily, being a single executable that you can run without a server or complex setup. effectively, only transferring the parts that actually changed in the files you back up.
 
@@ -1753,7 +1753,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [RudderStack](https://rudderstack.com/) - Collect, unify, transform, and store your customer data, and route it to a wide range of common, popular marketing, sales, and product tools. alternative to Segment.
 
-[Shynet](https://github.com/milesmcc/shynet) ⭐ 3,155 | 🐛 64 | 🌐 Python | 📅 2026-03-15 - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
+[Shynet](https://github.com/milesmcc/shynet) ⭐ 3,156 | 🐛 64 | 🌐 Python | 📅 2026-03-15 - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
 
 [Superset](http://superset.apache.org/) - Modern data exploration and visualization platform.
 
@@ -1763,17 +1763,17 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to the Top](#table-of-contents)
 
-[Meilisearch](https://github.com/meilisearch/meilisearch) ⭐ 59,617 | 🐛 320 | 🌐 Rust | 📅 2026-10-20 is a lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.
+[Meilisearch](https://github.com/meilisearch/meilisearch) ⭐ 59,619 | 🐛 319 | 🌐 Rust | 📅 2026-10-21 is a lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.
 
 [Shodan](https://www.shodan.io/) is the world's first search engine for Internet-connected (IoT) devices.
 
 [Whoogle Search](https://github.com/benbusby/whoogle-search) ⚠️ Archived is a self-hosted, ad-free, privacy-respecting metasearch engine.
 
-[SearX](https://github.com/searx/searx) ⭐ 13,558 | 🐛 337 | 🌐 Python | 📅 2026-05-14 is a Privacy-respecting, hackable [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine).
+[SearX](https://github.com/searx/searx) ⭐ 13,557 | 🐛 337 | 🌐 Python | 📅 2026-05-14 is a Privacy-respecting, hackable [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine).
 
-[SearXNG](https://github.com/searxng/searxng) ⭐ 38,641 | 🐛 202 | 🌐 Python | 📅 2026-10-19 is a free internet metasearch engine which aggregates results from various search services and databases.
+[SearXNG](https://github.com/searxng/searxng) ⭐ 38,700 | 🐛 202 | 🌐 Python | 📅 2026-10-19 is a free internet metasearch engine which aggregates results from various search services and databases.
 
-[Sonic](https://github.com/valeriansaliou/sonic) ⭐ 21,364 | 🐛 53 | 🌐 Rust | 📅 2026-10-19 is a fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.
+[Sonic](https://github.com/valeriansaliou/sonic) ⭐ 21,366 | 🐛 53 | 🌐 Rust | 📅 2026-10-19 is a fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.
 
 [Zinc](https://github.com/zinclabs/zinc) ⭐ 17,916 | 🐛 44 | 🌐 Go | 📅 2026-09-16 is a search engine that does full text indexing. It is a lightweight alternative to Elasticsearch and runs using a fraction of the resources.
 
@@ -1783,15 +1783,15 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Hugo Lyra](https://github.com/paolomainardi/hugo-lyra) ⚠️ Archived is a  typescript module for creating LyraSearch indexes for static Hugo sites, it comes with server and client libraries.
 
-[Typesense](https://github.com/typesense/typesense) ⭐ 27,014 | 🐛 909 | 🌐 C++ | 📅 2026-10-20 is a fast, typo-tolerant search engine for building delightful search experiences.
+[Typesense](https://github.com/typesense/typesense) ⭐ 27,017 | 🐛 912 | 🌐 C++ | 📅 2026-10-21 is a fast, typo-tolerant search engine for building delightful search experiences.
 
-[Tantivy](https://github.com/quickwit-oss/tantivy) ⭐ 16,237 | 🐛 484 | 🌐 Rust | 📅 2026-10-19 is a full-text search engine library inspired by Apache Lucene and written in Rust.
+[Tantivy](https://github.com/quickwit-oss/tantivy) ⭐ 16,245 | 🐛 484 | 🌐 Rust | 📅 2026-10-21 is a full-text search engine library inspired by Apache Lucene and written in Rust.
 
-[Toshi](https://github.com/toshi-search/Toshi) ⭐ 4,254 | 🐛 27 | 🌐 Rust | 📅 2026-06-28 is meant to be a full-text search engine similar to Elasticsearch. Toshi strives to be to Elasticsearch what [Tantivy](https://github.com/tantivy-search/tantivy) ⭐ 16,237 | 🐛 484 | 🌐 Rust | 📅 2026-10-19 is to Lucene.
+[Toshi](https://github.com/toshi-search/Toshi) ⭐ 4,254 | 🐛 27 | 🌐 Rust | 📅 2026-06-28 is meant to be a full-text search engine similar to Elasticsearch. Toshi strives to be to Elasticsearch what [Tantivy](https://github.com/tantivy-search/tantivy) ⭐ 16,245 | 🐛 484 | 🌐 Rust | 📅 2026-10-21 is to Lucene.
 
-[FlexSearch](https://github.com/nextapps-de/flexsearch) ⭐ 13,808 | 🐛 39 | 🌐 JavaScript | 📅 2026-06-28 is a Next-Generation full text search library for Browser and Node.js.
+[FlexSearch](https://github.com/nextapps-de/flexsearch) ⭐ 13,809 | 🐛 39 | 🌐 JavaScript | 📅 2026-06-28 is a Next-Generation full text search library for Browser and Node.js.
 
-[fd](https://github.com/sharkdp/fd) ⭐ 44,808 | 🐛 217 | 🌐 Rust | 📅 2026-10-20 is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to find.
+[fd](https://github.com/sharkdp/fd) ⭐ 44,820 | 🐛 216 | 🌐 Rust | 📅 2026-10-21 is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to find.
 
 [k8s at home search](https://nanne.dev/k8s-at-home-search/#/) is a tool that indexs Flux HelmReleases from Github repositories with the `k8s-at-home topic` on GitHub.
 
@@ -1801,11 +1801,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to the Top](#table-of-contents)
 
-[Apprise](https://github.com/caronc/apprise) ⭐ 17,615 | 🐛 22 | 🌐 Python | 📅 2026-10-20 is a tool that allows you to send a notification to almost all of the most popular notification services available to us today such as: Telegram, Discord, Slack, Amazon SNS, Gotify, etc.
+[Apprise](https://github.com/caronc/apprise) ⭐ 17,626 | 🐛 23 | 🌐 Python | 📅 2026-10-21 is a tool that allows you to send a notification to almost all of the most popular notification services available to us today such as: Telegram, Discord, Slack, Amazon SNS, Gotify, etc.
 
 [ntfy](https://ntfy.sh/) is a simple HTTP-based pub-sub notification service. It allows you to send notifications to your phone or desktop via scripts from any computer, entirely without signup, cost or setup. It's also open source if you want to run your own.
 
-[Countly](https://github.com/Countly/countly-server) ⭐ 5,919 | 🐛 25 | 🌐 JavaScript | 📅 2026-10-20 is a product analytics solution and innovation enabler that helps teams track product performance and customer journey and behavior across mobile, web, and desktop applications. [Ensuring privacy by design](https://count.ly/your-data-your-rules), Countly allows you to innovate and enhance your products to provide personalized and customized customer experiences, and meet key business and revenue goals.
+[Countly](https://github.com/Countly/countly-server) ⭐ 5,920 | 🐛 26 | 🌐 JavaScript | 📅 2026-10-21 is a product analytics solution and innovation enabler that helps teams track product performance and customer journey and behavior across mobile, web, and desktop applications. [Ensuring privacy by design](https://count.ly/your-data-your-rules), Countly allows you to innovate and enhance your products to provide personalized and customized customer experiences, and meet key business and revenue goals.
 
 [notifiers](https://github.com/liiight/notifiers) ⭐ 2,737 | 🐛 32 | 🌐 Python | 📅 2026-10-20 is a general wrapper for a variety of 3rd party providers and built in ones (like SMTP) aimed solely at sending notifications.
 
@@ -1819,7 +1819,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Back to the Top](#table-of-contents)
 
-[RSS Guard](https://github.com/martinrotter/rssguard) ⭐ 2,806 | 🐛 86 | 🌐 C++ | 📅 2026-10-17 is a simple RSS/ATOM feed reader for Windows, Linux, BSD, OS/2 or macOS which can work with RSS/ATOM/JSON feeds as well as many online feed services:
+[RSS Guard](https://github.com/martinrotter/rssguard) ⭐ 2,806 | 🐛 93 | 🌐 C++ | 📅 2026-10-21 is a simple RSS/ATOM feed reader for Windows, Linux, BSD, OS/2 or macOS which can work with RSS/ATOM/JSON feeds as well as many online feed services:
 
 * [Feedly](https://feedly.com/)
 * [Gmail](https://developers.google.com/gmail/api)
@@ -1833,15 +1833,15 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [ArchiveBox](https://archivebox.io/) is a powerful, self-hosted internet archiving solution to collect, save, and view sites you want to preserve offline. It takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more.
 
-[RSSHub](https://github.com/DIYgod/RSSHub) ⭐ 46,595 | 🐛 49 | 🌐 TypeScript | 📅 2026-10-20 is an open source, easy to use, and extensible RSS feed generator. It's capable of generating RSS feeds from pretty much everything.
+[RSSHub](https://github.com/DIYgod/RSSHub) ⭐ 46,603 | 🐛 45 | 🌐 TypeScript | 📅 2026-10-21 is an open source, easy to use, and extensible RSS feed generator. It's capable of generating RSS feeds from pretty much everything.
 
-[Miniflux V2](https://github.com/miniflux/v2) ⭐ 9,809 | 🐛 286 | 🌐 Go | 📅 2026-10-20 is a minimalist and opinionated feed reader.
+[Miniflux V2](https://github.com/miniflux/v2) ⭐ 9,811 | 🐛 280 | 🌐 Go | 📅 2026-10-21 is a minimalist and opinionated feed reader.
 
 ### Websites/Blogs
 
 [Back to the Top](#table-of-contents)
 
-[Hugo](https://github.com/gohugoio/hugo) ⭐ 90,176 | 🐛 212 | 🌐 Go | 📅 2026-10-20 is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
+[Hugo](https://github.com/gohugoio/hugo) ⭐ 90,191 | 🐛 209 | 🌐 Go | 📅 2026-10-21 is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
 
 [Lyra](https://docs.lyrasearch.io/) is a fast, in-memory, typo-tolerant, full-text search engine written in TypeScript.
 
@@ -1891,17 +1891,17 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [ActivityPub](https://activitypub.rocks/) is a decentralized social networking protocol based on the ActivityStreams 2.0 data format. It provides a client to server API for creating, updating and deleting content, as well as a federated server to server API for delivering notifications and subscribing to content.
 
-[Lemmy](https://github.com/LemmyNet/lemmy) ⭐ 14,636 | 🐛 126 | 🌐 Rust | 📅 2026-10-20 is similar to sites like Reddit, Lobste.rs, or Hacker News. Where you subscribe to forums you're interested in, post links and discussions, then vote, and comment on them. Behind the scenes, it is very different; anyone can easily run a server, and all these servers are federated, and connected to the same universe, called the Fediverse.
+[Lemmy](https://github.com/LemmyNet/lemmy) ⭐ 14,639 | 🐛 124 | 🌐 Rust | 📅 2026-10-21 is similar to sites like Reddit, Lobste.rs, or Hacker News. Where you subscribe to forums you're interested in, post links and discussions, then vote, and comment on them. Behind the scenes, it is very different; anyone can easily run a server, and all these servers are federated, and connected to the same universe, called the Fediverse.
 
-[Lemmy-UI](https://github.com/LemmyNet/lemmy-ui) ⭐ 1,014 | 🐛 55 | 🌐 CSS | 📅 2026-10-14 is the official web app for [Lemmy](https://github.com/LemmyNet/lemmy) ⭐ 14,636 | 🐛 126 | 🌐 Rust | 📅 2026-10-20, written in inferno.
+[Lemmy-UI](https://github.com/LemmyNet/lemmy-ui) ⭐ 1,014 | 🐛 56 | 🌐 CSS | 📅 2026-10-21 is the official web app for [Lemmy](https://github.com/LemmyNet/lemmy) ⭐ 14,639 | 🐛 124 | 🌐 Rust | 📅 2026-10-21, written in inferno.
 
 [Mlem](https://github.com/buresdv/Mlem) ⭐ 41 | 🐛 15 | 🌐 Swift | 📅 2023-07-02 is a Lemmy client for iOS.
 
-[Jerboa](https://github.com/dessalines/jerboa) ⭐ 1,327 | 🐛 171 | 🌐 Kotlin | 📅 2026-10-20 is an Android client for Lemmy, a federated reddit alternative.
+[Jerboa](https://github.com/dessalines/jerboa) ⭐ 1,328 | 🐛 171 | 🌐 Kotlin | 📅 2026-10-20 is an Android client for Lemmy, a federated reddit alternative.
 
 [GoToSocial](https://gotosocial.org/) is an [ActivityPub](https://activitypub.rocks/) social network server, written in Golang.
 
-[Berty](https://github.com/berty/berty) ⭐ 9,333 | 🐛 98 | 🌐 TypeScript | 📅 2026-10-16 is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network.
+[Berty](https://github.com/berty/berty) ⭐ 9,335 | 🐛 102 | 🌐 TypeScript | 📅 2026-10-21 is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network.
 
 [Pleroma](https://pleroma.social/) is a free and open communication for everyone. Pleroma is social networking software compatible with other Fediverse software such as Misskey, Pixelfed, Mastodon and many others.
 
@@ -1909,7 +1909,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Element](https://element.io/) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk) ⚠️ Archived.
 
-[Nostr(Notes and Other Stuff Transmitted by Relays)](https://github.com/nostr-protocol/nostr) ⭐ 12,098 | 🐛 64 | 📅 2025-06-27 is a truly censorship-resistant alternative to Twitter that has a chance of working.
+[Nostr(Notes and Other Stuff Transmitted by Relays)](https://github.com/nostr-protocol/nostr) ⭐ 12,103 | 🐛 64 | 📅 2025-06-27 is a truly censorship-resistant alternative to Twitter that has a chance of working.
 
 [Fritter](https://fritter.cc/) is an open source frontend for Twitter on mobile devices, focusing on giving you the best experience and keeping your data private, local and in your hands.
 
@@ -1925,7 +1925,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) ⭐ 5,535 | 🐛 165 | 🌐 Java | 📅 2026-10-19 is a Reddit client on Android written in Java. It does not have any ads and it features a clean UI and smooth browsing experience.
 
-[RedReader](https://github.com/QuantumBadger/RedReader) ⭐ 2,702 | 🐛 452 | 🌐 Java | 📅 2026-10-10 is an unofficial open source Reddit client for Android.
+[RedReader](https://github.com/QuantumBadger/RedReader) ⭐ 2,704 | 🐛 452 | 🌐 Java | 📅 2026-10-10 is an unofficial open source Reddit client for Android.
 
 ### Nostr
 
@@ -1933,13 +1933,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 **[Nostr (Notes and Other Stuff Transmitted by Relays)](https://nostr.com/)** is a protocol, designed for simplicity, that aims to create a censorship-resistant global social network. The protocol is based on very simple & flexible event objects (which are passed around as plain JSON) and uses standard elliptic-curve cryptography for keys and signing.
 
-* [nostr](https://github.com/nostr-protocol/nostr) ⭐ 12,098 | 🐛 64 | 📅 2025-06-27 - overview and FAQ.
-* [NIPs](https://github.com/nostr-protocol/nips) ⭐ 3,120 | 🐛 739 | 📅 2026-10-20 - the "**N**ostr **I**mplementation **P**ossibilities" describe the protocol in technical detail.
+* [nostr](https://github.com/nostr-protocol/nostr) ⭐ 12,103 | 🐛 64 | 📅 2025-06-27 - overview and FAQ.
+* [NIPs](https://github.com/nostr-protocol/nips) ⭐ 3,121 | 🐛 740 | 📅 2026-10-20 - the "**N**ostr **I**mplementation **P**ossibilities" describe the protocol in technical detail.
 * [damus](https://github.com/damus-io/damus) ⭐ 2,148 | 🐛 126 | 🌐 Swift | 📅 2026-09-11 - a twitter-like nostr client for iOS and MacOS.
-* [Amethyst](https://github.com/vitorpamplona/amethyst) ⭐ 1,611 | 🐛 116 | 🌐 Kotlin | 📅 2026-10-20 - An Android client for nostr written in Kotlin.
+* [Amethyst](https://github.com/vitorpamplona/amethyst) ⭐ 1,611 | 🐛 115 | 🌐 Kotlin | 📅 2026-10-21 - An Android client for nostr written in Kotlin.
 * [gossip](https://github.com/mikedilger/gossip) ⭐ 887 | 🐛 213 | 🌐 Rust | 📅 2026-10-17 - A desktop client in rust presented with egui.
 * [nostr-tools](https://github.com/fiatjaf/nostr-tools) ⭐ 854 | 🐛 28 | 🌐 TypeScript | 📅 2026-10-18 - a JavaScript client that abstracts the relay management code for use by clients.
-* [nostream](https://github.com/Cameri/nostream) ⭐ 832 | 🐛 83 | 🌐 TypeScript | 📅 2026-10-20 - a nostr relay written in Typescript backed by PostgreSQL (renamed from nostr-ts-relay)
+* [nostream](https://github.com/Cameri/nostream) ⭐ 832 | 🐛 88 | 🌐 TypeScript | 📅 2026-10-21 - a nostr relay written in Typescript backed by PostgreSQL (renamed from nostr-ts-relay)
 * [iris](https://github.com/irislib/iris-messenger) ⚠️ Archived - A nostr web client.
   * [iris.to](https://iris.to) - live instance
   * [Android app](https://play.google.com/store/apps/details?id=to.iris.twa)
@@ -1951,8 +1951,8 @@ Minio's test-server called "play" is already configured in the default client, y
 * [nostr console](https://github.com/vishalxl/nostr_console) ⭐ 444 | 🐛 9 | 🌐 Dart | 📅 2026-02-01 - a nostr command line client written in Dart. Binaries available for Windows, Linux, and MacOS.
 * [Nostros](https://github.com/KoalaSat/nostros) ⚠️ Archived - A nostr mobile client for Android.
 * [go-nostr](https://github.com/fiatjaf/go-nostr) ⚠️ Archived - a Go library that implements relay management, plus event encoding and signing utils.
-* [coracle](https://github.com/staab/coracle) ⭐ 367 | 🐛 98 | 🌐 Svelte | 📅 2026-10-13 - A nostr web client.
-* [Snort](https://github.com/v0l/snort) ⭐ 348 | 🐛 8 | 🌐 TypeScript | 📅 2026-10-20 - Nostr UI written in react
+* [coracle](https://github.com/staab/coracle) ⭐ 367 | 🐛 99 | 🌐 Svelte | 📅 2026-10-13 - A nostr web client.
+* [Snort](https://github.com/v0l/snort) ⭐ 348 | 🐛 8 | 🌐 TypeScript | 📅 2026-10-21 - Nostr UI written in react
 * [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic) ⭐ 345 | 🐛 2 | 🌐 Go | 📅 2026-09-14 - a simple relay based on *relayer* backed by Postgres.
 * [relayer](https://github.com/fiatjaf/relayer) ⭐ 345 | 🐛 2 | 🌐 Go | 📅 2026-09-14 - a server framework for writing custom relays.
 * [more-speech](https://github.com/unclebob/more-speech) ⭐ 312 | 🐛 5 | 🌐 Clojure | 📅 2024-02-06 - desktop client for nostr written in Clojure.
@@ -1968,7 +1968,7 @@ Minio's test-server called "play" is already configured in the default client, y
 * [nostril](https://github.com/jb55/nostril) ⭐ 115 | 🐛 11 | 🌐 C | 📅 2025-12-14 - A C cli tool for creating nostr events.
 * [Servus](https://github.com/ibz/servus) ⭐ 101 | 🐛 3 | 🌐 Rust | 📅 2026-10-05 - A self-contained, single executable, CMS / blogging engine reminiscent of Jekyll which also acts as a personal Nostr relay for your blog posts. Written in Rust.
 * [Astral](https://github.com/monlovesmango/astral) ⭐ 100 | 🐛 26 | 🌐 Vue | 📅 2023-02-20 - a branle fork with global feed and UI makeover
-* [Lightning.Pub](https://github.com/shocknet/Lightning.Pub) ⭐ 97 | 🐛 25 | 🌐 TypeScript | 📅 2026-10-19 - A nostr daemon for Lightning nodes.
+* [Lightning.Pub](https://github.com/shocknet/Lightning.Pub) ⭐ 97 | 🐛 26 | 🌐 TypeScript | 📅 2026-10-20 - A nostr daemon for Lightning nodes.
 * [frostr](https://github.com/nickfarrow/frostr) ⭐ 97 | 🐛 2 | 🌐 Rust | 📅 2024-01-22 - Create joint nostr identities and require t-of-n signatures to post.
 * [søstr](https://github.com/metasikander/s0str) ⭐ 92 | 🐛 2 | 🌐 Rust | 📅 2023-01-02 – a private nostr relay written in rust, saves all notes from one pubkey and publish them to anyone that requests them
 * [Nosky](https://github.com/KotlinGeekDev/Nosky) ⚠️ Archived - A native Android client for Nostr. Still in development.
@@ -1998,7 +1998,7 @@ Minio's test-server called "play" is already configured in the default client, y
 * [nostr-proxy](https://github.com/dolu89/nostr-proxy) ⭐ 58 | 🐛 6 | 🌐 TypeScript | 📅 2024-06-01 - Push and get events to your Proxy, get results from multiple Nostr relays.
 * [nostrpy](https://github.com/monty888/nostrpy) ⚠️ Archived - relay, client, and other tooling in python
 * [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs) ⭐ 56 | 🐛 13 | 🌐 TypeScript | 📅 2025-01-05- A Nostr relay implemented using the NestJS framework
-* [Disgus](https://github.com/carlitoplatanito/disgus) ⭐ 54 | 🐛 12 | 🌐 JavaScript | 📅 2026-10-18 - A comment widget like Disqus, but for Nostr.
+* [Disgus](https://github.com/carlitoplatanito/disgus) ⭐ 54 | 🐛 14 | 🌐 JavaScript | 📅 2026-10-21 - A comment widget like Disqus, but for Nostr.
 * [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay) ⭐ 50 | 🐛 2 | 🌐 Clojure | 📅 2024-08-18 - a relay written in Clojure
 * [nostr-bot](https://github.com/slaninas/nostr-bot) ⭐ 50 | 🐛 3 | 🌐 Rust | 📅 2023-06-03 - a Rust library for writing bots.
 * [matrix-nostr-bridge](https://github.com/8go/matrix-nostr-bridge) ⭐ 49 | 🐛 0 | 📅 2022-12-15 - a simple Matrix-to-Nostr or Nostr-to-Matrix bridge.
@@ -2127,9 +2127,9 @@ Minio's test-server called "play" is already configured in the default client, y
 * [Beeper HitHub](https://github.com/beeper)
 * [iMessage - Getting Started Guide - Beeper](https://help.beeper.com/chat-networks/imessage)
 
-[iMessage-exporter](https://github.com/ReagentX/imessage-exporter) ⭐ 5,684 | 🐛 2 | 🌐 Rust | 📅 2026-10-19 is a binary exports iMessage data to txt or html formats. It can also run diagnostics to find problems with the iMessage database.
+[iMessage-exporter](https://github.com/ReagentX/imessage-exporter) ⭐ 5,687 | 🐛 2 | 🌐 Rust | 📅 2026-10-19 is a binary exports iMessage data to txt or html formats. It can also run diagnostics to find problems with the iMessage database.
 
-[pypush](https://github.com/JJTech0130/pypush) ⭐ 3,785 | 🐛 7 | 🌐 Python | 📅 2026-03-15 is a POC demo of my recent iMessage reverse-engineering. It can currently register as a new device on an Apple ID, set up encryption keys, and send and receive iMessages!
+[pypush](https://github.com/JJTech0130/pypush) ⭐ 3,788 | 🐛 7 | 🌐 Python | 📅 2026-03-15 is a POC demo of my recent iMessage reverse-engineering. It can currently register as a new device on an Apple ID, set up encryption keys, and send and receive iMessages!
 
 [Self-Host Beeper](https://github.com/beeper/self-host) ⚠️ Archived is a self-hosted universal chat app that can chat with your friends on iMessage from your Android device using your phone number. You can also join iMessage Group Chats with your phone number and blue bubbles, and share full-resolution images, videos, and audio.
 
@@ -2137,7 +2137,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Beeper Bridge Manager](https://github.com/beeper/bridge-manager) ⭐ 1,425 | 🐛 24 | 🌐 Go | 📅 2026-10-02 is a tool for running self-hosted bridges with the Beeper Matrix server.
 
-[Matrix Ansible and Docker Deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy) ⭐ 6,508 | 🐛 9 | 🌐 Jinja | 📅 2026-10-20 is a Matrix (An open network for secure, decentralized communication) server setup using Ansible and Docker.
+[Matrix Ansible and Docker Deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy) ⭐ 6,507 | 🐛 10 | 🌐 Jinja | 📅 2026-10-21 is a Matrix (An open network for secure, decentralized communication) server setup using Ansible and Docker.
 
 ### Communications
 
@@ -2157,13 +2157,13 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Telegram](https://telegram.org/) is a cross-platform, cloud-based instant messaging service. It has an open API and source code free for everyone. Telegram also provides end-to-end encrypted video calling, VoIP, file sharing and several other features.
 
-[Berty](https://github.com/berty/berty) ⭐ 9,333 | 🐛 98 | 🌐 TypeScript | 📅 2026-10-16 is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network.
+[Berty](https://github.com/berty/berty) ⭐ 9,335 | 🐛 102 | 🌐 TypeScript | 📅 2026-10-21 is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network.
 
 [Pleroma](https://pleroma.social/) is a free and open communication for everyone. Pleroma is social networking software compatible with other Fediverse software such as Misskey, Pixelfed, Mastodon and many others.
 
 [ffsend](https://gitlab.com/timvisee/ffsend) is a easily and securely share files from the command line. A fully featured Firefox Send client.
 
-[Nostr(Notes and Other Stuff Transmitted by Relays)](https://github.com/nostr-protocol/nostr) ⭐ 12,098 | 🐛 64 | 📅 2025-06-27 is a truly censorship-resistant alternative to Twitter that has a chance of working.
+[Nostr(Notes and Other Stuff Transmitted by Relays)](https://github.com/nostr-protocol/nostr) ⭐ 12,103 | 🐛 64 | 📅 2025-06-27 is a truly censorship-resistant alternative to Twitter that has a chance of working.
 
 [Diaspora](https://diasporafoundation.org/) is a privacy-aware, distributed, open source social network.
 
@@ -2175,9 +2175,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Mailroute](https://mailroute.net/) is a great tool that provides the best email filtering & security( CMMC, NIST 800-171, DFARS, DISA, HIPPA). It protects your inbox, stop spam, viruses, ransomware, security threats & more with email filtering services. With an easy setup on Office 365, Google & more.
 
-[Docker Mailserver](https://github.com/docker-mailserver/docker-mailserver) ⭐ 19,625 | 🐛 86 | 🌐 Shell | 📅 2026-10-19 is a production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container. Only configuration files, no SQL database.
+[Docker Mailserver](https://github.com/docker-mailserver/docker-mailserver) ⭐ 19,639 | 🐛 86 | 🌐 Shell | 📅 2026-10-19 is a production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container. Only configuration files, no SQL database.
 
-[Diun](https://github.com/crazy-max/diun) ⭐ 4,981 | 🐛 114 | 🌐 Go | 📅 2026-10-16 is a CLI application written in Go and delivered as a single executable (and a Docker image) to receive notifications when a Docker image is updated on a Docker registry.
+[Diun](https://github.com/crazy-max/diun) ⭐ 4,985 | 🐛 114 | 🌐 Go | 📅 2026-10-16 is a CLI application written in Go and delivered as a single executable (and a Docker image) to receive notifications when a Docker image is updated on a Docker registry.
 
 [iRedMail](https://www.iredmail.org/) is a self-hosted email server.
 
@@ -2185,7 +2185,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Spider Email Archiver](https://spiderd.io/) is  an On-Premises Email Archiving Software.
 
-[MailCow](https://github.com/mailcow/mailcow-dockerized) ⭐ 13,631 | 🐛 536 | 🌐 JavaScript | 📅 2026-10-19 is a self-hosted email server.
+[MailCow](https://github.com/mailcow/mailcow-dockerized) ⭐ 13,639 | 🐛 541 | 🌐 JavaScript | 📅 2026-10-21 is a self-hosted email server.
 
 [Nextcloud Talk](https://nextcloud.com/talk/) is a on-premises, private audio/video conferencing and text chat through browser and mobile interfaces with integrated screen sharing and SIP integration.
 
@@ -2229,7 +2229,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Rsync](https://rsync.samba.org/) is a utility in the command line which enables users to transfer and synchronize files efficiently between a computer and an external hard drive in the entire connected network.
 
-[Warpinator](https://github.com/linuxmint/warpinator) ⭐ 1,594 | 🐛 76 | 🌐 C | 📅 2026-09-21 is a free, open-source tool for sending and receiving files between computers that are on the same network.
+[Warpinator](https://github.com/linuxmint/warpinator) ⭐ 1,596 | 🐛 76 | 🌐 C | 📅 2026-09-21 is a free, open-source tool for sending and receiving files between computers that are on the same network.
 
 [LocalSend](https://localsend.org/) is a free and open-source tool that allows you to send files and messages over the local LAN network to nearby devices. Everything is sent securely over HTTPS. The TLS/SSL certificate is generated on the fly on each device. It's avilable on Windows, macOS, Linux, iOS, and Android.
 
@@ -2237,11 +2237,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Dragit](https://github.com/sireliah/dragit) ⭐ 155 | 🐛 6 | 🌐 Rust | 📅 2026-03-28 is an application for intuitive file sharing between devices. It's useful for when you want to send file from one computer to another with minimal effort. Dragit automatically detects devices in the local network with help of mDNS protocol and allows you to send file immediately.
 
-[WinFsp](https://github.com/winfsp/winfsp) ⭐ 8,986 | 🐛 101 | 🌐 C | 📅 2026-10-13 is a set of software components for Windows computers that allows the creation of user mode file systems. In this sense it is similar to FUSE (Filesystem in Userspace), which provides the same functionality on UNIX-like computers.
+[WinFsp](https://github.com/winfsp/winfsp) ⭐ 8,990 | 🐛 100 | 🌐 C | 📅 2026-10-13 is a set of software components for Windows computers that allows the creation of user mode file systems. In this sense it is similar to FUSE (Filesystem in Userspace), which provides the same functionality on UNIX-like computers.
 
-[SSHFS-Win](https://github.com/winfsp/sshfs-win) ⭐ 6,430 | 🐛 308 | 🌐 C | 📅 2026-07-12 is a minimal port of SSHFS to Windows. Looking under the hood it uses Cygwin for the POSIX environment and WinFsp for the FUSE (Filesystem in Userspace) functionality.
+[SSHFS-Win](https://github.com/winfsp/sshfs-win) ⭐ 6,432 | 🐛 308 | 🌐 C | 📅 2026-07-12 is a minimal port of SSHFS to Windows. Looking under the hood it uses Cygwin for the POSIX environment and WinFsp for the FUSE (Filesystem in Userspace) functionality.
 
-[RiftShare](https://riftshare.app) is a cross platform (Windows, MacOS, Linux) file sharing tool that supports fully encrypted transfers both on the local network and off network using a simple passphrase. RiftShare uses [magic-wormhole](https://github.com/magic-wormhole/magic-wormhole) ⭐ 23,004 | 🐛 182 | 🌐 Python | 📅 2026-10-16 under the hood and is compatible with other magic-wormhole clients. It is also fully open source and licensed under the GPLv3.
+[RiftShare](https://riftshare.app) is a cross platform (Windows, MacOS, Linux) file sharing tool that supports fully encrypted transfers both on the local network and off network using a simple passphrase. RiftShare uses [magic-wormhole](https://github.com/magic-wormhole/magic-wormhole) ⭐ 23,006 | 🐛 182 | 🌐 Python | 📅 2026-10-16 under the hood and is compatible with other magic-wormhole clients. It is also fully open source and licensed under the GPLv3.
 
 [Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) is a tool that let's you start an FTP server as user and transfer files with any FTP client. Allowing you to access your files directly with many file browsers' builtin FTP support: Windows File Explorer, Thunar, Gnome Files, Dolphin and many more.
 
@@ -2311,7 +2311,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Emborg](https://emborg.readthedocs.io/en/latest/) is a simple command line utility to orchestrate backups. It is built as a front-end to Borg, a powerful and fast de-duplicating backup program.
 
-[Borgmatic](https://github.com/modem7/docker-borgmatic) ⭐ 47 | 🐛 1 | 🌐 Shell | 📅 2026-10-13 is a simple, configuration-driven backup software for servers and workstations. It protects your files with client-side encryption. Backup your databases too. Monitor it all with integrated third-party services.
+[Borgmatic](https://github.com/modem7/docker-borgmatic) ⭐ 47 | 🐛 2 | 🌐 Shell | 📅 2026-10-21 is a simple, configuration-driven backup software for servers and workstations. It protects your files with client-side encryption. Backup your databases too. Monitor it all with integrated third-party services.
 
 [Vorta](https://vorta.borgbase.com/) is a backup client for macOS and Linux desktops. It integrates the mighty Borg Backup with your favorite desktop environment to protect your data from disk failure, ransomware and theft.
 
@@ -2345,7 +2345,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [ZFSBootMenu](https://zfsbootmenu.org/) is a Linux bootloader that attempts to provide an experience similar to FreeBSD's. This allows a user to have multiple "boot environments" (with different distributions, for example), manipulate snapshots before booting, and, for the adventurous user, even bootstrap a system installation via `zfs recv`.
 
-[Btrfs maintenance toolbox](https://github.com/kdave/btrfsmaintenance) ⭐ 1,118 | 🐛 38 | 🌐 Shell | 📅 2025-08-28 is a set of scripts supplementing the btrfs filesystem and aims to automate a few maintenance tasks. This means the scrub, balance, snapshots, trim or defragmentation.
+[Btrfs maintenance toolbox](https://github.com/kdave/btrfsmaintenance) ⭐ 1,119 | 🐛 38 | 🌐 Shell | 📅 2025-08-28 is a set of scripts supplementing the btrfs filesystem and aims to automate a few maintenance tasks. This means the scrub, balance, snapshots, trim or defragmentation.
 
 [Btrbk](https://github.com/digint/btrbk) ⭐ 2,163 | 🐛 279 | 🌐 Perl | 📅 2026-07-19 is a backup tool for btrfs subvolumes, taking advantage of btrfs specific capabilities to create atomic snapshots and transfer them incrementally to your backup locations.
 
@@ -2353,15 +2353,15 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Verify](https://github.com/VerifyTests/Verify) ⭐ 3,473 | 🐛 0 | 🌐 C# | 📅 2026-10-15 is a snapshot tool that simplifies the assertion of complex data models and documents.
 
-[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,311 | 🐛 236 | 🌐 Vala | 📅 2026-09-21 is a Linux application for providing functionality to restore your system just like Windows System Restore tool. Timeshift makes snapshots of your system in regular intervals which are further used at the time of restoration or undo all changes in the system.
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,314 | 🐛 236 | 🌐 Vala | 📅 2026-09-21 is a Linux application for providing functionality to restore your system just like Windows System Restore tool. Timeshift makes snapshots of your system in regular intervals which are further used at the time of restoration or undo all changes in the system.
 
-[CRIU (Checkpoint and Restore in Userspace)](https://github.com/checkpoint-restore/criu) ⭐ 4,038 | 🐛 231 | 🌐 C | 📅 2026-10-20 is a utility to checkpoint/restore Linux tasks. Using this tool, you can freeze a running application (or part of it) and checkpoint it to a hard drive as a collection of files. You can then use the files to restore and run the application from the point it was frozen at.
+[CRIU (Checkpoint and Restore in Userspace)](https://github.com/checkpoint-restore/criu) ⭐ 4,041 | 🐛 235 | 🌐 C | 📅 2026-10-20 is a utility to checkpoint/restore Linux tasks. Using this tool, you can freeze a running application (or part of it) and checkpoint it to a hard drive as a collection of files. You can then use the files to restore and run the application from the point it was frozen at.
 
 [Rsync time backup](https://github.com/laurent22/rsync-time-backup) ⭐ 3,608 | 🐛 115 | 🌐 Shell | 📅 2025-05-27 is a Time Machine style backup with rsync. It creates incremental backups of files and directories to the destination of your choice. The backups are structured in a way that makes it easy to recover any file at any point in time. It works on Linux, macOS and Windows (via WSL).
 
 [rdiff-backup](https://rdiff-backup.net/) is a simple backup tool which can be used locally and remotely, on Linux and Windows, and even cross-platform between both. Users have reported using it successfully on FreeBSD and MacOS.
 
-[Mainframer](https://github.com/buildfoundation/mainframer) ⭐ 1,761 | 🐛 42 | 🌐 Rust | 📅 2023-11-08 is a tool that executes a command on a remote machine while syncing files back and forth. The process is known as remote execution (in general) and remote build (in particular cases).
+[Mainframer](https://github.com/buildfoundation/mainframer) ⭐ 1,762 | 🐛 42 | 🌐 Rust | 📅 2023-11-08 is a tool that executes a command on a remote machine while syncing files back and forth. The process is known as remote execution (in general) and remote build (in particular cases).
 
 ### Archiving
 
@@ -2381,7 +2381,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Omeka S](https://omeka.org/s/) - Omeka S is a web publication system for universities, galleries, libraries, archives, and museums. It consists of a local network of independently curated exhibits sharing a collaboratively built pool of items, media, and their metadata.
 
-[Wayback](https://github.com/wabarc/wayback) ⭐ 2,241 | 🐛 63 | 🌐 Go | 📅 2026-10-20 - A self-hosted toolkit for archiving webpages to the Internet Archive, archive.today, IPFS, and local file systems.
+[Wayback](https://github.com/wabarc/wayback) ⭐ 2,241 | 🐛 65 | 🌐 Go | 📅 2026-10-21 - A self-hosted toolkit for archiving webpages to the Internet Archive, archive.today, IPFS, and local file systems.
 
 ### Home Server
 
@@ -2391,7 +2391,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Homebridge](https://homebridge.io/) is a software framework that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories.
 
-[Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) ⭐ 2,804 | 🐛 37 | 🌐 TypeScript | 📅 2026-10-19 is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
+[Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) ⭐ 2,804 | 🐛 41 | 🌐 TypeScript | 📅 2026-10-21 is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
 
 * Install and configure Homebridge plugins.
 * Monitor your Homebridge server via a fully customisable widget-based dashboard.
@@ -2414,7 +2414,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Bazarr](https://hub.docker.com/r/linuxserver/bazarr) is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
 
-[Sonarr](https://github.com/Sonarr/Sonarr) ⭐ 17,335 | 🐛 98 | 🌐 C# | 📅 2026-10-19 is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them.
+[Sonarr](https://github.com/Sonarr/Sonarr) ⭐ 17,358 | 🐛 87 | 🌐 C# | 📅 2026-10-21 is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them.
 
 [Homarr](https://github.com/ajnart/homarr) ⚠️ Archived is a customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr)
 
@@ -2429,9 +2429,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [TinyPilot](https://tinypilotkvm.com/) is a tool that enables KVM over IP letting you control any computer remotely.
 
-[PM2](https://github.com/Unitech/pm2) ⭐ 43,314 | 🐛 1,110 | 🌐 JavaScript | 📅 2026-10-20 is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks.
+[PM2](https://github.com/Unitech/pm2) ⭐ 43,313 | 🐛 1,108 | 🌐 JavaScript | 📅 2026-10-21 is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks.
 
-[authentik](https://github.com/goauthentik/authentik) ⭐ 26,020 | 🐛 1,141 | 🌐 Python | 📅 2026-10-20 is an open-source Identity Provider focused on flexibility and versatility. You can use authentik in an existing environment to add support for new protocols. authentik is also a great solution for implementing signup/recovery/etc in your application, so you don't have to deal with it.
+[authentik](https://github.com/goauthentik/authentik) ⭐ 26,026 | 🐛 1,146 | 🌐 Python | 📅 2026-10-21 is an open-source Identity Provider focused on flexibility and versatility. You can use authentik in an existing environment to add support for new protocols. authentik is also a great solution for implementing signup/recovery/etc in your application, so you don't have to deal with it.
 
 [ESPHome Remote](https://github.com/landonr/esphome-remote) ⭐ 547 | 🐛 15 | 🌐 C++ | 📅 2026-10-13 IS a WI-FI smart home remote with display that runs on ESPHome. It uses Lilygo T-Display or M5Stack Fire.
 
@@ -2441,7 +2441,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [deemix](https://deemix.app/) is a barebone [deezer](https://www.deezer.com/) downloader library built from the ashes of Deezloader Remix.
 
-[Neko](https://github.com/m1k1o/neko/) ⭐ 22,528 | 🐛 147 | 🌐 Go | 📅 2026-10-20 is a self hosted virtual browser that runs in docker and uses WebRTC.
+[Neko](https://github.com/m1k1o/neko/) ⭐ 22,532 | 🐛 147 | 🌐 Go | 📅 2026-10-20 is a self hosted virtual browser that runs in docker and uses WebRTC.
 
 [QNAP Switch System (QSS)](https://www.qnap.com/) is a configuration interface for QNAP's managed switch series. Enable management functions such as link aggregation, VLAN, and RSTP, to take care of your network topology with ease.
 
@@ -2453,9 +2453,9 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [FreeNAS](https://www.truenas.com/freenas/) is an Open Source Storage Platform and supports sharing across Windows, Apple, and UNIX-like systems. This includes ZFS (high storage capacities and integrates file systems and volume management into a single piece of software). It supports UPS, CIFS/SMB, FTP, NFS, RSYNC, SSH, AFP, Unison, UPnP, Webserver, iSCSI protocols, local and MS AD authentication, and disk enctyption.
 
-[Gladys Assistant](https://github.com/gladysassistant/gladys) ⭐ 3,247 | 🐛 64 | 🌐 JavaScript | 📅 2026-10-20 is a  privacy-first, open-source home assistant and runs great on Raspberry Pi.
+[Gladys Assistant](https://github.com/gladysassistant/gladys) ⭐ 3,247 | 🐛 66 | 🌐 JavaScript | 📅 2026-10-21 is a  privacy-first, open-source home assistant and runs great on Raspberry Pi.
 
-[Audiobookshelf](https://github.com/advplyr/audiobookshelf) ⭐ 14,714 | 🐛 1,236 | 🌐 JavaScript | 📅 2026-10-05 is a self-hosted audiobook and podcast server.
+[Audiobookshelf](https://github.com/advplyr/audiobookshelf) ⭐ 14,728 | 🐛 1,238 | 🌐 JavaScript | 📅 2026-10-05 is a self-hosted audiobook and podcast server.
 
 [Mistborn](https://gitlab.com/cyber5k/mistborn) is a secure platform for easily standing up and managing your own cloud services: including firewall, ad-blocking, and multi-factor WireGuard VPN access.
 
@@ -2467,11 +2467,11 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [Jellyfin](https://jellyfin.org/) is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.
 
-[Swiftfin](https://github.com/jellyfin/Swiftfin) ⭐ 4,221 | 🐛 100 | 🌐 Swift | 📅 2026-10-19 is a modern video client for the Jellyfin media server. Redesigned in Swift to maximize direct play with the power of VLC and look native on all classes of Apple devices.
+[Swiftfin](https://github.com/jellyfin/Swiftfin) ⭐ 4,224 | 🐛 101 | 🌐 Swift | 📅 2026-10-21 is a modern video client for the Jellyfin media server. Redesigned in Swift to maximize direct play with the power of VLC and look native on all classes of Apple devices.
 
 [Intro Skipper](https://github.com/ConfusedPolarBear/intro-skipper) ⚠️ Archived is a tool that analyzes the audio of television episodes to detect and skip over intro sequences in Jellyfin.
 
-[Jellyseerr](https://github.com/Fallenbagel/jellyseerr) ⭐ 12,951 | 🐛 397 | 🌐 TypeScript | 📅 2026-10-20 is a free and open source software application for managing requests for your media library. It is a a fork of Overseerr built to bring support for Jellyfin & Emby media servers.
+[Jellyseerr](https://github.com/Fallenbagel/jellyseerr) ⭐ 12,969 | 🐛 398 | 🌐 TypeScript | 📅 2026-10-21 is a free and open source software application for managing requests for your media library. It is a a fork of Overseerr built to bring support for Jellyfin & Emby media servers.
 
 [Midarr](https://github.com/midarrlabs/midarr-server) ⭐ 1,405 | 🐛 6 | 🌐 Elixir | 📅 2026-03-03 is a free and open source (and always will be), Midarr aims to provide a tailored experience for you and your users:
 
@@ -2486,7 +2486,7 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [OpenMediaVault](https://www.openmediavault.org/) is a next generation network attached storage (NAS) solution based on Debian Linux. It contains services like SSH, (S)FTP, SMB/CIFS, AFS, UPnP media server, DAAP media server, RSync, BitTorrent client and many more.
 
-[MediaElch](https://github.com/Komet/MediaElch) ⭐ 1,119 | 🐛 320 | 🌐 C++ | 📅 2026-08-28 is a MediaManager for Kodi. Information about Movies, TV Shows, Concerts and Music are stored as NFO files.
+[MediaElch](https://github.com/Komet/MediaElch) ⭐ 1,120 | 🐛 320 | 🌐 C++ | 📅 2026-08-28 is a MediaManager for Kodi. Information about Movies, TV Shows, Concerts and Music are stored as NFO files.
 
 [tinyMediaManager](https://www.tinymediamanager.org/) is a media management tool written in Java/Swing. It is written to provide metadata for the Kodi Media Center (formerly known as XBMC), MediaPortal and Plex media server.
 
@@ -2510,15 +2510,15 @@ Minio's test-server called "play" is already configured in the default client, y
 
 [AirSonic](https://hub.docker.com/r/airsonic/airsonic) is a free, web-based media streamer, providing ubiquitous access to your music.
 
-[TubeSync](https://github.com/meeb/tubesync) ⭐ 2,807 | 🐛 57 | 🌐 Python | 📅 2026-10-19 is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.
+[TubeSync](https://github.com/meeb/tubesync) ⭐ 2,808 | 🐛 57 | 🌐 Python | 📅 2026-10-21 is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.
 
-[yt-fts](https://github.com/NotJoeMartinez/yt-fts) ⭐ 1,810 | 🐛 13 | 🌐 Python | 📅 2026-01-22 is a simple python script that uses yt-dlp to scrape all of a youtube channels subtitles and load them into an sqlite database that is searchable from the command line. It allows you to query a channel for specific key word or phrase and will generate time stamped youtube urls to the video containing the keyword.
+[yt-fts](https://github.com/NotJoeMartinez/yt-fts) ⭐ 1,811 | 🐛 13 | 🌐 Python | 📅 2026-01-22 is a simple python script that uses yt-dlp to scrape all of a youtube channels subtitles and load them into an sqlite database that is searchable from the command line. It allows you to query a channel for specific key word or phrase and will generate time stamped youtube urls to the video containing the keyword.
 
-[Tube Archivist](https://github.com/tubearchivist/tubearchivist) ⭐ 8,526 | 🐛 21 | 🌐 Python | 📅 2026-10-16 is a self hosted YouTube media server.
+[Tube Archivist](https://github.com/tubearchivist/tubearchivist) ⭐ 8,530 | 🐛 21 | 🌐 Python | 📅 2026-10-16 is a self hosted YouTube media server.
 
 [PeerTube](https://joinpeertube.org/) is an ActivityPub-federated video streaming platform using P2P directly in your web browser.
 
-[Ant Media Server](https://github.com/ant-media/Ant-Media-Server) ⭐ 4,744 | 🐛 1,466 | 🌐 Java | 📅 2026-10-20 is a streaming engine software that provides adaptive, ultra low latency streaming by using WebRTC technology with \~0.5 seconds latency.
+[Ant Media Server](https://github.com/ant-media/Ant-Media-Server) ⭐ 4,744 | 🐛 1,469 | 🌐 Java | 📅 2026-10-21 is a streaming engine software that provides adaptive, ultra low latency streaming by using WebRTC technology with \~0.5 seconds latency.
 
 [Castopod](https://code.castopod.org/adaures/castopod) is an open-source hosting platform made for podcasters who want engage and interact with their audience.
 
@@ -2572,19 +2572,19 @@ provide the Supervisor, which is capable of running and managing these add-ons.*
 
 *Addons created and maintained by the Home Assistant team.*
 
-* [DuckDNS](https://github.com/home-assistant/hassio-addons/blob/master/duckdns/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - This updates your Duck DNS IP address and generate SSL using Let's Encrypt.
-* [Almond](https://github.com/home-assistant/hassio-addons/blob/master/almond/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - An Open, Privacy-Preserving Virtual Assistant.
-* [HomeMatic](https://github.com/home-assistant/hassio-addons/blob/master/homematic/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - HomeMatic central based on OCCU.
-* [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
-* [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - An open source relational database (fork of MySQL).
-* [File editor](https://github.com/home-assistant/hassio-addons/blob/master/configurator/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - Browser-based configuration file editor.
-* [Mosquitto](https://github.com/home-assistant/hassio-addons/blob/master/mosquitto/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - Fast and reliable MQTT broker.
-* [Terminal & SSH](https://github.com/home-assistant/hassio-addons/blob/master/ssh/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - Allows logging in remotely to using a web terminal or SSH client.
-* [Samba](https://github.com/home-assistant/hassio-addons/blob/master/samba/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - Access your configuration files using Windows network shares.
-* [NGINX SSL proxy](https://github.com/home-assistant/hassio-addons/blob/master/nginx_proxy/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - Reverse proxy with SSL termination.
-* [deCONZ](https://github.com/home-assistant/hassio-addons/blob/master/deconz/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
-* [TellStick](https://github.com/home-assistant/hassio-addons/blob/master/tellstick/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - Run a TellStick and TellStick Duo service.
-* [Ada](https://github.com/home-assistant/hassio-addons/blob/master/ada/DOCS.md) ⭐ 2,244 | 🐛 64 | 🌐 Shell | 📅 2026-10-19 - Ada is voice assistant powered by Almond which is open and privacy-preserving.
+* [DuckDNS](https://github.com/home-assistant/hassio-addons/blob/master/duckdns/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - This updates your Duck DNS IP address and generate SSL using Let's Encrypt.
+* [Almond](https://github.com/home-assistant/hassio-addons/blob/master/almond/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - An Open, Privacy-Preserving Virtual Assistant.
+* [HomeMatic](https://github.com/home-assistant/hassio-addons/blob/master/homematic/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - HomeMatic central based on OCCU.
+* [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
+* [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - An open source relational database (fork of MySQL).
+* [File editor](https://github.com/home-assistant/hassio-addons/blob/master/configurator/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - Browser-based configuration file editor.
+* [Mosquitto](https://github.com/home-assistant/hassio-addons/blob/master/mosquitto/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - Fast and reliable MQTT broker.
+* [Terminal & SSH](https://github.com/home-assistant/hassio-addons/blob/master/ssh/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - Allows logging in remotely to using a web terminal or SSH client.
+* [Samba](https://github.com/home-assistant/hassio-addons/blob/master/samba/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - Access your configuration files using Windows network shares.
+* [NGINX SSL proxy](https://github.com/home-assistant/hassio-addons/blob/master/nginx_proxy/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - Reverse proxy with SSL termination.
+* [deCONZ](https://github.com/home-assistant/hassio-addons/blob/master/deconz/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
+* [TellStick](https://github.com/home-assistant/hassio-addons/blob/master/tellstick/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - Run a TellStick and TellStick Duo service.
+* [Ada](https://github.com/home-assistant/hassio-addons/blob/master/ada/DOCS.md) ⭐ 2,245 | 🐛 86 | 🌐 Shell | 📅 2026-10-21 - Ada is voice assistant powered by Almond which is open and privacy-preserving.
 * [Fully Kiosk Browser](https://www.home-assistant.io/integrations/fully_kiosk/) is a powerful kiosk browser for Android devices. It provides a number of features for monitoring and controlling your Android device. This integration gives you access to control your device and view the status in Home Assistant.
 
 **Home Assistant Third Party Add-ons**
@@ -2592,23 +2592,23 @@ provide the Supervisor, which is capable of running and managing these add-ons.*
 *Add-ons created by the community.*
 
 * [Hass.io Google Drive Backup](https://github.com/sabeechen/hassio-google-drive-backup) ⭐ 3,579 | 🐛 68 | 🌐 Python | 📅 2026-07-13 - A complete and easy to configure solution for backing up your snapshots to Google Drive.
-* [Node-RED](https://github.com/hassio-addons/addon-node-red) ⭐ 654 | 🐛 3 | 🌐 JavaScript | 📅 2026-10-16 - Flow-based programming for the Internet of Things.
+* [Node-RED](https://github.com/hassio-addons/addon-node-red) ⭐ 654 | 🐛 5 | 🌐 JavaScript | 📅 2026-10-21 - Flow-based programming for the Internet of Things.
 * [zigbee2mqtt](https://github.com/danielwelch/hassio-zigbee2mqtt) ⭐ 570 | 🐛 6 | 📅 2023-02-23 - Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges.
-* [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) ⭐ 539 | 🐛 11 | 🌐 Shell | 📅 2026-10-20 - SSH and Web-based terminal with tons of pre-loaded useful tools.
-* [AdGuard Home](https://github.com/hassio-addons/addon-adguard-home) ⭐ 538 | 🐛 4 | 🌐 Jinja | 📅 2026-10-17 - A network-wide ad-and-tracker blocking DNS server with parental control.
+* [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh) ⭐ 539 | 🐛 12 | 🌐 Shell | 📅 2026-10-20 - SSH and Web-based terminal with tons of pre-loaded useful tools.
+* [AdGuard Home](https://github.com/hassio-addons/addon-adguard-home) ⭐ 539 | 🐛 4 | 🌐 Jinja | 📅 2026-10-17 - A network-wide ad-and-tracker blocking DNS server with parental control.
 * [Grocy](https://github.com/hassio-addons/addon-grocy) ⭐ 461 | 🐛 3 | 🌐 Dockerfile | 📅 2026-10-07 - A groceries & household management solution for your home.
 * [Aircast](https://github.com/hassio-addons/addon-aircast) ⭐ 406 | 🐛 1 | 🌐 Jinja | 📅 2026-09-29 - AirPlay capabilities for your Chromecast players.
 * [UniFi Controller](https://github.com/hassio-addons/addon-unifi) ⭐ 386 | 🐛 5 | 🌐 Dockerfile | 📅 2026-09-15 - The UniFi Controller allows you to manage your UniFi network using a web browser.
 * [motionEye](https://github.com/hassio-addons/addon-motioneye) ⭐ 340 | 🐛 5 | 🌐 Dockerfile | 📅 2026-10-19 - Simple, elegant and feature-rich CCTV/NVR for your cameras.
 * [Grafana](https://github.com/hassio-addons/addon-grafana) ⭐ 281 | 🐛 2 | 🌐 Dockerfile | 📅 2026-10-13 - Open platform for beautiful analytics and monitoring.
-* [Spotify Connect](https://github.com/hassio-addons/addon-spotify-connect) ⭐ 263 | 🐛 1 | 🌐 Jinja | 📅 2026-10-07 - Spotify Connect client for playing music on your Home Assistant device.
+* [Spotify Connect](https://github.com/hassio-addons/addon-spotify-connect) ⭐ 264 | 🐛 1 | 🌐 Jinja | 📅 2026-10-07 - Spotify Connect client for playing music on your Home Assistant device.
 * [TasmoAdmin](https://github.com/hassio-addons/addon-tasmoadmin) ⭐ 261 | 🐛 3 | 🌐 Dockerfile | 📅 2026-10-18 - Centrally manage all your Sonoff-Tasmota devices.
 * [Home Panel](https://github.com/hassio-addons/addon-home-panel) ⚠️ Archived - A touch-compatible web frontend for controlling the home.
-* [AppDaemon](https://github.com/hassio-addons/addon-appdaemon) ⭐ 234 | 🐛 1 | 🌐 Dockerfile | 📅 2026-10-14 - Python Apps and HADashboard.
+* [AppDaemon](https://github.com/hassio-addons/addon-appdaemon) ⭐ 234 | 🐛 1 | 🌐 Dockerfile | 📅 2026-10-20 - Python Apps and HADashboard.
 * [Dasshio](https://github.com/danimtb/dasshio) ⭐ 208 | 🐛 11 | 🌐 Python | 📅 2023-09-05 - Easily use your Amazon Dash Buttons.
 * [InfluxDB](https://github.com/hassio-addons/addon-influxdb) ⭐ 203 | 🐛 1 | 🌐 Jinja | 📅 2026-10-15 - Scalable datastore for metrics, events, and real-time analytics.
-* [Plex Media Server](https://github.com/hassio-addons/addon-plex) ⭐ 195 | 🐛 1 | 🌐 Jinja | 📅 2026-09-28 - Your recorded media beautifully organized and ready to stream.
-* [Glances](https://github.com/hassio-addons/addon-glances) ⭐ 194 | 🐛 2 | 🌐 Shell | 📅 2026-10-19 - A cross-platform system monitoring tool written in Python.
+* [Plex Media Server](https://github.com/hassio-addons/addon-plex) ⭐ 195 | 🐛 1 | 🌐 Jinja | 📅 2026-10-21 - Your recorded media beautifully organized and ready to stream.
+* [Glances](https://github.com/hassio-addons/addon-glances) ⭐ 194 | 🐛 2 | 🌐 Shell | 📅 2026-10-21 - A cross-platform system monitoring tool written in Python.
 * [Traccar](https://github.com/hassio-addons/addon-traccar) ⭐ 161 | 🐛 3 | 🌐 Shell | 📅 2026-10-20 - Traccar is modern GPS Tracking Platform.
 * [AirSonos](https://github.com/hassio-addons/addon-airsonos) ⭐ 123 | 🐛 1 | 🌐 Jinja | 📅 2026-09-28 - AirPlay capabilities for your Sonos players.
 * [CrowdSec](https://github.com/crowdsecurity/home-assistant-addons) ⭐ 98 | 🐛 18 | 🌐 Dockerfile | 📅 2026-09-02 - A next-gen collaborative IPS/IDS to protect you from intrusion.
@@ -2624,9 +2624,9 @@ provide the Supervisor, which is capable of running and managing these add-ons.*
 
 *The Home Assistant Dashboards allows people to build custom cards on top of it, which you can easily add to your instance.*
 
-* [Card Modder](https://github.com/thomasloven/lovelace-card-mod) ⭐ 1,832 | 🐛 10 | 🌐 TypeScript | 📅 2026-09-30 - Style your Lovelace cards.
+* [Card Modder](https://github.com/thomasloven/lovelace-card-mod) ⭐ 1,832 | 🐛 9 | 🌐 TypeScript | 📅 2026-09-30 - Style your Lovelace cards.
 * [Auto-Entities Card](https://github.com/thomasloven/lovelace-auto-entities) ⭐ 1,827 | 🐛 171 | 🌐 TypeScript | 📅 2026-05-09 - Dynamically adds entities.
-* [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) ⭐ 805 | 🐛 169 | 🌐 TypeScript | 📅 2024-08-19 - A simpler and more flexible thermostat card.
+* [Simple Thermostat](https://github.com/nervetattoo/simple-thermostat) ⭐ 806 | 🐛 169 | 🌐 TypeScript | 📅 2024-08-19 - A simpler and more flexible thermostat card.
 * [Atomic Calendar Revive](https://github.com/totaldebug/atomic-calendar-revive) ⭐ 678 | 🐛 13 | 🌐 TypeScript | 📅 2026-09-26 - Calendar card with advanced settings.
 * [Bar Card](https://github.com/Gluwc/bar-card) ⭐ 483 | 🐛 93 | 🌐 TypeScript | 📅 2023-09-29 - Customizable animated bar card.
 * [Simple Weather Card](https://github.com/kalkih/simple-weather-card) ⭐ 341 | 🐛 29 | 🌐 JavaScript | 📅 2023-05-12 - A minimalistic weather card, inspired by Google Material Design.
@@ -2636,15 +2636,15 @@ provide the Supervisor, which is capable of running and managing these add-ons.*
 * [forked-daapd Card](https://github.com/kalkih/forked-daapd-card) ⭐ 78 | 🐛 5 | 🌐 JavaScript | 📅 2022-05-27 - Control a forked daapd instance.
 
 - [Thermostat Card](https://github.com/ciotlosm/lovelace-thermostat-dark-card) ⭐ 749 | 🐛 2 | 🌐 TypeScript | 📅 2026-10-17 - Thermostat control card that looks like a Nest Thermostat.
-- [Animated Weather Card](https://github.com/bramkragten/weather-card) ⭐ 556 | 🐛 110 | 📅 2024-05-04 - Nice looking card showing the weather, with subtle animations.
+- [Animated Weather Card](https://github.com/bramkragten/weather-card) ⭐ 557 | 🐛 110 | 📅 2024-05-04 - Nice looking card showing the weather, with subtle animations.
 
-* [Mini Graph Card](https://github.com/kalkih/mini-graph-card) ⭐ 3,903 | 🐛 134 | 🌐 JavaScript | 📅 2026-10-19 - A minimalistic sensor graph card.
-* [Button card](https://github.com/kuuji/button-card) ⭐ 2,512 | 🐛 35 | 🌐 TypeScript | 📅 2026-09-09 - Button card for your entities.
+* [Mini Graph Card](https://github.com/kalkih/mini-graph-card) ⭐ 3,904 | 🐛 134 | 🌐 JavaScript | 📅 2026-10-19 - A minimalistic sensor graph card.
+* [Button card](https://github.com/kuuji/button-card) ⭐ 2,514 | 🐛 36 | 🌐 TypeScript | 📅 2026-09-09 - Button card for your entities.
 * [Vacuum Map Card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card) ⭐ 1,948 | 🐛 69 | 🌐 TypeScript | 📅 2026-06-24 - This card provides a user-friendly way to fully control Xiaomi (Roborock/Viomi/Dreame/Roidmi) and Neato (+ possibly other) vacuums.
 * [Mini Media Player](https://github.com/kalkih/mini-media-player) ⭐ 1,725 | 🐛 219 | 🌐 TypeScript | 📅 2026-06-08 - A minimalistic media player card.
 * [Vacuum Card](https://github.com/denysdovhan/vacuum-card) ⭐ 1,262 | 🐛 23 | 🌐 TypeScript | 📅 2026-10-16 - A card to card for controlling a vacuum cleaner robot.
 * [Multiple Entity Row](https://github.com/benct/lovelace-multiple-entity-row) ⭐ 952 | 🐛 0 | 🌐 JavaScript | 📅 2026-10-11 - Show multiple entity states or attributes on entity rows.
-* [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) ⭐ 926 | 🐛 42 | 🌐 TypeScript | 📅 2025-10-02 - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
+* [Slider Entity Row](https://github.com/thomasloven/lovelace-slider-entity-row) ⭐ 927 | 🐛 42 | 🌐 TypeScript | 📅 2025-10-02 - Add a slider to adjust, e.g., the brightness of lights in lovelace entity cards.
 * [Banner Card](https://github.com/nervetattoo/banner-card) ⭐ 705 | 🐛 78 | 🌐 JavaScript | 📅 2023-02-03 - A fluffy linkable banner with interactive glances to spice up your home dashboards.
 * [RGB Light Card](https://github.com/bokub/rgb-light-card) ⭐ 576 | 🐛 10 | 🌐 JavaScript | 📅 2025-12-04 - Colorful buttons to control your RGB Lights.
 * [Config Template Card](https://github.com/custom-cards/config-template-card) ⭐ 567 | 🐛 32 | 🌐 TypeScript | 📅 2026-05-22 - Allow using templates in Lovelace.
@@ -2661,15 +2661,15 @@ provide the Supervisor, which is capable of running and managing these add-ons.*
 
 *Additional integrations for Home Assistant created by the community.*
 
-* [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) ⭐ 3,332 | 🐛 185 | 🌐 Python | 📅 2026-10-18 - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.
-* [SmartIR](https://github.com/smartHomeHub/SmartIR) ⭐ 2,850 | 🐛 239 | 🌐 Python | 📅 2025-07-21 - Integrates devices using Broadlink IR.
+* [Sonoff LAN](https://github.com/AlexxIT/SonoffLAN) ⭐ 3,333 | 🐛 186 | 🌐 Python | 📅 2026-10-18 - Control Sonoff devices with eWeLink (original) firmware over LAN and/or Cloud.
+* [SmartIR](https://github.com/smartHomeHub/SmartIR) ⭐ 2,850 | 🐛 238 | 🌐 Python | 📅 2025-07-21 - Integrates devices using Broadlink IR.
 * [WebRTC Camera](https://github.com/AlexxIT/WebRTC) ⭐ 2,188 | 🐛 225 | 🌐 JavaScript | 📅 2026-10-15 - View RTSP streams from IP Cameras in real-time through WebRTC or MSE with Pan/Zoom controls.
 * [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) ⭐ 1,435 | 🐛 159 | 🌐 Python | 📅 2026-02-20 - Presents a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting.
 * [Circadian Lighting](https://github.com/claytonjn/hass-circadian_lighting) ⭐ 902 | 🐛 111 | 🌐 Python | 📅 2026-10-20 - Circadian Lighting slowly synchronizes your color changing lights with the regular naturally occuring color temperature of the sky throughout the day.
 * [Spotcast](https://github.com/fondberg/spotcast) ⭐ 814 | 🐛 48 | 🌐 Python | 📅 2026-07-23 - Start Spotify playback on an idle Chromecast device as well as control Spotify connect devices.
-* [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) ⭐ 708 | 🐛 8 | 🌐 Python | 📅 2026-10-20 - Integrates Volkswagen Carnet (requires valid Carnet subscription).
-* [The Watchman](https://github.com/dummylabs/thewatchman) ⭐ 689 | 🐛 48 | 🌐 Python | 📅 2026-03-25 - Keep track of missing entities and services in your config files.
-* [HASS Aarlo](https://github.com/twrecked/hass-aarlo) ⭐ 482 | 🐛 88 | 🌐 Python | 📅 2026-10-20 - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
+* [Volkswagen Carnet](https://github.com/robinostlund/homeassistant-volkswagencarnet) ⭐ 707 | 🐛 7 | 🌐 Python | 📅 2026-10-21 - Integrates Volkswagen Carnet (requires valid Carnet subscription).
+* [The Watchman](https://github.com/dummylabs/thewatchman) ⭐ 690 | 🐛 48 | 🌐 Python | 📅 2026-03-25 - Keep track of missing entities and services in your config files.
+* [HASS Aarlo](https://github.com/twrecked/hass-aarlo) ⭐ 483 | 🐛 88 | 🌐 Python | 📅 2026-10-20 - Asynchronous Arlo integration. Similar to the Arlo web site; monitors events and states for all base stations, cameras and doorbells.
 * [Lutron Caseta Pro](https://github.com/upsert/lutron-caseta-pro) ⭐ 187 | 🐛 4 | 🌐 Python | 📅 2025-11-22 - Integrates Lutron Caseta Smart Bridge PRO / RA2 Select.
 * [Elasticsearch](https://github.com/legrego/homeassistant-elasticsearch) ⭐ 164 | 🐛 33 | 🌐 Python | 📅 2026-10-19 - Publishes events to Elasticsearch.
 * [Xiaomi Hygrothermo](https://github.com/dolezsa/Xiaomi_Hygrothermo) ⭐ 89 | 🐛 0 | 🌐 Python | 📅 2021-12-26 - Sensor platform for Xiaomi Mijia BT Hygrothermo temperature and humidity sensor.
@@ -2685,7 +2685,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Homebridge](https://homebridge.io/) is a software framework that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories.
 
-[Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) ⭐ 2,804 | 🐛 37 | 🌐 TypeScript | 📅 2026-10-19 is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
+[Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) ⭐ 2,804 | 🐛 41 | 🌐 TypeScript | 📅 2026-10-21 is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
 
 * Install and configure Homebridge plugins.
 * Monitor your Homebridge server via a fully customisable widget-based dashboard.
@@ -2697,13 +2697,13 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
   <br />
 </p>
 
-[Homebridge Raspberry Pi Image](https://github.com/homebridge/homebridge-raspbian-image) ⭐ 1,091 | 🐛 6 | 🌐 Shell | 📅 2026-10-19 is a free Raspbian based Raspberry Pi image with Homebridge and Homebridge Config UI X pre-installed.
+[Homebridge Raspberry Pi Image](https://github.com/homebridge/homebridge-raspbian-image) ⭐ 1,092 | 🐛 5 | 🌐 Shell | 📅 2026-10-20 is a free Raspbian based Raspberry Pi image with Homebridge and Homebridge Config UI X pre-installed.
 
-[Homebridge Config UI X](https://github.com/oznu/homebridge-config-ui-x) ⭐ 2,804 | 🐛 37 | 🌐 TypeScript | 📅 2026-10-19 is a web based management tool for [Homebridge](https://github.com/homebridge/homebridge) ⭐ 25,521 | 🐛 25 | 🌐 TypeScript | 📅 2026-10-18 that allows you to manage all aspects of your Homebridge setup.
+[Homebridge Config UI X](https://github.com/oznu/homebridge-config-ui-x) ⭐ 2,804 | 🐛 41 | 🌐 TypeScript | 📅 2026-10-21 is a web based management tool for [Homebridge](https://github.com/homebridge/homebridge) ⭐ 25,523 | 🐛 24 | 🌐 TypeScript | 📅 2026-10-20 that allows you to manage all aspects of your Homebridge setup.
 
 [Homebridge webOS TV](https://github.com/merdok/homebridge-webos-tv) ⭐ 707 | 🐛 6 | 🌐 JavaScript | 📅 2026-09-11 is a plugin for homebridge which allows you to control your LG webOS TV from your Home app! It should work with all TVs that support webOS2 and newer.
 
-[Homebridge Unifi Protect](https://github.com/hjdhjd/homebridge-unifi-protect) ⭐ 1,797 | 🐛 3 | 🌐 TypeScript | 📅 2026-07-19 is a Homebridge plugin that provides HomeKit support to the [UniFi Protect](https://ui.com/camera-security) device ecosystem. UniFi Protect is [Ubiquiti's](https://www.ui.com/) next-generation video security platform, with rich camera, doorbell, and NVR controller hardware options for you to choose from, as well as an app which you can use to view, configure and manage your video camera and doorbells.
+[Homebridge Unifi Protect](https://github.com/hjdhjd/homebridge-unifi-protect) ⭐ 1,796 | 🐛 3 | 🌐 TypeScript | 📅 2026-07-19 is a Homebridge plugin that provides HomeKit support to the [UniFi Protect](https://ui.com/camera-security) device ecosystem. UniFi Protect is [Ubiquiti's](https://www.ui.com/) next-generation video security platform, with rich camera, doorbell, and NVR controller hardware options for you to choose from, as well as an app which you can use to view, configure and manage your video camera and doorbells.
 
 [Homebridge Camera FFmpeg](https://github.com/Sunoo/homebridge-camera-ffmpeg) ⭐ 1,115 | 🐛 67 | 🌐 TypeScript | 📅 2026-02-09 is a Homebridge Plugin Providing [FFmpeg](https://www.ffmpeg.org/)-based Camera Support.
 
@@ -2741,7 +2741,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
 
-[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) ⭐ 37,557 | 🐛 1,256 | 🌐 TypeScript | 📅 2026-10-20 is a DNS relay station with ad/tracker/other blocking, IP address redirections, and DNS-over-HTTPS.
+[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) ⭐ 37,578 | 🐛 1,254 | 🌐 TypeScript | 📅 2026-10-20 is a DNS relay station with ad/tracker/other blocking, IP address redirections, and DNS-over-HTTPS.
 
 [OpenWRT](https://openwrt.org/) is an open-source project for embedded operating systems based on Linux, primarily used on embedded devices to route network traffic.
 
@@ -2763,13 +2763,13 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Wyoming Snowboy](https://github.com/rhasspy/wyoming-snowboy) ⚠️ Archived is a Wyoming protocol server for the snowboy wake word detection system.
 
-[faster-whisper](https://github.com/guillaumekln/faster-whisper/) ⭐ 25,990 | 🐛 20 | 🌐 Python | 📅 2026-10-16 is a reimplementation of OpenAI's Whisper model using [CTranslate2](https://github.com/OpenNMT/CTranslate2/) ⭐ 4,713 | 🐛 281 | 🌐 C++ | 📅 2026-10-19, which is a fast inference engine for Transformer models.
+[faster-whisper](https://github.com/guillaumekln/faster-whisper/) ⭐ 26,018 | 🐛 20 | 🌐 Python | 📅 2026-10-16 is a reimplementation of OpenAI's Whisper model using [CTranslate2](https://github.com/OpenNMT/CTranslate2/) ⭐ 4,714 | 🐛 279 | 🌐 C++ | 📅 2026-10-21, which is a fast inference engine for Transformer models.
 
-[Porcupine](https://github.com/Picovoice/porcupine) ⭐ 4,957 | 🐛 0 | 🌐 Python | 📅 2026-10-07 is a highly-accurate and lightweight wake word engine. It enables building always-listening voice-enabled applications. It uses deep neural networks trained in real-world environments.
+[Porcupine](https://github.com/Picovoice/porcupine) ⭐ 4,959 | 🐛 1 | 🌐 Python | 📅 2026-10-20 is a highly-accurate and lightweight wake word engine. It enables building always-listening voice-enabled applications. It uses deep neural networks trained in real-world environments.
 
 [Rhasspy](https://github.com/rhasspy/rhasspy3/) ⚠️ Archived is an open source voice assistant toolkit for many human languages.
 
-[openWakeWord](https://github.com/dscripka/openWakeWord) ⭐ 2,858 | 🐛 132 | 🌐 Jupyter Notebook | 📅 2025-12-30 is an open-source wakeword library that can be used to create voice-enabled applications and interfaces. It includes pre-trained models for common words & phrases that work well in real-world environments.
+[openWakeWord](https://github.com/dscripka/openWakeWord) ⭐ 2,860 | 🐛 133 | 🌐 Jupyter Notebook | 📅 2025-12-30 is an open-source wakeword library that can be used to create voice-enabled applications and interfaces. It includes pre-trained models for common words & phrases that work well in real-world environments.
 
 [Conversation](https://www.home-assistant.io/integrations/conversation) is an integration allows you to converse with **Home Assistant.** You can either converse by pressing the microphone in the frontend (supported browsers only (no iOS)) or by calling the `conversation/process` service with the transcribed text.
 
@@ -2779,7 +2779,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [DeepSpeech](https://github.com/mozilla/DeepSpeech) ⚠️ Archived is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers.
 
-[Leon](https://github.com/leon-ai/leon) ⭐ 17,593 | 🐛 117 | 🌐 TypeScript | 📅 2026-10-20 is your open-source personal assistant.
+[Leon](https://github.com/leon-ai/leon) ⭐ 17,595 | 🐛 117 | 🌐 TypeScript | 📅 2026-10-21 is your open-source personal assistant.
 
 [Olivia](https://olivia-ai.org/) is an open-source chatbot built in Golang using Machine Learning technologies. Its goal is to provide a free and open-source alternative to big services like DialogFlow.
 
@@ -2797,15 +2797,15 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [OpenDataCam](https://opendata.cam/) is an open source tool to quantify the world. It quantifies and tracks moving objects with live video analysis. It is designed to be an accessible, affordable and open-source solution to better understand interactions in urban environments. It never records any photo or video data. The system only saves surveyed meta-data, in particular the path an object moved or number of counted objects at a certain point.
 
-[Viseron](https://github.com/roflcoopter/viseron) ⭐ 3,638 | 🐛 50 | 🌐 Python | 📅 2026-10-20 is a Self-hosted, local only NVR and AI Computer Vision software.
+[Viseron](https://github.com/roflcoopter/viseron) ⭐ 3,646 | 🐛 53 | 🌐 Python | 📅 2026-10-20 is a Self-hosted, local only NVR and AI Computer Vision software.
 
 [zmninja](http://zmninja.zoneminder.com/) is a high performance, cross platform ionic app for Home/Commerical Security Surveillance using ZoneMinder.
 
-[Moonfire NVR](https://github.com/scottlamb/moonfire-nvr) ⭐ 1,756 | 🐛 61 | 🌐 Rust | 📅 2026-10-04 is a security camera network video recorder.
+[Moonfire NVR](https://github.com/scottlamb/moonfire-nvr) ⭐ 1,757 | 🐛 61 | 🌐 Rust | 📅 2026-10-04 is a security camera network video recorder.
 
 [Shinobi Pro](https://gitlab.com/Shinobi-Systems/Shinobi) is a Next Generation in Open-Source Video Management Software with support for over 6000 IP and USB Cameras.
 
-[WyzeHacks](https://github.com/HclX/WyzeHacks) ⭐ 883 | 🐛 34 | 🌐 Shell | 📅 2022-10-19 is a project contains a set of scripts trying to provide additional features not implemented by the official firmware. Currently, it provides the following functions:
+[WyzeHacks](https://github.com/HclX/WyzeHacks) ⭐ 884 | 🐛 34 | 🌐 Shell | 📅 2022-10-19 is a project contains a set of scripts trying to provide additional features not implemented by the official firmware. Currently, it provides the following functions:
 
 * Enable telnetd on your camera.
 * Customize the default root password for telnet login.
@@ -2818,19 +2818,19 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Back to the Top](#table-of-contents)
 
-[whisper.cpp](https://github.com/ggerganov/whisper.cpp) ⭐ 54,512 | 🐛 354 | 🌐 C++ | 📅 2026-10-19 is a high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model.
+[whisper.cpp](https://github.com/ggerganov/whisper.cpp) ⭐ 54,536 | 🐛 357 | 🌐 C++ | 📅 2026-10-19 is a high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model.
 
 [WaaS](https://github.com/schibsted/WAAS) ⭐ 2,071 | 🐛 39 | 🌐 JavaScript | 📅 2026-10-15 is a Whisper as a Service (GUI and API for OpenAI Whisper).
 
 [Web Whisper](https://codeberg.org/pluja/web-whisper) is a OpenAI's whisper on your web browser. [Demo](https://whisper.r3d.red/)
 
-[Vosk](https://github.com/alphacep/vosk-api) ⭐ 15,189 | 🐛 602 | 🌐 Jupyter Notebook | 📅 2026-10-15 is an offline open source speech recognition toolkit. It enables speech recognition for 20+ languages and dialects.
+[Vosk](https://github.com/alphacep/vosk-api) ⭐ 15,192 | 🐛 602 | 🌐 Jupyter Notebook | 📅 2026-10-15 is an offline open source speech recognition toolkit. It enables speech recognition for 20+ languages and dialects.
 
 [Coqui TTS](http://coqui.ai/) is a deep learning toolkit for Text-to-Speech, battle-tested in research and production.
 
-[Mozilla TTS](https://github.com/mozilla/TTS) ⭐ 10,175 | 🐛 37 | 🌐 Jupyter Notebook | 📅 2023-11-09 is a library for advanced Text-to-Speech generation. It's built on the latest research, was designed to achieve the best trade-off among ease-of-training, speed and quality.
+[Mozilla TTS](https://github.com/mozilla/TTS) ⭐ 10,177 | 🐛 37 | 🌐 Jupyter Notebook | 📅 2023-11-09 is a library for advanced Text-to-Speech generation. It's built on the latest research, was designed to achieve the best trade-off among ease-of-training, speed and quality.
 
-[NVIDIA NeMo](https://github.com/NVIDIA/NeMo) ⭐ 18,607 | 🐛 367 | 🌐 Python | 📅 2026-10-20 is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).
+[NVIDIA NeMo](https://github.com/NVIDIA/NeMo) ⭐ 18,610 | 🐛 367 | 🌐 Python | 📅 2026-10-21 is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).
 
 ### Video and Audio Processing
 
@@ -2846,9 +2846,9 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [HandBrake](https://handbrake.fr/) is a tool for transcoding video from almost any format with a selection of widely supported codecs. It is supported on Window, macOS, and Linux.
 
-[Tdarr](https://github.com/HaveAGitGat/Tdarr) ⭐ 4,362 | 🐛 50 | 🌐 Makefile | 📅 2026-10-15 is a cross-platform conditional based transcoding application for automating media library transcode/remux management in order to process your media files as required. It can set rules for the required codecs, containers, languages etc that your media should have which helps keeps things organized and can increase compatability with your devices. A common use for Tdarr is to simply convert video files from h264 to h265 (hevc), saving 40%-50% in size.
+[Tdarr](https://github.com/HaveAGitGat/Tdarr) ⭐ 4,363 | 🐛 51 | 🌐 Makefile | 📅 2026-10-15 is a cross-platform conditional based transcoding application for automating media library transcode/remux management in order to process your media files as required. It can set rules for the required codecs, containers, languages etc that your media should have which helps keeps things organized and can increase compatability with your devices. A common use for Tdarr is to simply convert video files from h264 to h265 (hevc), saving 40%-50% in size.
 
-[SRS](https://github.com/ossrs/srs) ⭐ 29,358 | 🐛 17 | 🌐 C++ | 📅 2026-10-18 is a simple, high efficiency and realtime video server, supports RTMP, WebRTC, HLS, HTTP-FLV, SRT and GB28181.
+[SRS](https://github.com/ossrs/srs) ⭐ 29,364 | 🐛 17 | 🌐 C++ | 📅 2026-10-18 is a simple, high efficiency and realtime video server, supports RTMP, WebRTC, HLS, HTTP-FLV, SRT and GB28181.
 
 [obsws-python](https://github.com/aatikturk/obsws-python) ⭐ 132 | 🐛 1 | 🌐 Python | 📅 2025-07-01 is a Python SDK for OBS Studio WebSocket v5.0.
 
@@ -2898,7 +2898,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [AntennaPod](https://antennapod.org/) is a podcast player that is completely open. The app is open-source and you can subscribe to any RSS feed. AntennaPod is built by volunteers without commercial interest, so it respects your privacy while giving you full control.
 
-[Podgrab](https://github.com/akhilrex/podgrab) ⭐ 1,991 | 🐛 148 | 🌐 JavaScript | 📅 2026-07-16 is a self-hosted podcast manager/downloader/archiver tool to download podcast episodes as soon as they become live with an integrated player.
+[Podgrab](https://github.com/akhilrex/podgrab) ⭐ 1,992 | 🐛 148 | 🌐 JavaScript | 📅 2026-07-16 is a self-hosted podcast manager/downloader/archiver tool to download podcast episodes as soon as they become live with an integrated player.
 
 [Podify](https://github.com/podify-org/podify) ⭐ 300 | 🐛 15 | 🌐 Ruby | 📅 2023-06-22 is a self-hosted service that allows you to download videos and audio from any source supported by youtube-dl, sort the downloads into feeds, and subscribe to these feeds using your favorite podcast app.
 
@@ -2908,13 +2908,13 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Wave Share](https://ggerganov.github.io/wave-share) is a serverless, peer-to-peer, local file sharing through sound.
 
-[KBD Audio](https://github.com/ggerganov/kbd-audio) ⭐ 9,039 | 🐛 12 | 🌐 C++ | 📅 2023-01-15 is a collection of command-line and GUI tools for capturing and analyzing audio data.
+[KBD Audio](https://github.com/ggerganov/kbd-audio) ⭐ 9,040 | 🐛 12 | 🌐 C++ | 📅 2023-01-15 is a collection of command-line and GUI tools for capturing and analyzing audio data.
 
 ### AudioBooks
 
 [Back to the Top](#table-of-contents)
 
-[Audioserve](https://github.com/izderadicka/audioserve) ⭐ 861 | 🐛 17 | 🌐 Rust | 📅 2026-10-18 is a simple personal server to serve audio files from directories. Intended primarily for audio books, but anything with decent directories structure will do. Focus here is on simplicity and minimalist design.
+[Audioserve](https://github.com/izderadicka/audioserve) ⭐ 862 | 🐛 18 | 🌐 Rust | 📅 2026-10-21 is a simple personal server to serve audio files from directories. Intended primarily for audio books, but anything with decent directories structure will do. Focus here is on simplicity and minimalist design.
 
 [Audiobookshelf](https://www.audiobookshelf.org/) is a self-hosted audiobook and podcast server.
 
@@ -2961,7 +2961,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Automated irrigation system](https://github.com/PatrickHallek/automated-irrigation-system) ⭐ 780 | 🐛 13 | 🌐 JavaScript | 📅 2024-02-18 is an open source application to water plants automatically. Up to now there is almost no free professional software and instructions available to build a DYI irrigation that is scalable, accurate and most importantly, durable.
 
-[Pigrow](https://github.com/Pragmatismo/Pigrow) ⭐ 167 | 🐛 2 | 🌐 Python | 📅 2026-10-20 is a garden automation suite designed to help gardeners monitor, log, graph and control their grow space using a raspberry Pi, various sensor and a few relay modules.
+[Pigrow](https://github.com/Pragmatismo/Pigrow) ⭐ 167 | 🐛 2 | 🌐 Python | 📅 2026-10-21 is a garden automation suite designed to help gardeners monitor, log, graph and control their grow space using a raspberry Pi, various sensor and a few relay modules.
 
 [Tania](https://usetania.org/) is a farm management software for the hobbyist and smallholder farmer.
 
@@ -2981,21 +2981,21 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [OpenStreetMap(OSM)](https://www.openstreetmap.org/) is a map of the world, created by people like you and free to use under an open license. Hosting is supported by UCL, Fastly, Bytemark Hosting, and other partners.
 
-[uMap](https://github.com/umap-project/umap) ⭐ 1,620 | 🐛 391 | 🌐 JavaScript | 📅 2026-10-19 is a tool that lets you create maps with OpenStreetMap layers in a minute and embed them in your site.
+[uMap](https://github.com/umap-project/umap) ⭐ 1,621 | 🐛 391 | 🌐 JavaScript | 📅 2026-10-21 is a tool that lets you create maps with OpenStreetMap layers in a minute and embed them in your site.
 
-[Martin](https://martin.maplibre.org/) is a tile server able to generate [vector tiles](https://github.com/mapbox/vector-tile-spec) ⭐ 1,010 | 🐛 46 | 📅 2026-06-29 from large [PostGIS](https://github.com/postgis/postgis) ⭐ 2,246 | 🐛 59 | 🌐 PLpgSQL | 📅 2026-10-20 databases on the fly, or serve tiles from [PMTile](https://protomaps.com/blog/pmtiles-v3-whats-new) and [MBTile](https://github.com/mapbox/mbtiles-spec) ⭐ 672 | 🐛 19 | 📅 2026-06-29 files. Martin optimizes for speed and heavy traffic, and is written in Rust.
+[Martin](https://martin.maplibre.org/) is a tile server able to generate [vector tiles](https://github.com/mapbox/vector-tile-spec) ⭐ 1,010 | 🐛 46 | 📅 2026-06-29 from large [PostGIS](https://github.com/postgis/postgis) ⭐ 2,246 | 🐛 61 | 🌐 PLpgSQL | 📅 2026-10-21 databases on the fly, or serve tiles from [PMTile](https://protomaps.com/blog/pmtiles-v3-whats-new) and [MBTile](https://github.com/mapbox/mbtiles-spec) ⭐ 672 | 🐛 19 | 📅 2026-06-29 files. Martin optimizes for speed and heavy traffic, and is written in Rust.
 
-[MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) ⭐ 11,901 | 🐛 295 | 🌐 TypeScript | 📅 2026-10-20 is an open-source library for publishing maps on your websites or webview based apps. Fast displaying of maps is possible thanks to GPU-accelerated vector tile rendering.
+[MapLibre GL JS](https://github.com/maplibre/maplibre-gl-js) ⭐ 11,909 | 🐛 287 | 🌐 TypeScript | 📅 2026-10-21 is an open-source library for publishing maps on your websites or webview based apps. Fast displaying of maps is possible thanks to GPU-accelerated vector tile rendering.
 
 [MapLibre Native](https://maplibre.org/) is an Interactive vector tile maps for iOS, Android and other platforms.
 
-[Maplibre-rs ](https://github.com/maplibre/maplibre-rs) ⭐ 1,584 | 🐛 70 | 🌐 Rust | 📅 2026-10-16 is an Experimental Maps for Web, Mobile and Desktop.
+[Maplibre-rs ](https://github.com/maplibre/maplibre-rs) ⭐ 1,585 | 🐛 70 | 🌐 Rust | 📅 2026-10-16 is an Experimental Maps for Web, Mobile and Desktop.
 
 ### Bookmarks
 
 [Back to the Top](#table-of-contents)
 
-[Linkding](https://github.com/sissbruecker/linkding/) ⭐ 11,320 | 🐛 236 | 🌐 Python | 📅 2026-10-01 is a simple bookmark service that you can host yourself. It's designed be to be minimal, fast, and easy to set up using Docker.
+[Linkding](https://github.com/sissbruecker/linkding/) ⭐ 11,326 | 🐛 236 | 🌐 Python | 📅 2026-10-01 is a simple bookmark service that you can host yourself. It's designed be to be minimal, fast, and easy to set up using Docker.
 
 [Linkwarden](https://linkwarden.app/) is a fully self-hostable, open-source collaborative bookmark manager to collect, organize and archive webpages. [Linkwarden Docker Image](https://gist.github.com/joekrill/cc503e21e14f95fefa91acc5f869dac1)
 
@@ -3021,11 +3021,11 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Piwigo](https://piwigo.org/) is a full featured, self-hosted, and open source photo gallery application for the web. It comes with more than 200 templates, plugins, and configurations that let you personalize how your photos are presented. It allows users to upload photos from digiKam, Shotwell, Lightroom or mobile applications. Lastly, users can create galleries and give viewing permissions to their clients. They can download individual photos or whole albums, post comments, give ratings, mark photos as favorites, and perform searches.
 
-[Czkawka](https://github.com/qarmin/czkawka) ⭐ 34,388 | 🐛 350 | 🌐 Fluent | 📅 2026-09-16 is a Multi-functional app to find duplicates, empty folders, similar images, etc.
+[Czkawka](https://github.com/qarmin/czkawka) ⭐ 34,420 | 🐛 350 | 🌐 Fluent | 📅 2026-09-16 is a Multi-functional app to find duplicates, empty folders, similar images, etc.
 
 [Phockup](https://github.com/ivandokov/phockup) ⭐ 1,013 | 🐛 30 | 🌐 Python | 📅 2024-05-06 is a Media sorting tool to organize photos and videos from your camera in folders by year, month and day.
 
-[PiGallery 2](https://github.com/bpatrik/pigallery2) ⭐ 2,300 | 🐛 170 | 🌐 TypeScript | 📅 2026-10-18 is a  fast directory-first photo gallery website, with rich UI, optimized for running on low resource servers (especially on Raspberry Pi).
+[PiGallery 2](https://github.com/bpatrik/pigallery2) ⭐ 2,301 | 🐛 170 | 🌐 TypeScript | 📅 2026-10-18 is a  fast directory-first photo gallery website, with rich UI, optimized for running on low resource servers (especially on Raspberry Pi).
 
 [Photoview](https://photoview.github.io/) is a simple self-hosted and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos.
 
@@ -3039,9 +3039,9 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Photoview](https://photoview.github.io/) is a simple and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos.
 
-[Gimme-iPhotos](https://github.com/Zebradil/Gimme-iPhotos) ⚠️ Archived is a tool uses [pyicloud](https://github.com/picklepete/pyicloud) ⭐ 2,854 | 🐛 174 | 🌐 Python | 📅 2024-10-25 to synchronize photos and videos from iCloud to your local machine.
+[Gimme-iPhotos](https://github.com/Zebradil/Gimme-iPhotos) ⚠️ Archived is a tool uses [pyicloud](https://github.com/picklepete/pyicloud) ⭐ 2,855 | 🐛 174 | 🌐 Python | 📅 2024-10-25 to synchronize photos and videos from iCloud to your local machine.
 
-[PyiCloud](https://github.com/picklepete/pyicloud) ⭐ 2,854 | 🐛 174 | 🌐 Python | 📅 2024-10-25 is a module which allows pythonistas to interact with iCloud webservices. It's powered by the fantastic [requests](https://github.com/kennethreitz/requests) ⭐ 312 | 🐛 0 | 🌐 Python | 📅 2024-03-30 HTTP library.
+[PyiCloud](https://github.com/picklepete/pyicloud) ⭐ 2,855 | 🐛 174 | 🌐 Python | 📅 2024-10-25 is a module which allows pythonistas to interact with iCloud webservices. It's powered by the fantastic [requests](https://github.com/kennethreitz/requests) ⭐ 313 | 🐛 0 | 🌐 Python | 📅 2024-03-30 HTTP library.
 
 [Pixelfed](https://pixelfed.org/) is a fresh take on photo sharing. It decentralized ActivityPub protocol so you can comment, follow, and interact with remote Pixelfed, Mastodon and Pleroma posts and profiles from your Pixelfed account as if you were both on the same website.
 
@@ -3051,7 +3051,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Upscayl](https://upscayl.github.io/) is a free and open source desktop application that lets you upscale your low resolution images using advanced AI Models. Upscayl is a Linux-First Application that prioritizes Linux builds but is also cross-platform.
 
-[Librephotos](https://github.com/LibrePhotos/librephotos) ⭐ 8,110 | 🐛 71 | 🌐 Python | 📅 2026-10-19 is a self-hosted open source photo management service. This is the repository of the backend.
+[Librephotos](https://github.com/LibrePhotos/librephotos) ⭐ 8,110 | 🐛 72 | 🌐 Python | 📅 2026-10-21 is a self-hosted open source photo management service. This is the repository of the backend.
 
 [Librephotos frontend](https://github.com/LibrePhotos/librephotos-frontend) ⚠️ Archived is a self-hosted open source photo management service. This is the repository of the frontend.
 
@@ -3067,7 +3067,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Bepasty](https://bepasty-server.readthedocs.io/en/latest/) is a pastebin for all kinds of files.
 
-[Bin](https://github.com/w4/bin) ⭐ 685 | 🐛 23 | 🌐 Rust | 📅 2025-05-25 is a paste bin that's actually minimalist.
+[Bin](https://github.com/w4/bin) ⭐ 686 | 🐛 23 | 🌐 Rust | 📅 2025-05-25 is a paste bin that's actually minimalist.
 
 [Dpaste](https://dpaste.org/) is a Simple pastebin with multiple text and code option, with short url result easy to remember.
 
@@ -3091,7 +3091,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [MicroBin](https://microbin.eu/) is a super tiny, feature rich, configurable, self-contained and self-hosted paste bin web application. It is very easy to set up and use, and will only require a few megabytes of memory and disk storage. [MicroBin Docker install setup](https://microbin.eu/docs/installation-and-configuration/docker/).
 
-[Opengist](https://github.com/thomiceli/opengist) ⭐ 3,388 | 🐛 64 | 🌐 Go | 📅 2026-10-19 is a Self-hosted pastebin powered by Git.
+[Opengist](https://github.com/thomiceli/opengist) ⭐ 3,392 | 🐛 65 | 🌐 Go | 📅 2026-10-21 is a Self-hosted pastebin powered by Git.
 
 [Paaster](https://paaster.io) is a secure by default end-to-end encrypted pastebin built with the objective of simplicity.
 
@@ -3111,9 +3111,9 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Spacebin](https://spaceb.in/) is a Reliable Pastebin server in Golang and Fiber.
 
-[Sup3rS3cretMes5age](https://github.com/algolia/sup3rS3cretMes5age) ⭐ 567 | 🐛 6 | 🌐 Go | 📅 2026-10-20 is a simple to deploy and use secret message service using Hashicorp Vault as a secrets storage.
+[Sup3rS3cretMes5age](https://github.com/algolia/sup3rS3cretMes5age) ⭐ 567 | 🐛 7 | 🌐 Go | 📅 2026-10-20 is a simple to deploy and use secret message service using Hashicorp Vault as a secrets storage.
 
-[Wastebin](https://github.com/matze/wastebin) ⭐ 876 | 🐛 17 | 🌐 Rust | 📅 2026-10-19 is a Lightweight, minimal and fast pastebin with an SQLite backend.
+[Wastebin](https://github.com/matze/wastebin) ⭐ 876 | 🐛 17 | 🌐 Rust | 📅 2026-10-20 is a Lightweight, minimal and fast pastebin with an SQLite backend.
 
 [YABin](https://github.com/Yureien/YABin) ⭐ 190 | 🐛 16 | 🌐 TypeScript | 📅 2024-11-26 is a pastebin that contains plentiful features while remaining simple. Supports optional E2E encryption, a client-side CLI app, syntax highlighting, minimalistic UI, APIs, keyboard shortcuts, and more. It can even be run in serverless environments.
 
@@ -3183,7 +3183,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Gitit](https://github.com/jgm/gitit) ⭐ 2,276 | 🐛 205 | 🌐 Haskell | 📅 2026-10-13 - Wiki program that stores pages and uploaded files in a git repository, which can then be modified using the VCS command line tools or the wiki's web interface.
 
-[Gollum](https://github.com/gollum/gollum) ⭐ 14,335 | 🐛 91 | 🌐 Ruby | 📅 2025-11-24 - Simple, Git-powered wiki with a sweet API and local frontend.
+[Gollum](https://github.com/gollum/gollum) ⭐ 14,334 | 🐛 91 | 🌐 Ruby | 📅 2025-11-24 - Simple, Git-powered wiki with a sweet API and local frontend.
 
 [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage) - Instiki is a wiki clone so pretty and easy to set up, you'll wonder if it’s really a wiki. Runs on Rails and focuses on portability and stability.
 
@@ -3224,7 +3224,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 * Play select ROMs in-browser using JS emulators (Planned)
 * Track played and favorite games (even ones that aren't available for download) (Planned)
 
-[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. [Sunshine](https://github.com/LizardByte/Sunshine) ⭐ 42,426 | 🐛 164 | 🌐 C++ | 📅 2026-10-20 is a **Game stream host for Moonlight** that is a self-hosted, low latency, cloud gaming solution with support for AMD, Intel, and NVIDIA GPUs. It is an open source implementation of NVIDIA's GameStream.
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. [Sunshine](https://github.com/LizardByte/Sunshine) ⭐ 42,475 | 🐛 166 | 🌐 C++ | 📅 2026-10-21 is a **Game stream host for Moonlight** that is a self-hosted, low latency, cloud gaming solution with support for AMD, Intel, and NVIDIA GPUs. It is an open source implementation of NVIDIA's GameStream.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
@@ -3281,7 +3281,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Snes9x](https://www.snes9x.com/) is a portable, freeware Super Nintendo Entertainment System (SNES) emulator.
 
-[bsnes](https://github.com/bsnes-emu/bsnes) ⭐ 2,007 | 🐛 156 | 🌐 C++ | 📅 2026-10-07 is a Super Nintendo (SNES) emulator focused on performance, features, and ease of use.
+[bsnes](https://github.com/bsnes-emu/bsnes) ⭐ 2,006 | 🐛 156 | 🌐 C++ | 📅 2026-10-07 is a Super Nintendo (SNES) emulator focused on performance, features, and ease of use.
 
 [mGBA](https://mgba.io/) is a new emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.
 
@@ -3289,7 +3289,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [DOSBox Staging](https://github.com/dosbox-staging/dosbox-staging) ⭐ 1,820 | 🐛 207 | 🌐 C++ | 📅 2026-10-20 is a full x86 CPU emulator (independent of host architecture), capable of running DOS programs that require real or protected mode.
 
-[Flycast](https://github.com/flyinghead/flycast) ⭐ 2,609 | 🐛 330 | 🌐 C++ | 📅 2026-10-20 is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast.
+[Flycast](https://github.com/flyinghead/flycast) ⭐ 2,610 | 🐛 327 | 🌐 C++ | 📅 2026-10-21 is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast.
 
 [PCSX2](https://pcsx2.net/) is a PlayStation 2 'emulator', a free program that tries to replicate the PlayStation 2 console to enable you to play PS2 games on your PC.
 
@@ -3299,7 +3299,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [xemu](https://xemu.app/) is an original Xbox emulator.
 
-[Xenia](https://github.com/xenia-project/xenia) ⭐ 9,744 | 🐛 324 | 🌐 C++ | 📅 2026-02-18 is an Xbox 360 Emulator.
+[Xenia](https://github.com/xenia-project/xenia) ⭐ 9,747 | 🐛 324 | 🌐 C++ | 📅 2026-02-18 is an Xbox 360 Emulator.
 
 **Also checkout these subreddits for more great Game Emulators recommendations**
 
@@ -3645,9 +3645,9 @@ Red Hat Enterprise Linux Desktop
   openSUSE 
 </h3>
 
-[NixOS](https://nixos.org/) is a Linux distribution built on top of the [Nix package manager](https://nixos.wiki/wiki/Nix). It has tools dedicated to DevOps and deployment tasks. [NixOS Guide](https://github.com/mikeroyal/NixOS-Guide) ⭐ 1,138 | 🐛 2 | 🌐 Nix | 📅 2025-06-27
+[NixOS](https://nixos.org/) is a Linux distribution built on top of the [Nix package manager](https://nixos.wiki/wiki/Nix). It has tools dedicated to DevOps and deployment tasks. [NixOS Guide](https://github.com/mikeroyal/NixOS-Guide) ⭐ 1,140 | 🐛 2 | 🌐 Nix | 📅 2025-06-27
 
-* [Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) is the largest repository of [Nix](https://nixos.wiki/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://nixos.wiki/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) ⭐ 26,549 | 🐛 22,096 | 🌐 Nix | 📅 2026-10-20 and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://nixos.wiki/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://nixos.wiki/wiki/Alternative_Package_Sets).
+* [Nixpkgs](https://nixos.wiki/wiki/Nixpkgs) is the largest repository of [Nix](https://nixos.wiki/wiki/Nix) packages(over 80,000 packages) and [NixOS](https://nixos.wiki/wiki/NixOS) modules. The repository is [hosted on GitHub](https://github.com/nixos/nixpkgs) ⭐ 26,556 | 🐛 22,145 | 🌐 Nix | 📅 2026-10-21 and maintained by the community, with official backing from the [NixOS Foundation](https://nixos.org/). Additionally, checkout [Language-specific package helpers](https://nixos.wiki/wiki/Language-specific_package_helpers) and [Alternative Package Sets](https://nixos.wiki/wiki/Alternative_Package_Sets).
 
 * [Nix Tour](https://nixcloud.io/tour/) is an interactive tour that uses the actual package manager to learn you the language by example, in the browser.
 
@@ -3731,7 +3731,7 @@ Red Hat Enterprise Linux Desktop
 
 **Useful Tools for Storage Management**
 
-[Scrutiny](https://github.com/AnalogJ/scrutiny) ⭐ 8,348 | 🐛 44 | 🌐 Go | 📅 2026-10-12 is a WebUI for smartd Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds.
+[Scrutiny](https://github.com/AnalogJ/scrutiny) ⭐ 8,354 | 🐛 43 | 🌐 Go | 📅 2026-10-20 is a WebUI for smartd Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds.
 
 [smartd](https://www.smartmontools.org/) is SMART Disk Monitoring Daemon for Linux. It controls and monitors storage systems using the Self-Monitoring, Analysis and Reporting Technology System (SMART) built into most modern ATA/SATA, SCSI/SAS and NVMe disks. In many cases, these utilities will provide advanced warning of disk degradation and failure.
 
@@ -3739,7 +3739,7 @@ Red Hat Enterprise Linux Desktop
 
 [Perkeep](https://github.com/perkeep/perkeep) ⭐ 7,248 | 🐛 405 | 🌐 Go | 📅 2026-10-19 is a set of open source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data. It can be easily accessed via a phone, browser or FUSE filesystem.
 
-[duf](https://github.com/muesli/duf) ⭐ 15,349 | 🐛 84 | 🌐 Go | 📅 2026-01-13 is a Disk Usage/Free Utility for Linux, BSD, macOS & Windows.
+[duf](https://github.com/muesli/duf) ⭐ 15,351 | 🐛 84 | 🌐 Go | 📅 2026-01-13 is a Disk Usage/Free Utility for Linux, BSD, macOS & Windows.
 
 [Dirstat-rs](https://github.com/scullionw/dirstat-rs) ⭐ 194 | 🐛 8 | 🌐 Rust | 📅 2026-05-06 is a fast, cross-platform disk usage CLI, similar to [Windirstat](https://windirstat.net/).
 
@@ -3747,9 +3747,9 @@ Red Hat Enterprise Linux Desktop
 
 [Shufflecake](https://shufflecake.net/) is a tool for Linux that allows to create multiple hidden volumes on a storage device in such a way that it is very difficult, even under forensic inspection, to prove the existence of such volumes.
 
-[btdu](https://github.com/CyberShadow/btdu) ⭐ 685 | 🐛 4 | 🌐 D | 📅 2026-09-27 is a sampling disk usage profiler for btrfs.
+[btdu](https://github.com/CyberShadow/btdu) ⭐ 686 | 🐛 4 | 🌐 D | 📅 2026-09-27 is a sampling disk usage profiler for btrfs.
 
-[Btrfs maintenance toolbox](https://github.com/kdave/btrfsmaintenance) ⭐ 1,118 | 🐛 38 | 🌐 Shell | 📅 2025-08-28 is a set of scripts supplementing the btrfs filesystem and aims to automate a few maintenance tasks. This means the scrub, balance, trim or defragmentation.
+[Btrfs maintenance toolbox](https://github.com/kdave/btrfsmaintenance) ⭐ 1,119 | 🐛 38 | 🌐 Shell | 📅 2025-08-28 is a set of scripts supplementing the btrfs filesystem and aims to automate a few maintenance tasks. This means the scrub, balance, trim or defragmentation.
 
 ### File systems
 
@@ -3783,7 +3783,7 @@ Red Hat Enterprise Linux Desktop
 
 [Composefs](https://github.com/containers/composefs) ⭐ 700 | 🐛 34 | 🌐 C | 📅 2026-09-20 is a native Linux file system designed to help sharing filesystem contents, as well as ensuring said content is not modified. The initial target usecase are container images and ostree commits.
 
-[MergerFS](https://github.com/trapexit/mergerfs) ⭐ 5,915 | 🐛 30 | 🌐 C++ | 📅 2026-10-15 is a union filesystem geared towards simplifying storage and management of files across numerous commodity storage devices. It is similar to mhddfs, unionfs, and aufs.
+[MergerFS](https://github.com/trapexit/mergerfs) ⭐ 5,917 | 🐛 30 | 🌐 C++ | 📅 2026-10-15 is a union filesystem geared towards simplifying storage and management of files across numerous commodity storage devices. It is similar to mhddfs, unionfs, and aufs.
 
 **MergerFS Features**
 
@@ -3810,7 +3810,7 @@ Red Hat Enterprise Linux Desktop
 
 [Squashfs](https://www.kernel.org/doc/html/latest/filesystems/squashfs.html) is a compressed read-only filesystem for Linux. It uses zlib, lz4, lzo, or xz compression to compress files, inodes and directories. Inodes in the system are very small and all blocks are packed to minimize data overhead.
 
-[SeaweedFS](https://github.com/seaweedfs/seaweedfs) ⭐ 35,626 | 🐛 771 | 🌐 Go | 📅 2026-10-20 is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding.
+[SeaweedFS](https://github.com/seaweedfs/seaweedfs) ⭐ 35,659 | 🐛 768 | 🌐 Go | 📅 2026-10-21 is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding.
 
 [CubeFS](https://cubefs.io/) is a cloud native distributed storage platform. It's commonly used as the storage infrastructure for online applications, database or data processing services and machine learning jobs orchestrated by Kubernetes.
 
@@ -3880,13 +3880,13 @@ Red Hat Enterprise Linux Desktop
 
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-* [Awesome-SelfHosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐ 328,579 | 🐛 0 | 📅 2026-10-18 is a directory of free software solutions and web applications which can be hosted locally.
+* [Awesome-SelfHosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐ 328,911 | 🐛 0 | 📅 2026-10-18 is a directory of free software solutions and web applications which can be hosted locally.
 
-* [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) ⭐ 35,454 | 🐛 0 | 📅 2026-10-15 is a curated list of amazingly awesome open source sysadmin resources.
+* [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) ⭐ 35,462 | 🐛 0 | 📅 2026-10-21 is a curated list of amazingly awesome open source sysadmin resources.
 
-* [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist) ⭐ 22,576 | 🐛 37 | 🌐 TypeScript | 📅 2026-10-15 is a curated checklist of 300+ tips for protecting digital security and privacy in 2022.
+* [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist) ⭐ 22,586 | 🐛 37 | 🌐 TypeScript | 📅 2026-10-15 is a curated checklist of 300+ tips for protecting digital security and privacy in 2022.
 
-* [Awesome Privacy](https://github.com/Lissy93/awesome-privacy) ⭐ 9,994 | 🐛 1 | 🌐 Astro | 📅 2026-10-18 is acurated list of privacy & security-focused software and services.
+* [Awesome Privacy](https://github.com/Lissy93/awesome-privacy) ⭐ 9,995 | 🐛 1 | 🌐 Astro | 📅 2026-10-18 is acurated list of privacy & security-focused software and services.
 
 * [Perfect Media Server](https://perfectmediaserver.com/) is a project aim is to share knowledge and information about building an open-source media server. It was created by [Alex Kretzschmar AKA ironicbadger](https://github.com/ironicbadger).
 
@@ -4022,8 +4022,8 @@ Red Hat Enterprise Linux Desktop
 
 [Tailscale](https://github.com/tailscale) is a WireGuard-based app that makes secure, private networks easy for teams of any scale. It works like an [overlay network](https://tailscale.com/blog/how-tailscale-works/) between the computers of your networks using all kinds of [NAT traversal sorcery](https://tailscale.com/blog/how-nat-traversal-works/).
 
-* [Tailscale Synology](https://github.com/tailscale/tailscale-synology) ⭐ 993 | 🐛 0 | 📅 2023-06-12
-* [Tailscale Terraform Provider](https://github.com/tailscale/terraform-provider-tailscale) ⭐ 376 | 🐛 57 | 🌐 Go | 📅 2026-10-16
+* [Tailscale Synology](https://github.com/tailscale/tailscale-synology) ⭐ 994 | 🐛 0 | 📅 2023-06-12
+* [Tailscale Terraform Provider](https://github.com/tailscale/terraform-provider-tailscale) ⭐ 377 | 🐛 57 | 🌐 Go | 📅 2026-10-21
 * [Tailscale Docker extension](https://github.com/tailscale/docker-extension) ⭐ 77 | 🐛 15 | 🌐 TypeScript | 📅 2024-12-16
 
 <p align="center">
@@ -4033,7 +4033,7 @@ Red Hat Enterprise Linux Desktop
 
 How NAT Traversal works on a Home router. Credit: [Tailscale](https://tailscale.com/blog/how-nat-traversal-works/).
 
-[Headscale](https://github.com/juanfont/headscale) ⭐ 44,830 | 🐛 139 | 🌐 Go | 📅 2026-10-20 is an open source, self-hosted implementation of the Tailscale coordination server.
+[Headscale](https://github.com/juanfont/headscale) ⭐ 44,848 | 🐛 138 | 🌐 Go | 📅 2026-10-21 is an open source, self-hosted implementation of the Tailscale coordination server.
 
 ### What is Netmaker?
 
@@ -4058,7 +4058,7 @@ NetMaker Architecture. Credit: [Netmaker](https://netmaker.readthedocs.io/en/v0.
 
 [Tailscale](https://github.com/tailscale) is a WireGuard-based app that makes secure, private networks easy for teams of any scale. It works like an [overlay network](https://tailscale.com/blog/how-tailscale-works/) between the computers of your networks using all kinds of [NAT traversal sorcery](https://tailscale.com/blog/how-nat-traversal-works/).
 
-[Headscale](https://github.com/juanfont/headscale) ⭐ 44,830 | 🐛 139 | 🌐 Go | 📅 2026-10-20 is an open source, self-hosted implementation of the Tailscale coordination server.
+[Headscale](https://github.com/juanfont/headscale) ⭐ 44,848 | 🐛 138 | 🌐 Go | 📅 2026-10-21 is an open source, self-hosted implementation of the Tailscale coordination server.
 
 [Firezone](https://firezone.dev/) is a self-hosted WireGuard®-based VPN server and Linux firewall.
 
@@ -4068,11 +4068,11 @@ NetMaker Architecture. Credit: [Netmaker](https://netmaker.readthedocs.io/en/v0.
 
 [Mistborn CLI](https://gitlab.com/cyber5k/mistborn-cli) is a Command-line interface for [Mistborn](https://gitlab.com/cyber5k/mistborn).
 
-[BoringTun](https://github.com/cloudflare/boringtun) ⭐ 7,229 | 🐛 114 | 🌐 Rust | 📅 2026-06-29 is an implementation of the WireGuard® protocol designed for portability and speed. It's successfully deployed on millions of [iOS](https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627) and [Android](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone\&hl=en_US) consumer devices as well as thousands of Cloudflare Linux servers.
+[BoringTun](https://github.com/cloudflare/boringtun) ⭐ 7,228 | 🐛 115 | 🌐 Rust | 📅 2026-06-29 is an implementation of the WireGuard® protocol designed for portability and speed. It's successfully deployed on millions of [iOS](https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627) and [Android](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone\&hl=en_US) consumer devices as well as thousands of Cloudflare Linux servers.
 
 [PiVPN](https://pivpn.io/) is the simplest VPN installer, designed for [Raspberry Pi](https://www.raspberrypi.com).
 
-[Algo VPN](https://github.com/trailofbits/algo) ⭐ 30,433 | 🐛 84 | 🌐 Python | 📅 2026-10-14 is a set of Ansible scripts that simplify the setup of a personal WireGuard and IPsec VPN. It uses the most secure defaults available and works with common cloud providers.
+[Algo VPN](https://github.com/trailofbits/algo) ⭐ 30,434 | 🐛 84 | 🌐 Python | 📅 2026-10-14 is a set of Ansible scripts that simplify the setup of a personal WireGuard and IPsec VPN. It uses the most secure defaults available and works with common cloud providers.
 
 [Pro Custodibus](https://www.procustodibus.com/features/) is a tool for managing WireGuard with a variety of business VPN (Virtual Private Network) use cases, such as site-to-site connectivity, secure remote access from anywhere, secure access to the cloud (Amazon Web Services, Google Cloud Platform, Microsoft Azure, etc), and more.
 
@@ -4086,9 +4086,9 @@ NetMaker Architecture. Credit: [Netmaker](https://netmaker.readthedocs.io/en/v0.
 
 [WG UI](https://github.com/EmbarkStudios/wg-ui) ⚠️ Archived is a basic, self-contained management service for WireGuard with a self-serve web UI.
 
-[WireHole](https://github.com/IAmStoxe/wirehole) ⭐ 4,976 | 🐛 62 | 🌐 Shell | 📅 2026-08-25 is a combination of WireGuard, PiHole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create and deploy a personally managed full or split-tunnel WireGuard VPN with ad blocking capabilities (via Pihole), and DNS caching with additional privacy options (via Unbound).
+[WireHole](https://github.com/IAmStoxe/wirehole) ⭐ 4,975 | 🐛 62 | 🌐 Shell | 📅 2026-08-25 is a combination of WireGuard, PiHole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create and deploy a personally managed full or split-tunnel WireGuard VPN with ad blocking capabilities (via Pihole), and DNS caching with additional privacy options (via Unbound).
 
-[Gluetun](https://github.com/qdm12/gluetun) ⭐ 15,834 | 🐛 349 | 🌐 Go | 📅 2026-10-19 is a lightwieght VPN client in a thin Docker container for multiple VPN providers, written in Go, and uses OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.
+[Gluetun](https://github.com/qdm12/gluetun) ⭐ 15,840 | 🐛 349 | 🌐 Go | 📅 2026-10-21 is a lightwieght VPN client in a thin Docker container for multiple VPN providers, written in Go, and uses OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.
 
 [Ethr](https://github.com/microsoft/ethr) ⭐ 5,869 | 🐛 51 | 🌐 Go | 📅 2026-07-03 is a cross platform network performance measurement tool written in golang. The goal of this project is to provide a native tool for comprehensive network performance measurements of bandwidth, connections/s, packets/s, latency, loss & jitter, across multiple protocols such as TCP, UDP, HTTP, HTTPS, and across multiple platforms such as Windows, Linux and other Unix systems.
 
@@ -4427,7 +4427,7 @@ Nexcloud login screen
 Nexcloud Hub
 </p>
 
-[Nextcloud AIO (All In One)](https://github.com/nextcloud/all-in-one) ⭐ 10,618 | 🐛 111 | 🌐 PHP | 📅 2026-10-20 is a tool that provides easy deployment and maintenance with most features included in this one Nextcloud instance.
+[Nextcloud AIO (All In One)](https://github.com/nextcloud/all-in-one) ⭐ 10,623 | 🐛 115 | 🌐 PHP | 📅 2026-10-21 is a tool that provides easy deployment and maintenance with most features included in this one Nextcloud instance.
 
 **Features it includes:**
 
@@ -4618,7 +4618,7 @@ Nexcloud Hub
 
 [RISC OS](https://www.riscosopen.org/content/)
 
-[DietPi](https://github.com/MichaIng/DietPi) ⭐ 6,339 | 🐛 448 | 🌐 Shell | 📅 2026-10-20
+[DietPi](https://github.com/MichaIng/DietPi) ⭐ 6,341 | 🐛 449 | 🌐 Shell | 📅 2026-10-21
 
 [Windows 10 IoT Core](https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core)
 
@@ -4638,17 +4638,17 @@ Nexcloud Hub
 
 [Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi.
 
-[Gladys Assistant](https://github.com/gladysassistant/gladys) ⭐ 3,247 | 🐛 64 | 🌐 JavaScript | 📅 2026-10-20 is a  privacy-first, open-source home assistant and runs great on Raspberry Pi.
+[Gladys Assistant](https://github.com/gladysassistant/gladys) ⭐ 3,247 | 🐛 66 | 🌐 JavaScript | 📅 2026-10-21 is a  privacy-first, open-source home assistant and runs great on Raspberry Pi.
 
 [Kodi for Raspberry Pi](https://kodi.tv/download/853) is a free and open source media player application developed by the XBMC/Kodi Foundation.
 
 [Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
 
-[PiKVM](https://github.com/pikvm/pikvm) ⭐ 10,401 | 🐛 85 | 📅 2026-10-17 is a very simple and fully functional Raspberry Pi-based KVM over IP.
+[PiKVM](https://github.com/pikvm/pikvm) ⭐ 10,406 | 🐛 85 | 📅 2026-10-17 is a very simple and fully functional Raspberry Pi-based KVM over IP.
 
 [PiShrink](https://github.com/Drewsif/PiShrink) ⭐ 4,121 | 🐛 22 | 🌐 Shell | 📅 2026-05-10 is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot.
 
-[RPiPlay](https://github.com/FD-/RPiPlay) ⭐ 5,226 | 🐛 105 | 🌐 C++ | 📅 2023-04-14 is an open-source implementation of an AirPlay mirroring server for the Raspberry Pi that supports iOS 9 and later.
+[RPiPlay](https://github.com/FD-/RPiPlay) ⭐ 5,227 | 🐛 105 | 🌐 C++ | 📅 2023-04-14 is an open-source implementation of an AirPlay mirroring server for the Raspberry Pi that supports iOS 9 and later.
 
 [Gpiozero](https://github.com/gpiozero/gpiozero) ⭐ 2,142 | 🐛 181 | 🌐 Python | 📅 2026-07-27 is a simple interface to GPIO(General-Purpose Input/Output) devices with the Raspberry Pi.
 
@@ -4747,11 +4747,11 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
 
 [Homebridge](https://homebridge.io/) is a software frameowrk that allows you to integrate with smart home devices that do not natively support [HomeKit](https://www.apple.com/shop/accessories/all/homekit). There are over 2,000 Homebridge plugins supporting thousands of different smart accessories.
 
-* [Setup Homebridge on a Raspberry Pi (Raspbian)](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Raspbian) ⭐ 25,521 | 🐛 25 | 🌐 TypeScript | 📅 2026-10-18
-* [Setup Homebridge on Debian or Ubuntu](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Debian-or-Ubuntu-Linux) ⭐ 25,521 | 🐛 25 | 🌐 TypeScript | 📅 2026-10-18
-* [Setup Homebridge on Red Hat, CentOS Stream or Fedora](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Red-Hat%2C-CentOS-or-Fedora-Linux) ⭐ 25,521 | 🐛 25 | 🌐 TypeScript | 📅 2026-10-18
-* [Setup Homebridge on Docker (Linux)](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker) ⭐ 25,521 | 🐛 25 | 🌐 TypeScript | 📅 2026-10-18
-* [Official Homebridge Raspberry Pi Image](https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started) ⭐ 1,091 | 🐛 6 | 🌐 Shell | 📅 2026-10-19
+* [Setup Homebridge on a Raspberry Pi (Raspbian)](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Raspbian) ⭐ 25,523 | 🐛 24 | 🌐 TypeScript | 📅 2026-10-20
+* [Setup Homebridge on Debian or Ubuntu](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Debian-or-Ubuntu-Linux) ⭐ 25,523 | 🐛 24 | 🌐 TypeScript | 📅 2026-10-20
+* [Setup Homebridge on Red Hat, CentOS Stream or Fedora](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Red-Hat%2C-CentOS-or-Fedora-Linux) ⭐ 25,523 | 🐛 24 | 🌐 TypeScript | 📅 2026-10-20
+* [Setup Homebridge on Docker (Linux)](https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker) ⭐ 25,523 | 🐛 24 | 🌐 TypeScript | 📅 2026-10-20
+* [Official Homebridge Raspberry Pi Image](https://github.com/homebridge/homebridge-raspbian-image/wiki/Getting-Started) ⭐ 1,092 | 🐛 5 | 🌐 Shell | 📅 2026-10-20
 
 #### Tools to write the Homebridge image to your boot media(microSD card or USB device)
 
@@ -4769,7 +4769,7 @@ Home Assistant integrations. Credit: [Home Assistant](https://www.home-assistant
   <br />
 </p>
 
-[Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) ⭐ 2,804 | 🐛 37 | 🌐 TypeScript | 📅 2026-10-19 is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
+[Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) ⭐ 2,804 | 🐛 41 | 🌐 TypeScript | 📅 2026-10-21 is a tool that provides an easy to use interface to manage your Homebridge plugins, configuration and accessories.
 
 * Install and configure Homebridge plugins.
 * Monitor your Homebridge server via a fully customisable widget-based dashboard.
@@ -5100,7 +5100,7 @@ priority = 1
 
 [cURL](https://curl.se/) is a computer software project providing a library and command-line tool for transferring data using various network protocols(HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP or SMTPS). cURL is also used in cars, television sets, routers, printers, audio equipment, mobile phones, tablets, settop boxes, media players and is the Internet transfer engine for thousands of software applications in over ten billion installations.
 
-[cURL Fuzzer](https://github.com/curl/curl-fuzzer) ⭐ 100 | 🐛 18 | 🌐 C++ | 📅 2026-10-15 is a quality assurance testing for the curl project.
+[cURL Fuzzer](https://github.com/curl/curl-fuzzer) ⭐ 100 | 🐛 18 | 🌐 C++ | 📅 2026-10-20 is a quality assurance testing for the curl project.
 
 [DoH](https://github.com/curl/doh) ⭐ 433 | 🐛 6 | 🌐 C | 📅 2026-04-28 is a stand-alone application for DoH (DNS-over-HTTPS) name resolves and lookups.
 
@@ -5112,13 +5112,13 @@ priority = 1
 
 [Wireshark](https://www.wireshark.org/) is a very popular network protocol analyzer that is commonly used for network troubleshooting, analysis, and communications protocol development. Learn more about the other useful [Wireshark Tools](https://wiki.wireshark.org/Tools) available.
 
-[HTTPie](https://github.com/httpie/httpie) ⭐ 38,660 | 🐛 353 | 🌐 Python | 📅 2024-12-17 is a command-line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
+[HTTPie](https://github.com/httpie/httpie) ⭐ 38,665 | 🐛 354 | 🌐 Python | 📅 2024-12-17 is a command-line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
 
 [HTTPStat](https://github.com/reorx/httpstat) ⭐ 6,220 | 🐛 9 | 🌐 Python | 📅 2026-04-08 is a tool that visualizes curl statistics in a simple layout.
 
-[Wuzz](https://github.com/asciimoo/wuzz) ⭐ 10,742 | 🐛 42 | 🌐 Go | 📅 2026-08-04 is an interactive cli tool for HTTP inspection. It can be used to inspect/modify requests copied from the browser's network inspector with the "copy as cURL" feature.
+[Wuzz](https://github.com/asciimoo/wuzz) ⭐ 10,743 | 🐛 42 | 🌐 Go | 📅 2026-08-04 is an interactive cli tool for HTTP inspection. It can be used to inspect/modify requests copied from the browser's network inspector with the "copy as cURL" feature.
 
-[Websocat](https://github.com/vi/websocat) ⭐ 8,723 | 🐛 159 | 🌐 Rust | 📅 2026-08-13 is a ommand-line client for WebSockets, like netcat (or curl) for ws\:// with advanced socat-like functions.
+[Websocat](https://github.com/vi/websocat) ⭐ 8,730 | 🐛 159 | 🌐 Rust | 📅 2026-08-13 is a ommand-line client for WebSockets, like netcat (or curl) for ws\:// with advanced socat-like functions.
 
 ```
 • Connection: In networking, a connection refers to pieces of related information that are transferred through a network. This generally infers that a connection is built before the data transfer (by following the procedures laid out in a protocol) and then is deconstructed at the at the end of the data transfer.
@@ -5403,23 +5403,23 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Odo](https://odo.dev/) is a fast, iterative, and straightforward CLI tool for developers who write, build, and deploy applications on Kubernetes and OpenShift.
 
-[Kata Operator](https://github.com/openshift/kata-operator) ⭐ 50 | 🐛 52 | 🌐 Shell | 📅 2026-10-20 is an operator to perform lifecycle management (install/upgrade/uninstall) of [Kata Runtime](https://katacontainers.io/) on Openshift as well as Kubernetes cluster.
+[Kata Operator](https://github.com/openshift/kata-operator) ⭐ 50 | 🐛 49 | 🌐 Shell | 📅 2026-10-21 is an operator to perform lifecycle management (install/upgrade/uninstall) of [Kata Runtime](https://katacontainers.io/) on Openshift as well as Kubernetes cluster.
 
 [Thanos](https://thanos.io/) is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
 
-[OpenShift Hive](https://github.com/openshift/hive) ⭐ 275 | 🐛 8 | 🌐 Go | 📅 2026-10-19 is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
+[OpenShift Hive](https://github.com/openshift/hive) ⭐ 275 | 🐛 9 | 🌐 Go | 📅 2026-10-21 is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
 
 [Rook](https://rook.io/) is a tool that turns distributed storage systems into self-managing, self-scaling, self-healing storage services. It automates the tasks of a storage administrator: deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management.
 
 [VMware Tanzu](https://tanzu.vmware.com/tanzu) is a centralized management platform for consistently operating and securing your Kubernetes infrastructure and modern applications across multiple teams and private/public clouds.
 
-[Kubespray](https://kubespray.io/) is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on [AWS](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/aws.md) ⭐ 18,799 | 🐛 189 | 🌐 Jinja | 📅 2026-10-20, GCE, [Azure](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/azure.md) ⭐ 18,799 | 🐛 189 | 🌐 Jinja | 📅 2026-10-20, [OpenStack](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/openstack.md) ⭐ 18,799 | 🐛 189 | 🌐 Jinja | 📅 2026-10-20, [vSphere](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/vsphere.md) ⭐ 18,799 | 🐛 189 | 🌐 Jinja | 📅 2026-10-20, [Packet](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/packet.md) ⭐ 18,799 | 🐛 189 | 🌐 Jinja | 📅 2026-10-20 (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal.
+[Kubespray](https://kubespray.io/) is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on [AWS](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/aws.md) ⭐ 18,800 | 🐛 189 | 🌐 Jinja | 📅 2026-10-21, GCE, [Azure](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/azure.md) ⭐ 18,800 | 🐛 189 | 🌐 Jinja | 📅 2026-10-21, [OpenStack](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/openstack.md) ⭐ 18,800 | 🐛 189 | 🌐 Jinja | 📅 2026-10-21, [vSphere](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/vsphere.md) ⭐ 18,800 | 🐛 189 | 🌐 Jinja | 📅 2026-10-21, [Packet](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/packet.md) ⭐ 18,800 | 🐛 189 | 🌐 Jinja | 📅 2026-10-21 (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal.
 
 [KubeInit](https://github.com/kubeinit/kubeinit) ⭐ 224 | 🐛 5 | 🌐 Python | 📅 2025-12-05 provides Ansible playbooks and roles for the deployment and configuration of multiple Kubernetes distributions.
 
 [Rancher](https://rancher.com/) is a complete software stack for teams adopting containers. It addresses the operational and security challenges of managing multiple Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized workloads.
 
-[K3s](https://github.com/rancher/k3s) ⭐ 34,231 | 🐛 72 | 🌐 Go | 📅 2026-10-19 is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
+[K3s](https://github.com/rancher/k3s) ⭐ 34,236 | 🐛 91 | 🌐 Go | 📅 2026-10-20 is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
 
 [Helm](https://helm.sh/) is a Kubernetes Package Manager tool that makes it easier to install and manage Kubernetes applications.
 
@@ -5538,7 +5538,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Red Hat OpenShift](https://www.openshift.com/) is focused on security at every level of the container stack and throughout the application lifecycle. It includes long-term, enterprise support from one of the leading Kubernetes contributors and open source software companies.
 
-[OpenShift Hive](https://github.com/openshift/hive) ⭐ 275 | 🐛 8 | 🌐 Go | 📅 2026-10-19 is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
+[OpenShift Hive](https://github.com/openshift/hive) ⭐ 275 | 🐛 9 | 🌐 Go | 📅 2026-10-21 is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
 
 # Databases
 
@@ -5596,7 +5596,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 ## SQL/NoSQL Tools and Databases
 
-[Netdata](https://github.com/netdata/netdata) ⭐ 81,060 | 🐛 447 | 🌐 Go | 📅 2026-10-20 is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
+[Netdata](https://github.com/netdata/netdata) ⭐ 81,077 | 🐛 455 | 🌐 Go | 📅 2026-10-21 is high-fidelity infrastructure monitoring and troubleshooting, real-time monitoring Agent collects thousands of metrics from systems, hardware, containers, and applications with zero configuration. It runs permanently on all your physical/virtual servers, containers, cloud deployments, and edge/IoT devices, and is perfectly safe to install on your systems mid-incident without any preparation.
 
 [Azure Data Studio](https://github.com/Microsoft/azuredatastudio) ⚠️ Archived is an open source data management tool that enables working with SQL Server, Azure SQL DB and SQL DW from Windows, macOS and Linux.
 
@@ -5646,7 +5646,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [InfluxDB](https://www.influxdata.com/) is an open source time series platform.  This includes APIs for storing and querying data, processing it in the background for [ETL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl) or monitoring and alerting purposes, user dashboards, Internet of Things sensor data, and visualizing and exploring the data and more. It also has support for processing data from [Graphite](http://graphiteapp.org/).
 
-[Atlas](https://github.com/Netflix/atlas) ⭐ 3,576 | 🐛 9 | 🌐 Scala | 📅 2026-10-15 is an in-memory dimensional [time series database](https://en.wikipedia.org/wiki/Time_series_database).
+[Atlas](https://github.com/Netflix/atlas) ⭐ 3,576 | 🐛 11 | 🌐 Scala | 📅 2026-10-15 is an in-memory dimensional [time series database](https://en.wikipedia.org/wiki/Time_series_database).
 
 [CouchbaseDB](https://www.couchbase.com/) is an open source distributed [multi-model NoSQL document-oriented database](https://en.wikipedia.org/wiki/Multi-model_database). It creates a key-value store with managed cache for sub-millisecond data operations, with purpose-built indexers for efficient queries and a powerful query engine for executing SQL queries.
 
@@ -5799,13 +5799,13 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 ## Security Tools
 
-[SELinux](https://github.com/SELinuxProject/selinux) ⭐ 1,645 | 🐛 10 | 🌐 C | 📅 2026-10-16 is a security enhancement to Linux which allows users and administrators more control over access control. Access can be constrained on such variables as which users and applications can access which resources. These resources may take the form of files. Standard Linux access controls, such as file modes (-rwxr-xr-x) are modifiable by the user and the applications which the user runs. Conversely, SELinux access controls are determined by a policy loaded on the system which may not be changed by careless users or misbehaving applications.
+[SELinux](https://github.com/SELinuxProject/selinux) ⭐ 1,646 | 🐛 11 | 🌐 C | 📅 2026-10-16 is a security enhancement to Linux which allows users and administrators more control over access control. Access can be constrained on such variables as which users and applications can access which resources. These resources may take the form of files. Standard Linux access controls, such as file modes (-rwxr-xr-x) are modifiable by the user and the applications which the user runs. Conversely, SELinux access controls are determined by a policy loaded on the system which may not be changed by careless users or misbehaving applications.
 
 [AppArmor](https://www.apparmor.net/) is an effective and easy-to-use Linux application security system. AppArmor proactively protects the operating system and applications from external or internal threats, even zero-day attacks, by enforcing good behavior and preventing both known and unknown application flaws from being exploited. AppArmor supplements the traditional Unix discretionary access control (DAC) model by providing mandatory access control (MAC). It has been included in the mainline Linux kernel since version 2.6.36 and its development has been supported by Canonical since 2009.
 
 [Control Groups(Cgroups)](https://www.redhat.com/sysadmin/cgroups-part-one) is a Linux kernel feature that allows you to allocate resources such as CPU time, system memory, network bandwidth, or any combination of these resources for user-defined groups of tasks (processes) running on a system.
 
-[EarlyOOM](https://github.com/rfjakob/earlyoom) ⭐ 4,347 | 🐛 28 | 🌐 C | 📅 2026-10-19 is a daemon for Linux that enables users to more quickly recover and regain control over their system in low-memory situations with heavy swap usage.
+[EarlyOOM](https://github.com/rfjakob/earlyoom) ⭐ 4,350 | 🐛 28 | 🌐 C | 📅 2026-10-19 is a daemon for Linux that enables users to more quickly recover and regain control over their system in low-memory situations with heavy swap usage.
 
 [Libgcrypt](https://www.gnupg.org/related_software/libgcrypt/) is a general purpose cryptographic library originally based on code from GnuPG.
 
@@ -5825,15 +5825,15 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Cilium](https://cilium.io/) uses eBPF to accelerate getting data in and out of L7 proxies such as Envoy, enabling efficient visibility into API protocols like HTTP, gRPC, and Kafka.
 
-[Hubble](https://github.com/cilium/hubble) ⭐ 4,370 | 🐛 43 | 🌐 Makefile | 📅 2026-10-13 is a Network, Service & Security Observability for Kubernetes using eBPF.
+[Hubble](https://github.com/cilium/hubble) ⭐ 4,371 | 🐛 43 | 🌐 Makefile | 📅 2026-10-13 is a Network, Service & Security Observability for Kubernetes using eBPF.
 
 [Istio](https://istio.io/) is an open platform to connect, manage, and secure microservices. Istio's control plane provides an abstraction layer over the underlying cluster management platform, such as Kubernetes and Mesos.
 
-[Certgen](https://github.com/cilium/certgen) ⭐ 31 | 🐛 2 | 🌐 Go | 📅 2026-10-19 is a convenience tool to generate and store certificates for Hubble Relay mTLS.
+[Certgen](https://github.com/cilium/certgen) ⭐ 31 | 🐛 2 | 🌐 Go | 📅 2026-10-21 is a convenience tool to generate and store certificates for Hubble Relay mTLS.
 
 [Scapy](https://scapy.net/) is a python-based interactive packet manipulation program & library.
 
-[syzkaller](https://github.com/google/syzkaller) ⭐ 6,359 | 🐛 632 | 🌐 Go | 📅 2026-10-20 is an unsupervised, coverage-guided kernel fuzzer.
+[syzkaller](https://github.com/google/syzkaller) ⭐ 6,363 | 🐛 635 | 🌐 Go | 📅 2026-10-21 is an unsupervised, coverage-guided kernel fuzzer.
 
 [SchedViz](https://github.com/google/schedviz) ⚠️ Archived is a tool for gathering and visualizing kernel scheduling traces on Linux machines.
 
@@ -5847,7 +5847,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Nmap](https://nmap.org/) is a security scanner used to discover hosts and services on a computer network, thus building a "map" of the network.
 
-[Patchwork](https://github.com/getpatchwork/patchwork) ⭐ 320 | 🐛 109 | 🌐 Python | 📅 2026-10-19 is a web-based patch tracking system designed to facilitate the contribution and management of contributions to an open-source project.
+[Patchwork](https://github.com/getpatchwork/patchwork) ⭐ 320 | 🐛 110 | 🌐 Python | 📅 2026-10-19 is a web-based patch tracking system designed to facilitate the contribution and management of contributions to an open-source project.
 
 [pfSense](https://www.pfsense.org/) is a free and open source firewall and router that also features unified threat management, load balancing, multi WAN, and more.
 
@@ -6003,11 +6003,11 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 ## Differential Privacy Tools
 
-[PySyft](https://github.com/OpenMined/PySyft) ⭐ 10,046 | 🐛 10 | 🌐 Python | 📅 2026-10-20 is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using [Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), [Differential Privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy), and Encrypted Computation (like [Multi-Party Computation (MPC)](https://multiparty.org) and [Homomorphic Encryption (HE)](https://www.microsoft.com/en-us/research/project/homomorphic-encryption/) within the main Deep Learning frameworks like [PyTorch](https://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
+[PySyft](https://github.com/OpenMined/PySyft) ⭐ 10,046 | 🐛 10 | 🌐 Python | 📅 2026-10-21 is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using [Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), [Differential Privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy), and Encrypted Computation (like [Multi-Party Computation (MPC)](https://multiparty.org) and [Homomorphic Encryption (HE)](https://www.microsoft.com/en-us/research/project/homomorphic-encryption/) within the main Deep Learning frameworks like [PyTorch](https://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
 
 [TensorFlow Privacy](https://github.com/tensorflow/privacy) ⭐ 2,040 | 🐛 137 | 🌐 Python | 📅 2026-10-12 is a  Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy. The library comes with tutorials and analysis tools for computing the privacy guarantees provided.
 
-[TensorFlow Federated (TFF)](https://github.com/tensorflow/federated) ⭐ 2,453 | 🐛 300 | 🌐 Python | 📅 2026-10-19 is an open-source framework for machine learning and other computations on decentralized data. TFF has been developed to facilitate open research and experimentation with [Federated Learning (FL)](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), an approach to machine learning where a shared global model is trained across many participating clients that keep their training data locally.
+[TensorFlow Federated (TFF)](https://github.com/tensorflow/federated) ⭐ 2,453 | 🐛 300 | 🌐 Python | 📅 2026-10-20 is an open-source framework for machine learning and other computations on decentralized data. TFF has been developed to facilitate open research and experimentation with [Federated Learning (FL)](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), an approach to machine learning where a shared global model is trained across many participating clients that keep their training data locally.
 
 [Privacy on Beam](https://github.com/google/differential-privacy/tree/main/privacy-on-beam) ⭐ 3,368 | 🐛 88 | 🌐 Go | 📅 2026-10-20 is an end-to-end differential privacy solution built on [Apache Beam](https://beam.apache.org/documentation/). It is intended to be usable by all developers, regardless of their differential privacy expertise.
 
@@ -6017,9 +6017,9 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [BoTorch](https://botorch.org) is a library for Bayesian Optimization built on PyTorch.
 
-[PyTorch Geometric (PyG)](https://github.com/rusty1s/pytorch_geometric) ⭐ 24,128 | 🐛 1,379 | 🌐 Python | 📅 2026-10-06 is a geometric deep learning extension library for [PyTorch](https://pytorch.org/).
+[PyTorch Geometric (PyG)](https://github.com/rusty1s/pytorch_geometric) ⭐ 24,128 | 🐛 1,380 | 🌐 Python | 📅 2026-10-06 is a geometric deep learning extension library for [PyTorch](https://pytorch.org/).
 
-[Skorch](https://github.com/skorch-dev/skorch) ⭐ 6,183 | 🐛 84 | 🌐 Jupyter Notebook | 📅 2026-09-22 is a scikit-learn compatible neural network library that wraps PyTorch.
+[Skorch](https://github.com/skorch-dev/skorch) ⭐ 6,183 | 🐛 85 | 🌐 Jupyter Notebook | 📅 2026-10-21 is a scikit-learn compatible neural network library that wraps PyTorch.
 
 [Diffprivlib](https://github.com/IBM/differential-privacy-library) ⭐ 919 | 🐛 12 | 🌐 Python | 📅 2026-10-12 is the IBM Differential Privacy Library for experimenting with, investigating and developing applications in, differential privacy.
 
@@ -6067,9 +6067,9 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Weka](https://www.cs.waikato.ac.nz/ml/weka/) is an open source machine learning software that can be accessed through a graphical user interface, standard terminal applications, or a Java API. It is widely used for teaching, research, and industrial applications, contains a plethora of built-in tools for standard machine learning tasks, and additionally gives transparent access to well-known toolboxes such as scikit-learn, R, and Deeplearning4j.
 
-[Caffe](https://github.com/BVLC/caffe) ⭐ 34,558 | 🐛 1,175 | 🌐 C++ | 📅 2024-07-31 is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors.
+[Caffe](https://github.com/BVLC/caffe) ⭐ 34,553 | 🐛 1,176 | 🌐 C++ | 📅 2024-07-31 is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors.
 
-[Theano](https://github.com/Theano/Theano) ⭐ 10,008 | 🐛 699 | 🌐 Python | 📅 2024-01-15 is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently including tight integration with NumPy.
+[Theano](https://github.com/Theano/Theano) ⭐ 10,010 | 🐛 699 | 🌐 Python | 📅 2024-01-15 is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently including tight integration with NumPy.
 
 [nGraph](https://github.com/NervanaSystems/ngraph) ⚠️ Archived is an open source C++ library, compiler and runtime for Deep Learning. The nGraph Compiler aims to accelerate developing AI workloads using any deep learning framework and deploying to a variety of hardware targets.It provides the freedom, performance, and ease-of-use to AI developers.
 
@@ -6083,7 +6083,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Apache PredictionIO](https://predictionio.apache.org/) is an open source machine learning framework for developers, data scientists, and end users. It supports event collection, deployment of algorithms, evaluation, querying predictive results via REST APIs. It is based on scalable open source services like Hadoop, HBase (and other DBs), Elasticsearch, Spark and implements what is called a Lambda Architecture.
 
-[Cluster Manager for Apache Kafka(CMAK)](https://github.com/yahoo/CMAK) ⭐ 11,917 | 🐛 521 | 🌐 Scala | 📅 2023-08-02 is a tool for managing [Apache Kafka](https://kafka.apache.org/) clusters.
+[Cluster Manager for Apache Kafka(CMAK)](https://github.com/yahoo/CMAK) ⭐ 11,918 | 🐛 521 | 🌐 Scala | 📅 2023-08-02 is a tool for managing [Apache Kafka](https://kafka.apache.org/) clusters.
 
 [BigDL](https://bigdl-project.github.io/) is a distributed deep learning library for Apache Spark. With BigDL, users can write their deep learning applications as standard Spark programs, which can directly run on top of existing Spark or Hadoop clusters.
 
@@ -6101,11 +6101,11 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Eclipse Deeplearning4J (DL4J)](https://deeplearning4j.konduit.ai/) is a set of projects intended to support all the needs of a JVM-based(Scala, Kotlin, Clojure, and Groovy) deep learning application. This means starting with the raw data, loading and preprocessing it from wherever and whatever format it is in to building and tuning a wide variety of simple and complex deep learning networks.
 
-[Numba](https://github.com/numba/numba) ⭐ 11,181 | 🐛 1,824 | 🌐 Python | 📅 2026-10-16 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
+[Numba](https://github.com/numba/numba) ⭐ 11,182 | 🐛 1,824 | 🌐 Python | 📅 2026-10-20 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
 
 [Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using [CuPy](https://github.com/cupy/cupy) ⭐ 12,369 | 🐛 668 | 🌐 Python | 📅 2026-10-20 for high performance training and inference.
 
-[cuML](https://github.com/rapidsai/cuml) ⭐ 5,306 | 🐛 801 | 🌐 Python | 📅 2026-10-20 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
+[cuML](https://github.com/rapidsai/cuml) ⭐ 5,306 | 🐛 791 | 🌐 Python | 📅 2026-10-21 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
 
 ## Online ML Learning Resources
 
@@ -6209,7 +6209,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [OpenIoT](https://github.com/OpenIotOrg/openiot) ⭐ 471 | 🐛 98 | 🌐 Java | 📅 2023-02-22 is an open source middleware infrastructure will support flexible configuration and deployment of algorithms for collection, and filtering information streams stemming from the internet-connected objects, while at the same time generating and processing important business/applications events.
 
-[OpenRemote](https://github.com/openremote/openremote) ⭐ 1,929 | 🐛 473 | 🌐 Java | 📅 2026-10-20 is an open source middleware project, which integrates many different protocols and solutions available for smart building, and smart city automation, and offers visualization tools.
+[OpenRemote](https://github.com/openremote/openremote) ⭐ 1,929 | 🐛 475 | 🌐 Java | 📅 2026-10-21 is an open source middleware project, which integrates many different protocols and solutions available for smart building, and smart city automation, and offers visualization tools.
 
 [Kaa](https://www.kaaproject.org/platform/) is a Enterprise IoT Platform has been designed with heavy-duty, enterprise-grade IoT solutions in mind. It banishes a monolithic approach to architecture in favour of highly portable microservices, which allow for flexible rearrangement and customization even in the middle of the solution's lifecycle.
 
@@ -6267,7 +6267,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Back to the Top](https://github.com/mikeroyal/Self-Hosting-Guide#table-of-contents)
 
-[Home Assistant](https://github.com/home-assistant/core) ⭐ 91,621 | 🐛 3,371 | 🌐 Python | 📅 2026-10-20 is open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+[Home Assistant](https://github.com/home-assistant/core) ⭐ 91,628 | 🐛 3,368 | 🌐 Python | 📅 2026-10-21 is open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 
 [openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc.
 
@@ -6312,11 +6312,11 @@ commercially available industrial robot models that you can import, visualize, a
 
 [ArduPilot](https://ardupilot.org/ardupilot/index.html) enables the creation and use of trusted, autonomous, unmanned vehicle systems for the peaceful benefit of all. ArduPilot provides a comprehensive suite of tools suitable for almost any vehicle and application.
 
-[AirSim](https://github.com/Microsoft/AirSim) ⭐ 18,564 | 🐛 781 | 🌐 C++ | 📅 2026-09-15 is a simulator for drones, cars and more, built on Unreal Engine (we now also have an experimental Unity release). It is open-source, cross platform, and supports hardware-in-loop with popular flight controllers such as PX4 for physically and visually realistic simulations.
+[AirSim](https://github.com/Microsoft/AirSim) ⭐ 18,563 | 🐛 781 | 🌐 C++ | 📅 2026-09-15 is a simulator for drones, cars and more, built on Unreal Engine (we now also have an experimental Unity release). It is open-source, cross platform, and supports hardware-in-loop with popular flight controllers such as PX4 for physically and visually realistic simulations.
 
-[F´ (F Prime)](https://github.com/nasa/fprime) ⭐ 11,847 | 🐛 480 | 🌐 C++ | 📅 2026-10-19 is a component-driven framework that enables rapid development and deployment of spaceflight and other embedded software applications. Originally developed at the Jet Propulsion Laboratory, F´ has been successfully deployed on several space applications.
+[F´ (F Prime)](https://github.com/nasa/fprime) ⭐ 11,828 | 🐛 481 | 🌐 C++ | 📅 2026-10-20 is a component-driven framework that enables rapid development and deployment of spaceflight and other embedded software applications. Originally developed at the Jet Propulsion Laboratory, F´ has been successfully deployed on several space applications.
 
-[The JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover) ⭐ 9,721 | 🐛 18 | 🌐 HTML | 📅 2026-09-03 is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
+[The JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover) ⭐ 9,723 | 🐛 18 | 🌐 HTML | 📅 2026-09-03 is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
 
 [Light Detection and Ranging(LiDAR)](https://en.wikipedia.org/wiki/Lidar) is a remote sensing method that uses light in the form of a pulsed laser at an object, and uses the time and wavelength of the reflected beam of light to estimate the distance and in some applications ([Laser Imaging](https://en.wikipedia.org/wiki/Laser_scanning)), to create a 3D representation of the object and its surface characteristics. This technology is commonly used in aircraft and self-driving vehicles.
 
@@ -6328,15 +6328,15 @@ commercially available industrial robot models that you can import, visualize, a
 
 [g2core](https://github.com/synthetos/g2) ⭐ 678 | 🐛 138 | 🌐 C++ | 📅 2023-07-20 is an open-source motion control software for CNC and Robotics, designed to run on Arduino Due class microcontrollers.
 
-[ur5controller](https://github.com/roboticsleeds/ur5controller) ⭐ 34 | 🐛 0 | 🌐 Python | 📅 2020-06-22 is an open-source OpenRAVE controller for UR5 robot integrated with ROS.
+[ur5controller](https://github.com/roboticsleeds/ur5controller) ⭐ 32 | 🐛 0 | 🌐 Python | 📅 2020-06-22 is an open-source OpenRAVE controller for UR5 robot integrated with ROS.
 
 [RBDL](https://github.com/rbdl/rbdl) ⭐ 709 | 🐛 33 | 🌐 C++ | 📅 2025-06-09 is an open-source (zlib) C++ libray for both forward and inverse dynamics and kinematics. Also supports contacts and loops.
 
 [Unity Robotics Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub) ⭐ 2,598 | 🐛 56 | 🌐 C# | 📅 2026-09-22 is a Central repository for open-source Unity packages, tutorials, and other resources demonstrating how to use Unity for robotics simulations. Includes new support for ROS integration.
 
-[AliceVision](https://github.com/alicevision/AliceVision) ⭐ 3,517 | 🐛 34 | 🌐 C++ | 📅 2026-10-20 is a Photogrammetric Computer Vision Framework which provides a 3D Reconstruction and Camera Tracking algorithms. AliceVision aims to provide strong software basis with state-of-the-art computer vision algorithms that can be tested, analyzed and reused. The project is a result of collaboration between academia and industry to provide cutting-edge algorithms with the robustness and the quality required for production usage.
+[AliceVision](https://github.com/alicevision/AliceVision) ⭐ 3,517 | 🐛 33 | 🌐 C++ | 📅 2026-10-21 is a Photogrammetric Computer Vision Framework which provides a 3D Reconstruction and Camera Tracking algorithms. AliceVision aims to provide strong software basis with state-of-the-art computer vision algorithms that can be tested, analyzed and reused. The project is a result of collaboration between academia and industry to provide cutting-edge algorithms with the robustness and the quality required for production usage.
 
-[CARLA](https://github.com/carla-simulator/carla) ⭐ 14,508 | 🐛 1,206 | 🌐 C++ | 📅 2026-10-20 is an open-source simulator for autonomous driving research. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites and environmental conditions.
+[CARLA](https://github.com/carla-simulator/carla) ⭐ 14,512 | 🐛 1,207 | 🌐 C++ | 📅 2026-10-21 is an open-source simulator for autonomous driving research. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites and environmental conditions.
 
 [ROS bridge](https://github.com/carla-simulator/ros-bridge) ⭐ 646 | 🐛 186 | 🌐 Python | 📅 2026-08-16 is a package to bridge ROS for CARLA Simulator.
 
@@ -6444,7 +6444,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Truffle](https://trufflesuite.com/) is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier.
 
-[Ethers.js](https://github.com/ethers-io/ethers.js/) ⭐ 8,719 | 🐛 669 | 🌐 TypeScript | 📅 2026-06-18 is a library which was made for and is used by ethers.io. It is designed to make it easier to write client-side JavaScript based wallets, keeping the private key on the owner’s machine at all times.
+[Ethers.js](https://github.com/ethers-io/ethers.js/) ⭐ 8,719 | 🐛 670 | 🌐 TypeScript | 📅 2026-06-18 is a library which was made for and is used by ethers.io. It is designed to make it easier to write client-side JavaScript based wallets, keeping the private key on the owner’s machine at all times.
 
 [OpenEthereum](https://github.com/openethereum/openethereum) ⚠️ Archived is a fast and feature-rich multi-network Ethereum client.
 
@@ -6473,7 +6473,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Node.js](https://nodejs.org/) is a JavaScript runtime built on Chrome's V8 JavaScript engine that lets developers write command line tools and server-side scripts outside of a browser.
 
-[Node.js Build Working Group](https://github.com/nodejs/build) ⭐ 544 | 🐛 170 | 🌐 Jinja | 📅 2026-10-20 maintains and controls infrastructure used for continuous integration (CI), releases, benchmarks, web hosting (of nodejs.org and other Node.js web properties) and more.
+[Node.js Build Working Group](https://github.com/nodejs/build) ⭐ 544 | 🐛 175 | 🌐 Jinja | 📅 2026-10-21 maintains and controls infrastructure used for continuous integration (CI), releases, benchmarks, web hosting (of nodejs.org and other Node.js web properties) and more.
 
 [The OpenJS Foundation](https://openjsf.org/) is made up of 32 open source JavaScript projects including Appium, Dojo, Electron, jQuery, Node.js, and webpack. The foundation's mission is to support the healthy growth of JavaScript and web technologies by providing a neutral organization to host and sustain projects, as well as collaboratively fund activities that benefit the ecosystem as a whole.
 
@@ -6485,7 +6485,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Node.js App Hosting & Deployment in Microsoft Azure](https://azure.microsoft.com/en-us/develop/nodejs/)
 
-[The Node.js best practices list ](https://github.com/goldbergyoni/nodebestpractices) ⭐ 105,663 | 🐛 139 | 🌐 Dockerfile | 📅 2026-06-15
+[The Node.js best practices list ](https://github.com/goldbergyoni/nodebestpractices) ⭐ 105,668 | 🐛 139 | 🌐 Dockerfile | 📅 2026-06-15
 
 [Introduction to Node.js by W3Schools](https://www.w3schools.com/nodejs/nodejs_intro.asp)
 
@@ -6501,21 +6501,21 @@ commercially available industrial robot models that you can import, visualize, a
 
 [NPM](https://www.npmjs.com/) is the company behind Node package manager, the npm Registry, and npm CLI.
 
-[node-gyp](https://github.com/nodejs/node-gyp) ⭐ 10,713 | 🐛 173 | 🌐 Python | 📅 2026-10-20 is a cross-platform command-line tool written in Node.js for compiling native addon modules for Node.js. It contains a vendored copy of the gyp-next project that was previously used by the Chromium team, extended to support the development of Node.js native addons.
+[node-gyp](https://github.com/nodejs/node-gyp) ⭐ 10,714 | 🐛 173 | 🌐 Python | 📅 2026-10-20 is a cross-platform command-line tool written in Node.js for compiling native addon modules for Node.js. It contains a vendored copy of the gyp-next project that was previously used by the Chromium team, extended to support the development of Node.js native addons.
 
-[nvm ](https://github.com/nvm-sh/nvm) ⭐ 95,589 | 🐛 387 | 🌐 Shell | 📅 2026-10-10 is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
+[nvm ](https://github.com/nvm-sh/nvm) ⭐ 95,606 | 🐛 387 | 🌐 Shell | 📅 2026-10-10 is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
 
 [node-docker](https://hub.docker.com/_/node/) is the official Node.js docker image, made with love by the node community.
 
-[Mocha](https://github.com/mochajs/mocha) ⭐ 22,911 | 🐛 227 | 🌐 JavaScript | 📅 2026-10-19 is a simple, flexible, fun JavaScript test framework for Node.js & The Browser.
+[Mocha](https://github.com/mochajs/mocha) ⭐ 22,906 | 🐛 228 | 🌐 JavaScript | 📅 2026-10-21 is a simple, flexible, fun JavaScript test framework for Node.js & The Browser.
 
 [AVA](https://github.com/avajs/ava) ⭐ 20,824 | 🐛 74 | 🌐 JavaScript | 📅 2026-10-18 is a test runner for Node.js with a concise API, detailed error output, embrace of new language features and process isolation that lets you develop with confidence.
 
 [egg](https://eggjs.org/) is a born to build better enterprise frameworks and apps with Node.js & Koa.
 
-[mysqljs](https://github.com/mysqljs/mysql) ⭐ 18,609 | 🐛 177 | 🌐 JavaScript | 📅 2024-06-25 is a pure node.js JavaScript Client implementing the MySQL protocol.
+[mysqljs](https://github.com/mysqljs/mysql) ⭐ 18,610 | 🐛 177 | 🌐 JavaScript | 📅 2024-06-25 is a pure node.js JavaScript Client implementing the MySQL protocol.
 
-[axios](https://github.com/axios/axios) ⭐ 109,304 | 🐛 107 | 🌐 JavaScript | 📅 2026-10-20 is a promise based HTTP client for the browser and node.js.
+[axios](https://github.com/axios/axios) ⭐ 109,302 | 🐛 113 | 🌐 JavaScript | 📅 2026-10-21 is a promise based HTTP client for the browser and node.js.
 
 [Fastify](https://www.fastify.io/) is a fast and low overhead web framework, for Node.js.
 
@@ -6576,7 +6576,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Chromium C++ Style Guide](https://chromium.googlesource.com/chromium/src/+/master/styleguide/c++/c++.md)
 
-[C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md) ⭐ 45,394 | 🐛 248 | 🌐 CSS | 📅 2026-10-01
+[C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md) ⭐ 45,393 | 🐛 248 | 🌐 CSS | 📅 2026-10-01
 
 [C++ Style Guide for ROS](http://wiki.ros.org/CppStyleGuide)
 
@@ -6622,7 +6622,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Visual Studio Code](https://code.visualstudio.com/) is a code editor redefined and optimized for building and debugging modern web and cloud applications.
 
-[Vcpkg](https://github.com/microsoft/vcpkg) ⭐ 27,529 | 🐛 1,129 | 🌐 CMake | 📅 2026-10-20 is a C++ Library Manager for Windows, Linux, and MacOS.
+[Vcpkg](https://github.com/microsoft/vcpkg) ⭐ 27,528 | 🐛 1,109 | 🌐 CMake | 📅 2026-10-21 is a C++ Library Manager for Windows, Linux, and MacOS.
 
 [ReSharper C++](https://www.jetbrains.com/resharper-cpp/features/) is a Visual Studio Extension for C++ developers developed by JetBrains.
 
@@ -6632,7 +6632,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Code::Blocks](https://www.codeblocks.org/) is a free C/C++ and Fortran IDE built to meet the most demanding needs of its users. It is designed to be very extensible and fully configurable. Built around a plugin framework, Code::Blocks can be extended with plugins.
 
-[CppSharp](https://github.com/mono/CppSharp) ⭐ 3,403 | 🐛 347 | 🌐 C# | 📅 2026-05-18 is a tool and set of libraries which facilitates the usage of native C/C++ code with the .NET ecosystem. It consumes C/C++ header and library files and generates the necessary glue code to surface the native API as a managed API. Such an API can be used to consume an existing native library in your managed code or add managed scripting support to a native codebase.
+[CppSharp](https://github.com/mono/CppSharp) ⭐ 3,404 | 🐛 347 | 🌐 C# | 📅 2026-05-18 is a tool and set of libraries which facilitates the usage of native C/C++ code with the .NET ecosystem. It consumes C/C++ header and library files and generates the necessary glue code to surface the native API as a managed API. Such an API can be used to consume an existing native library in your managed code or add managed scripting support to a native codebase.
 
 [Conan](https://conan.io/) is an Open Source Package Manager for C++ development and dependency management into the 21st century and on par with the other development ecosystems.
 
@@ -6674,7 +6674,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Cython](https://cython.org/) is a language that makes writing C extensions for Python as easy as Python itself. Cython is based on Pyrex, but supports more cutting edge functionality and optimizations such as calling C functions and declaring C types on variables and class attributes.
 
-[Spdlog](https://github.com/gabime/spdlog) ⭐ 29,707 | 🐛 55 | 🌐 C++ | 📅 2026-10-16 is a very fast, header-only/compiled, C++ logging library.
+[Spdlog](https://github.com/gabime/spdlog) ⭐ 29,699 | 🐛 55 | 🌐 C++ | 📅 2026-10-16 is a very fast, header-only/compiled, C++ logging library.
 
 [Infer](https://fbinfer.com/) is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in [OCaml](https://ocaml.org/).
 
@@ -6731,13 +6731,13 @@ commercially available industrial robot models that you can import, visualize, a
 
 [NetBeans](https://netbeans.org/features/java/index.html) is an IDE provides Java developers with all the tools needed to create professional desktop, mobile and enterprise applications. Creating, Editing, and Refactoring. The IDE provides wizards and templates to let you create Java EE, Java SE, and Java ME applications.
 
-[Java Design Patterns ](https://github.com/iluwatar/java-design-patterns) ⭐ 94,798 | 🐛 141 | 🌐 Java | 📅 2026-10-08 is a collection of the best formalized practices a programmer can use to solve common problems when designing an application or system.
+[Java Design Patterns ](https://github.com/iluwatar/java-design-patterns) ⭐ 94,803 | 🐛 141 | 🌐 Java | 📅 2026-10-08 is a collection of the best formalized practices a programmer can use to solve common problems when designing an application or system.
 
 [Elasticsearch](https://www.elastic.co/products/elasticsearch) is a distributed RESTful search engine built for the cloud written in Java.
 
 [RxJava](https://github.com/ReactiveX/RxJava) ⭐ 48,177 | 🐛 11 | 🌐 Java | 📅 2026-10-19 is a Java VM implementation of [Reactive Extensions](http://reactivex.io/): a library for composing asynchronous and event-based programs by using observable sequences. It extends the [observer pattern](http://en.wikipedia.org/wiki/Observer_pattern) to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.
 
-[Guava](https://github.com/google/guava) ⭐ 51,912 | 🐛 758 | 🌐 Java | 📅 2026-10-20 is a set of core Java libraries from Google that includes new collection types (such as multimap and multiset), immutable collections, a graph library, and utilities for concurrency, I/O, hashing, caching, primitives, strings, and more! It is widely used on most Java projects within Google, and widely used by many other companies as well.
+[Guava](https://github.com/google/guava) ⭐ 51,915 | 🐛 756 | 🌐 Java | 📅 2026-10-20 is a set of core Java libraries from Google that includes new collection types (such as multimap and multiset), immutable collections, a graph library, and utilities for concurrency, I/O, hashing, caching, primitives, strings, and more! It is widely used on most Java projects within Google, and widely used by many other companies as well.
 
 [okhttp](https://square.github.io/okhttp/) is a HTTP client for Java and Kotlin developed by Square.
 
@@ -6839,9 +6839,9 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Python Tools for Visual Studio(PTVS)](https://microsoft.github.io/PTVS/) is a free, open source plugin that turns Visual Studio into a Python IDE. It supports editing, browsing, IntelliSense, mixed Python/C++ debugging, remote Linux/MacOS debugging, profiling, IPython, and web development with Django and other frameworks.
 
-[Pylance](https://github.com/microsoft/pylance-release) ⭐ 2,132 | 🐛 15 | 🌐 Python | 📅 2026-10-16 is an extension that works alongside Python in Visual Studio Code to provide performant language support. Under the hood, Pylance is powered by Pyright, Microsoft's static type checking tool.
+[Pylance](https://github.com/microsoft/pylance-release) ⭐ 2,132 | 🐛 15 | 🌐 Python | 📅 2026-10-21 is an extension that works alongside Python in Visual Studio Code to provide performant language support. Under the hood, Pylance is powered by Pyright, Microsoft's static type checking tool.
 
-[Pyright](https://github.com/Microsoft/pyright) ⭐ 15,690 | 🐛 359 | 🌐 Python | 📅 2026-10-19 is a fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified.
+[Pyright](https://github.com/Microsoft/pyright) ⭐ 15,692 | 🐛 358 | 🌐 Python | 📅 2026-10-20 is a fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified.
 
 [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 
@@ -6853,21 +6853,21 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Tornado](https://www.tornadoweb.org/) is a Python web framework and asynchronous networking library. Tornado uses a non-blocking network I/O, which can scale to tens of thousands of open connections.
 
-[HTTPie](https://github.com/httpie/httpie) ⭐ 38,660 | 🐛 353 | 🌐 Python | 📅 2024-12-17 is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
+[HTTPie](https://github.com/httpie/httpie) ⭐ 38,665 | 🐛 354 | 🌐 Python | 📅 2024-12-17 is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
 
 [Scrapy](https://scrapy.org/) is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.
 
 [Sentry](https://sentry.io/) is a service that helps you monitor and fix crashes in realtime. The server is in Python, but it contains a full API for sending events from any language, in any application.
 
-[Pipenv](https://github.com/pypa/pipenv) ⭐ 25,021 | 🐛 9 | 🌐 Python | 📅 2026-10-20 is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.
+[Pipenv](https://github.com/pypa/pipenv) ⭐ 25,021 | 🐛 9 | 🌐 Python | 📅 2026-10-21 is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.
 
-[Python Fire](https://github.com/google/python-fire) ⭐ 28,227 | 🐛 213 | 🌐 Python | 📅 2026-07-01 is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+[Python Fire](https://github.com/google/python-fire) ⭐ 28,229 | 🐛 213 | 🌐 Python | 📅 2026-07-01 is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
 
 [Bottle](https://github.com/bottlepy/bottle) ⭐ 8,798 | 🐛 289 | 🌐 Python | 📅 2026-10-10 is a fast, simple and lightweight [WSGI](https://www.wsgi.org/) micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the [Python Standard Library](https://docs.python.org/library/).
 
 [CherryPy](https://cherrypy.org) is a minimalist Python object-oriented HTTP web framework.
 
-[Sanic](https://github.com/huge-success/sanic) ⭐ 18,640 | 🐛 160 | 🌐 Python | 📅 2026-07-29 is a Python 3.6+ web server and web framework that's written to go fast.
+[Sanic](https://github.com/huge-success/sanic) ⭐ 18,642 | 🐛 160 | 🌐 Python | 📅 2026-07-29 is a Python 3.6+ web server and web framework that's written to go fast.
 
 [Pyramid](https://trypyramid.com) is a small and fast open source Python web framework. It makes real-world web application development and deployment more fun and more productive.
 
@@ -6879,11 +6879,11 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Dash](https://plotly.com/dash) is a popular Python framework for building ML & data science web apps for Python, R, Julia, and Jupyter.
 
-[Luigi](https://github.com/spotify/luigi) ⭐ 18,783 | 🐛 192 | 🌐 Python | 📅 2026-10-14 is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built-in.
+[Luigi](https://github.com/spotify/luigi) ⭐ 18,784 | 🐛 192 | 🌐 Python | 📅 2026-10-14 is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built-in.
 
-[Locust](https://github.com/locustio/locust) ⭐ 28,226 | 🐛 4 | 🌐 Python | 📅 2026-10-18 is an easy to use, scriptable and scalable performance testing tool.
+[Locust](https://github.com/locustio/locust) ⭐ 28,228 | 🐛 6 | 🌐 Python | 📅 2026-10-18 is an easy to use, scriptable and scalable performance testing tool.
 
-[spaCy](https://github.com/explosion/spaCy) ⭐ 33,976 | 🐛 253 | 🌐 Python | 📅 2026-10-12 is a library for advanced Natural Language Processing in Python and Cython.
+[spaCy](https://github.com/explosion/spaCy) ⭐ 33,981 | 🐛 254 | 🌐 Python | 📅 2026-10-12 is a library for advanced Natural Language Processing in Python and Cython.
 
 [NumPy](https://www.numpy.org/) is the fundamental package needed for scientific computing with Python.
 
@@ -6932,45 +6932,45 @@ commercially available industrial robot models that you can import, visualize, a
 
 ## Rust Tools
 
-[Cargo](https://github.com/rust-lang/cargo) ⭐ 15,612 | 🐛 1,687 | 🌐 Rust | 📅 2026-10-20 is a package manager that downloads your Rust project’s dependencies and compiles your project.
+[Cargo](https://github.com/rust-lang/cargo) ⭐ 15,615 | 🐛 1,687 | 🌐 Rust | 📅 2026-10-21 is a package manager that downloads your Rust project’s dependencies and compiles your project.
 
 [Crater](https://crater.rust-lang.org/) is a tool to run experiments across parts of the Rust ecosystem. Its primary purpose is to detect regressions in the Rust compiler, and it does this by building a large number of crates, running their test suites and comparing the results between two versions of the Rust compiler. It can operate locally (with Docker as the only dependency) or distributed on the cloud.
 
 [VSCode-Rust](https://github.com/rust-lang/vscode-rust) ⚠️ Archived is plugin that adds language support for Rust to Visual Studio Code. Rust support is powered by a separate language server - either by the official Rust Language Server (RLS) or rust-analyzer, depending on the user's preference. If you don't have it installed, the extension will install it for you (with permission). This extension is built and maintained by the Rust IDEs and editors team with the focus on providing a stable, high quality extension that makes the best use of the respective language server.
 
-[Apache Arrow](https://github.com/apache/arrow) ⭐ 17,216 | 🐛 2,469 | 🌐 C++ | 📅 2026-10-20 is a development platform for in-memory analytics. It contains a set of technologies that enable big data systems to process and move data fast. Arrow's libraries are available for C, C++, C#, Go, Java, JavaScript, MATLAB, Python, R, Ruby, and Rust.
+[Apache Arrow](https://github.com/apache/arrow) ⭐ 17,216 | 🐛 2,470 | 🌐 C++ | 📅 2026-10-21 is a development platform for in-memory analytics. It contains a set of technologies that enable big data systems to process and move data fast. Arrow's libraries are available for C, C++, C#, Go, Java, JavaScript, MATLAB, Python, R, Ruby, and Rust.
 
-[Wasmer](https://wasmer.io/) enables super lightweight containers based on [WebAssembly](https://webassembly.org/) that can run anywhere such as the Desktop to the Cloud and IoT devices, and also embedded in [any programming language](https://github.com/wasmerio/wasmer#language-integrations) ⭐ 21,177 | 🐛 294 | 🌐 Rust | 📅 2026-10-20.
+[Wasmer](https://wasmer.io/) enables super lightweight containers based on [WebAssembly](https://webassembly.org/) that can run anywhere such as the Desktop to the Cloud and IoT devices, and also embedded in [any programming language](https://github.com/wasmerio/wasmer#language-integrations) ⭐ 21,183 | 🐛 295 | 🌐 Rust | 📅 2026-10-20.
 
 [Firecracker](https://firecracker-microvm.github.io) is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models. Firecracker runs workloads in lightweight virtual machines, called microVMs, which combine the security and isolation properties provided by hardware virtualization technology with the speed and flexibility of containers. Firecracker has also been integrated in container runtimes, for example [Kata Containers](https://github.com/kata-containers/documentation/wiki/Initial-release-of-Kata-Containers-with-Firecracker-support) ⚠️ Archived and [Weaveworks Ignite](https://github.com/weaveworks/ignite) ⚠️ Archived.
 
-[Tokio](https://github.com/tokio-rs/tokio) ⭐ 33,462 | 🐛 443 | 🌐 Rust | 📅 2026-10-19 is an event-driven, non-blocking I/O platform for writing asynchronous applications with the Rust programming language.
+[Tokio](https://github.com/tokio-rs/tokio) ⭐ 33,470 | 🐛 434 | 🌐 Rust | 📅 2026-10-21 is an event-driven, non-blocking I/O platform for writing asynchronous applications with the Rust programming language.
 
-[TiKV](https://github.com/tikv/tikv) ⭐ 16,918 | 🐛 1,891 | 🌐 Rust | 📅 2026-10-19 is an open-source distributed transactional key-value database that also provides classical key-vlue APIs, but also transactional APIs with ACID compliance.
+[TiKV](https://github.com/tikv/tikv) ⭐ 16,918 | 🐛 1,890 | 🌐 Rust | 📅 2026-10-21 is an open-source distributed transactional key-value database that also provides classical key-vlue APIs, but also transactional APIs with ACID compliance.
 
 [Sonic](https://crates.io/crates/sonic-server) is a fast, lightweight and schema-less search backend similar to Elasticsearch in some use-cases.
 
-[Hyper](https://github.com/hyperium/hyper) ⭐ 16,367 | 🐛 221 | 🌐 Rust | 📅 2026-10-13 is a fast and correct HTTP library for Rust.
+[Hyper](https://github.com/hyperium/hyper) ⭐ 16,367 | 🐛 222 | 🌐 Rust | 📅 2026-10-13 is a fast and correct HTTP library for Rust.
 
-[Rocket](https://github.com/SergioBenitez/Rocket) ⭐ 25,776 | 🐛 93 | 🌐 Rust | 📅 2025-12-28 is an async web framework for Rust with a focus on usability, security, extensibility, and speed.
+[Rocket](https://github.com/SergioBenitez/Rocket) ⭐ 25,775 | 🐛 94 | 🌐 Rust | 📅 2025-12-28 is an async web framework for Rust with a focus on usability, security, extensibility, and speed.
 
 [Clippy](https://rust-lang.github.io/rust-clippy/) is a collection of lints to catch common mistakes and improve your Rust code.
 
-[Servo](https://github.com/servo/servo) ⭐ 38,199 | 🐛 3,171 | 🌐 Rust | 📅 2026-10-20 is a prototype web browser engine written in the Rust language.
+[Servo](https://github.com/servo/servo) ⭐ 38,207 | 🐛 3,177 | 🌐 Rust | 📅 2026-10-21 is a prototype web browser engine written in the Rust language.
 
 [Vector](https://vector.dev/) is a high-performance, end-to-end (agent & aggregator) observability data platform that puts the user in control of their observability data.
 
-[RustPython](https://github.com/RustPython/RustPython) ⭐ 22,409 | 🐛 297 | 🌐 Rust | 📅 2026-10-20 is a Python Interpreter written in Rust.
+[RustPython](https://github.com/RustPython/RustPython) ⭐ 22,408 | 🐛 300 | 🌐 Rust | 📅 2026-10-21 is a Python Interpreter written in Rust.
 
-[Miri](https://github.com/rust-lang/miri) ⭐ 6,667 | 🐛 199 | 🌐 Rust | 📅 2026-10-20 is an interpreter for Rust's mid-level intermediate representation. It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. Miri will alsowill also tell you about memory leaks: when there is memory still allocated at the end of the execution, and that memory is not reachable from a global static, Miri will raise an error.
+[Miri](https://github.com/rust-lang/miri) ⭐ 6,670 | 🐛 200 | 🌐 Rust | 📅 2026-10-21 is an interpreter for Rust's mid-level intermediate representation. It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. Miri will alsowill also tell you about memory leaks: when there is memory still allocated at the end of the execution, and that memory is not reachable from a global static, Miri will raise an error.
 
 [Chalk](https://rust-lang.github.io/chalk/book/) is an implementation and definition of the Rust trait system using a PROLOG-like logic solver.
 
 [stdarch](https://doc.rust-lang.org/stable/core/arch/) is Rust's standard library vendor-specific APIs and run-time feature detection.
 
-[Simpleinfra](https://github.com/rust-lang/simpleinfra) ⭐ 179 | 🐛 72 | 🌐 HCL | 📅 2026-10-20 is rep that contains the tools and automation written by the Rust infrastructure team to manage our services. Using some of the tools in this repo require privileges only infra team members have.
+[Simpleinfra](https://github.com/rust-lang/simpleinfra) ⭐ 179 | 🐛 73 | 🌐 HCL | 📅 2026-10-20 is rep that contains the tools and automation written by the Rust infrastructure team to manage our services. Using some of the tools in this repo require privileges only infra team members have.
 
-[Rustlings](https://github.com/rust-lang/rustlings) ⭐ 64,399 | 🐛 38 | 🌐 Rust | 📅 2026-09-29 is a small set of exercises to get you used to reading and writing Rust code.
+[Rustlings](https://github.com/rust-lang/rustlings) ⭐ 64,411 | 🐛 38 | 🌐 Rust | 📅 2026-09-29 is a small set of exercises to get you used to reading and writing Rust code.
 
 [Krustlet](https://krustlet.dev/) acts as a Kubernetes Kubelet(written in Rust) by listening on the event stream for new pods that the scheduler assigns to it based on specific Kubernetes [tolerations](https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/). The project is currently experimental.
 
@@ -6978,7 +6978,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Redox](https://www.redox-os.org) is a Unix-like Operating System written in Rust, aiming to bring the innovations of Rust to a modern microkernel and full set of applications. Acitvely being developed by [Jeremy Soeller](https://gitlab.redox-os.org/jackpot51).
 
-[Bottlerocket OS](https://github.com/bottlerocket-os/bottlerocket) ⭐ 9,682 | 🐛 208 | 🌐 Rust | 📅 2026-10-14 is an open-source Linux-based operating system meant for hosting containers. Bottlerocket focuses on security and maintainability, providing a reliable, consistent, and safe platform for container-based workloads.
+[Bottlerocket OS](https://github.com/bottlerocket-os/bottlerocket) ⭐ 9,681 | 🐛 208 | 🌐 Rust | 📅 2026-10-14 is an open-source Linux-based operating system meant for hosting containers. Bottlerocket focuses on security and maintainability, providing a reliable, consistent, and safe platform for container-based workloads.
 
 [Tock](https://www.tockos.org) is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. Tock's design centers around protection, both from potentially malicious applications and from device drivers. Tock uses two mechanisms to protect different components of the operating system. First, the kernel and device drivers are written in Rust, a systems programming language that provides compile-time memory safety, type safety and strict aliasing. Tock uses Rust to protect the kernel (the scheduler and hardware abstraction layer) from platform specific device drivers as well as isolate device drivers from each other. Second, Tock uses memory protection units to isolate applications from each other and the kernel.
 
@@ -6998,7 +6998,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Swift](https://developer.apple.com/swift/) is Apple's main programming language for iOS, macOS, watchOS, and tvOS app development. Though, many parts of Swift will be familiar to developers from their experience of developing in C and Objective-C.
 
-[Swift Evolution](https://github.com/apple/swift-evolution) ⭐ 15,885 | 🐛 99 | 🌐 Markdown | 📅 2026-10-20 maintains proposals for changes and user-visible enhancements to the Swift Programming Language.
+[Swift Evolution](https://github.com/apple/swift-evolution) ⭐ 15,884 | 🐛 94 | 🌐 Markdown | 📅 2026-10-20 maintains proposals for changes and user-visible enhancements to the Swift Programming Language.
 
 [Xcode + Swift](https://developer.apple.com/swift/resources/) makes developing applications for MacOS and iOS fast and fun.
 
@@ -7020,7 +7020,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Amazon EC2 Mac Instances](https://aws.amazon.com/ec2/instance-types/mac/)
 
-[Swift GitHub](https://github.com/apple/swift) ⭐ 70,513 | 🐛 9,490 | 🌐 Swift | 📅 2026-10-20
+[Swift GitHub](https://github.com/apple/swift) ⭐ 70,515 | 🐛 9,497 | 🌐 Swift | 📅 2026-10-21
 
 [Apple Developer Forums](https://developer.apple.com/forums/)
 
@@ -7058,23 +7058,23 @@ commercially available industrial robot models that you can import, visualize, a
 
 [AppCode](https://www.jetbrains.com/objc/) is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages.
 
-[Vapor](https://github.com/vapor/vapor) ⭐ 26,232 | 🐛 84 | 🌐 Swift | 📅 2026-10-19 is a web framework for Swift. It provides a beautifully expressive and easy to use foundation for your next website, API, or cloud project.
+[Vapor](https://github.com/vapor/vapor) ⭐ 26,236 | 🐛 88 | 🌐 Swift | 📅 2026-10-21 is a web framework for Swift. It provides a beautifully expressive and easy to use foundation for your next website, API, or cloud project.
 
-[Hero](https://github.com/HeroTransitions/Hero) ⭐ 22,485 | 🐛 42 | 🌐 Swift | 📅 2025-01-23 is a library for building iOS view controller transitions. It provides a declarative layer on top of the UIKit's cumbersome transition APIs—making custom transitions an easy task for developers.
+[Hero](https://github.com/HeroTransitions/Hero) ⭐ 22,486 | 🐛 42 | 🌐 Swift | 📅 2025-01-23 is a library for building iOS view controller transitions. It provides a declarative layer on top of the UIKit's cumbersome transition APIs—making custom transitions an easy task for developers.
 
-[Kingfisher](https://github.com/onevcat/Kingfisher) ⭐ 24,401 | 🐛 163 | 🌐 Swift | 📅 2026-10-18 is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.
+[Kingfisher](https://github.com/onevcat/Kingfisher) ⭐ 24,402 | 🐛 163 | 🌐 Swift | 📅 2026-10-18 is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.
 
-[Realm](https://github.com/realm/realm-cocoa) ⭐ 16,601 | 🐛 498 | 🌐 Objective-C | 📅 2026-09-27 is a mobile database that runs directly inside phones, tablets or wearables. This repository holds the source code for the iOS, macOS, tvOS & watchOS versions of Realm Swift & Realm Objective-C.
+[Realm](https://github.com/realm/realm-cocoa) ⭐ 16,601 | 🐛 499 | 🌐 Objective-C | 📅 2026-09-27 is a mobile database that runs directly inside phones, tablets or wearables. This repository holds the source code for the iOS, macOS, tvOS & watchOS versions of Realm Swift & Realm Objective-C.
 
-[Perfect](https://github.com/PerfectlySoft/Perfect) ⭐ 13,725 | 🐛 65 | 🌐 Swift | 📅 2024-02-03 is a complete and powerful toolbox, framework, and application server for Linux, iOS, and macOS (OS X). It provides everything a Swift engineer needs for developing lightweight, maintainable, and scalable apps and other REST services entirely in the Swift programming language for both client-facing and server-side applications.
+[Perfect](https://github.com/PerfectlySoft/Perfect) ⭐ 13,724 | 🐛 65 | 🌐 Swift | 📅 2024-02-03 is a complete and powerful toolbox, framework, and application server for Linux, iOS, and macOS (OS X). It provides everything a Swift engineer needs for developing lightweight, maintainable, and scalable apps and other REST services entirely in the Swift programming language for both client-facing and server-side applications.
 
-[Alamofire](https://github.com/Alamofire/Alamofire) ⭐ 42,391 | 🐛 47 | 🌐 Swift | 📅 2026-10-10 is an HTTP networking library written in Swift.
+[Alamofire](https://github.com/Alamofire/Alamofire) ⭐ 42,395 | 🐛 47 | 🌐 Swift | 📅 2026-10-10 is an HTTP networking library written in Swift.
 
 [Eureka](https://github.com/xmartlabs/Eureka) ⭐ 11,801 | 🐛 179 | 🌐 Swift | 📅 2024-09-12 is an elegant iOS form builder in Swift
 
-[Carthage](https://github.com/Carthage/Carthage) ⭐ 15,139 | 🐛 219 | 🌐 Swift | 📅 2025-09-10 is intended to be the simplest way to add frameworks to your Cocoa application. Carthage builds your dependencies and provides you with binary frameworks, but you retain full control over your project structure and setup. Carthage does not automatically modify your project files or your build settings.
+[Carthage](https://github.com/Carthage/Carthage) ⭐ 15,141 | 🐛 219 | 🌐 Swift | 📅 2025-09-10 is intended to be the simplest way to add frameworks to your Cocoa application. Carthage builds your dependencies and provides you with binary frameworks, but you retain full control over your project structure and setup. Carthage does not automatically modify your project files or your build settings.
 
-[ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) ⭐ 19,791 | 🐛 12 | 🌐 Swift | 📅 2025-09-12 is reactive extensions to Cocoa frameworks, built on top of ReactiveSwift.
+[ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) ⭐ 19,789 | 🐛 12 | 🌐 Swift | 📅 2025-09-12 is reactive extensions to Cocoa frameworks, built on top of ReactiveSwift.
 
 # XML Development
 
@@ -7131,7 +7131,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
 
-[MSBuild](https://github.com/dotnet/msbuild) ⭐ 5,551 | 🐛 1,817 | 🌐 C# | 📅 2026-10-20 is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
+[MSBuild](https://github.com/dotnet/msbuild) ⭐ 5,551 | 🐛 1,826 | 🌐 C# | 📅 2026-10-21 is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
 
 [WebStorm](https://www.jetbrains.com/webstorm/) is a professional IDE for JavaScript(including support for both HTML and CSS) developed by JetBrains. WebStorm comes with intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks([Angular](https://angular.io/), [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), [Ionic](https://ionicframework.com/), [Apache Cordova](https://cordova.apache.org/), [React Native](https://reactnative.dev/), [Node.js](https://nodejs.org/), [Meteor](https://www.meteor.com/#!), and [Electron](https://www.electronjs.org/)).
 
@@ -7165,4 +7165,4 @@ Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-20._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-21._
